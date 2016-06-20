@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   repos="https://tp-fundacion-hemofilia.googlecode.com/svn"
+   name=""
+   revision="321"
+   last-author="alejandroarielp"
+   url="https://tp-fundacion-hemofilia.googlecode.com/svn/trunk/HemobillingHCService/src/main/java/ar/uba/fi/hemobillingHCService/domain"
+   uuid="4b37757a-23b0-7fe8-faf4-639ec12c5352"
+   committed-rev="312"
+   kind="dir"
+   committed-date="2013-02-10T15:20:39.214760Z"/>
+<entry
+   name="ObraSocialHC.java"
+   checksum="e86978a3db57462e031b3962686e7c2e"
+   last-author="alejandroarielp"
+   text-time="2013-02-10T15:20:39.214000Z"
+   committed-rev="312"
+   kind="file"
+   committed-date="2013-02-10T15:20:39.214760Z"/>
+<entry
+   name="PacienteHC.java"
+   last-author="alejandroarielp"
+   text-time="2013-02-06T01:58:31.912000Z"
+   committed-rev="310"
+   kind="file"
+   committed-date="2013-02-06T01:58:31.912933Z"
+   checksum="a55a2984fe55f767bbe81c8ef24d20c7"/>
+</wc-entries>

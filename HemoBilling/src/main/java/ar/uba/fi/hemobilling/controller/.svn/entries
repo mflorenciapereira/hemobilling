@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   name=""
+   repos="https://tp-fundacion-hemofilia.googlecode.com/svn"
+   revision="321"
+   last-author="alejandroarielp"
+   uuid="4b37757a-23b0-7fe8-faf4-639ec12c5352"
+   url="https://tp-fundacion-hemofilia.googlecode.com/svn/trunk/HemoBilling/src/main/java/ar/uba/fi/hemobilling/controller"
+   committed-rev="321"
+   kind="dir"
+   committed-date="2013-03-11T20:19:59.126185Z"/>
+<entry
+   name="AbstractController.java"
+   checksum="9f857bdadfb9a9a0ed35598e299f9bba"
+   last-author="alejandroarielp@gmail.com"
+   text-time="2013-02-24T19:18:17.709000Z"
+   committed-rev="316"
+   kind="file"
+   committed-date="2013-02-24T19:18:17.709988Z"/>
+<entry
+   name="BackupController.java"
+   checksum="bd667bcfe415e9f1925b7973cd81923f"
+   last-author="alejandroarielp@gmail.com"
+   committed-rev="222"
+   text-time="2012-11-02T02:48:03.921000Z"
+   kind="file"
+   committed-date="2012-11-02T02:48:03.921746Z"/>
+<entry
+   name="ClienteController.java"
+   checksum="7a501645aff4171942dc6d608908d6d3"
+   last-author="alejandroarielp@gmail.com"
+   committed-rev="316"
+   text-time="2013-02-24T19:18:17.709000Z"
+   kind="file"
+   committed-date="2013-02-24T19:18:17.709988Z"/>
+<entry
+   name="ContabilidadController.java"
+   checksum="84453c837e936327d4c867d7514e4a00"
+   last-author="mflorenciapereira"
+   text-time="2012-07-16T03:53:10.137000Z"
+   committed-rev="51"
+   kind="file"
+   committed-date="2012-07-16T03:53:10.137727Z"/>
+<entry
+   name="FacturaController.java"
+   revision="322"
+   checksum="fedcb0503011289ea0507c488277b8db"
+   last-author="mflorenciapereira"
+   committed-rev="322"
+   text-time="2013-05-14T01:17:23.109000Z"
+   kind="file"
+   committed-date="2014-02-02T18:57:48.365000Z"/>
+<entry
+   name="InformeController.java"
+   checksum="e0c61bfcc0d68d16bf78be14f63c850a"
+   last-author="mflorenciapereira"
+   committed-rev="289"
+   text-time="2012-12-11T21:04:08.469000Z"
+   kind="file"
+   committed-date="2012-12-11T21:05:04.901000Z"/>
+<entry
+   name="ListasPrecioController.java"
+   revision="322"
+   checksum="04c887d563c56ec9cdefab7a6eb5db95"
+   last-author="mflorenciapereira"
+   committed-rev="322"
+   text-time="2013-05-14T23:25:10.391000Z"
+   kind="file"
+   committed-date="2014-02-02T18:57:48.365000Z"/>
+<entry
+   name="MainController.java"
+   checksum="1c5719689beee392f946f18d93b4798b"
+   last-author="mflorenciapereira"
+   text-time="2012-07-07T17:43:48.162000Z"
+   committed-rev="30"
+   kind="file"
+   committed-date="2012-07-07T17:43:48.162398Z"/>
+<entry
+   name="ObrasSocialesController.java"
+   revision="322"
+   checksum="2a2d10a79b4d300ccb74862e004361dd"
+   last-author="mflorenciapereira"
+   committed-rev="322"
+   text-time="2013-05-13T02:23:50.126000Z"
+   kind="file"
+   committed-date="2014-02-02T18:57:48.365000Z"/>
+<entry
+   name="PacienteController.java"
+   checksum="4d129420e91a9ff7e16edb18a08dd7f2"
+   last-author="alejandroarielp@gmail.com"
+   committed-rev="314"
+   text-time="2013-02-20T02:07:30.685000Z"
+   kind="file"
+   committed-date="2013-02-20T02:07:30.685406Z"/>
+<entry
+   name="PrestacionBrindadaController.java"
+   revision="322"
+   checksum="5e37abb88e4a5149795ef87831caa272"
+   last-author="mflorenciapereira"
+   committed-rev="322"
+   text-time="2013-06-09T18:19:57.311000Z"
+   kind="file"
+   committed-date="2014-02-02T18:57:48.365000Z"/>
+<entry
+   name="PrestacionesController.java"
+   checksum="effaa2a0f3da88694542624523f8d96a"
+   last-author="alejandroarielp@gmail.com"
+   committed-rev="316"
+   text-time="2013-02-24T19:18:17.709000Z"
+   kind="file"
+   committed-date="2013-02-24T19:18:17.709988Z"/>
+<entry
+   name="UsuariosController.java"
+   checksum="e0d1c1ce8364ce5c0af908f4ba8d3719"
+   last-author="alejandroarielp@gmail.com"
+   text-time="2012-09-07T02:08:10.658000Z"
+   committed-rev="132"
+   kind="file"
+   committed-date="2012-09-07T02:08:10.658720Z"/>
+</wc-entries>

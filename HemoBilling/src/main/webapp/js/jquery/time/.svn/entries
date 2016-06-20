@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   repos="https://tp-fundacion-hemofilia.googlecode.com/svn"
+   name=""
+   revision="321"
+   last-author="alejandroarielp"
+   url="https://tp-fundacion-hemofilia.googlecode.com/svn/trunk/HemoBilling/src/main/webapp/js/jquery/time"
+   uuid="4b37757a-23b0-7fe8-faf4-639ec12c5352"
+   committed-rev="15"
+   kind="dir"
+   committed-date="2012-06-20T19:22:11.025952Z"/>
+<entry
+   name="jquery.timeentry-es.js"
+   checksum="0b1e1548decbe9c8a44ac973751cfe63"
+   last-author="alejandroarielp"
+   committed-rev="15"
+   text-time="2012-06-20T19:22:11.025000Z"
+   kind="file"
+   committed-date="2012-06-20T19:22:11.025952Z"/>
+<entry
+   name="jquery.timeentry.css"
+   checksum="514267abe543024a0a842c18b0579824"
+   last-author="alejandroarielp"
+   committed-rev="15"
+   text-time="2012-06-20T19:22:11.025000Z"
+   kind="file"
+   committed-date="2012-06-20T19:22:11.025952Z"/>
+<entry
+   name="jquery.timeentry.min.js"
+   checksum="54c29bac666c232bdb10529b7cb52d06"
+   last-author="alejandroarielp"
+   committed-rev="15"
+   text-time="2012-06-20T19:22:11.025000Z"
+   kind="file"
+   committed-date="2012-06-20T19:22:11.025952Z"/>
+<entry
+   name="spinnerBlue.png"
+   checksum="4e41edfe80d122beba2a71532f427d9f"
+   last-author="alejandroarielp"
+   committed-rev="15"
+   text-time="2012-06-20T19:22:11.025000Z"
+   kind="file"
+   committed-date="2012-06-20T19:22:11.025952Z"
+   prop-time="2012-10-07T00:34:50.918000Z"/>
+<entry
+   name="spinnerBlueBig.png"
+   checksum="261c283284223ebbe3b8d9f8f9e7bf44"
+   last-author="alejandroarielp"
+   committed-rev="15"
+   text-time="2012-06-20T19:22:11.025000Z"
+   kind="file"
+   committed-date="2012-06-20T19:22:11.025952Z"
+   prop-time="2012-10-07T00:34:50.829000Z"/>
+<entry
+   name="spinnerDefault.png"
+   checksum="9df9881ed9ec7b318de83e0079ec4310"
+   last-author="alejandroarielp"
+   committed-rev="15"
+   text-time="2012-06-20T19:22:11.025000Z"
+   kind="file"
+   committed-date="2012-06-20T19:22:11.025952Z"
+   prop-time="2012-10-07T00:34:50.906000Z"/>
+<entry
+   name="spinnerDefaultBig.png"
+   checksum="142b1ac276d8d2ac078caabdb5c01e29"
+   last-author="alejandroarielp"
+   committed-rev="15"
+   text-time="2012-06-20T19:22:11.025000Z"
+   kind="file"
+   committed-date="2012-06-20T19:22:11.025952Z"
+   prop-time="2012-10-07T00:34:50.787000Z"/>
+<entry
+   name="spinnerGem.png"
+   checksum="d858ab2063b0d7177ae8e16bb73a1000"
+   last-author="alejandroarielp"
+   committed-rev="15"
+   text-time="2012-06-20T19:22:11.025000Z"
+   kind="file"
+   committed-date="2012-06-20T19:22:11.025952Z"
+   prop-time="2012-10-07T00:34:50.801000Z"/>
+<entry
+   name="spinnerGemBig.png"
+   checksum="4ae80a8d305b00f66aad79b61bc3e8ab"
+   last-author="alejandroarielp"
+   committed-rev="15"
+   text-time="2012-06-20T19:22:11.025000Z"
+   kind="file"
+   committed-date="2012-06-20T19:22:11.025952Z"
+   prop-time="2012-10-07T00:34:50.971000Z"/>
+<entry
+   name="spinnerGreen.png"
+   checksum="286004bff924c16e12120bb403ef3678"
+   last-author="alejandroarielp"
+   committed-rev="15"
+   text-time="2012-06-20T19:22:11.025000Z"
+   kind="file"
+   committed-date="2012-06-20T19:22:11.025952Z"
+   prop-time="2012-10-07T00:34:50.770000Z"/>
+<entry
+   name="spinnerGreenBig.png"
+   checksum="428a0d012ff0108f3d6cd80845bbba82"
+   last-author="alejandroarielp"
+   committed-rev="15"
+   text-time="2012-06-20T19:22:11.025000Z"
+   kind="file"
+   committed-date="2012-06-20T19:22:11.025952Z"
+   prop-time="2012-10-07T00:34:50.899000Z"/>
+<entry
+   name="spinnerOrange.png"
+   checksum="fd47c3e0840f2d3e0fe43a0bf29627e3"
+   last-author="alejandroarielp"
+   committed-rev="15"
+   text-time="2012-06-20T19:22:11.025000Z"
+   kind="file"
+   committed-date="2012-06-20T19:22:11.025952Z"
+   prop-time="2012-10-07T00:34:50.836000Z"/>
+<entry
+   name="spinnerOrangeBig.png"
+   checksum="2664f0b5582e668255fbc96e2a3d600a"
+   last-author="alejandroarielp"
+   committed-rev="15"
+   text-time="2012-06-20T19:22:11.025000Z"
+   kind="file"
+   committed-date="2012-06-20T19:22:11.025952Z"
+   prop-time="2012-10-07T00:34:50.584000Z"/>
+<entry
+   name="spinnerSquare.png"
+   checksum="3cc0db09a1136489f1f8391843477764"
+   last-author="alejandroarielp"
+   committed-rev="15"
+   text-time="2012-06-20T19:22:11.025000Z"
+   kind="file"
+   committed-date="2012-06-20T19:22:11.025952Z"
+   prop-time="2012-10-07T00:34:50.776000Z"/>
+<entry
+   name="spinnerSquareBig.png"
+   checksum="64d8bb2d5e37c0182dc6852eeafa2e14"
+   last-author="alejandroarielp"
+   committed-rev="15"
+   text-time="2012-06-20T19:22:11.025000Z"
+   kind="file"
+   committed-date="2012-06-20T19:22:11.025952Z"
+   prop-time="2012-10-07T00:34:50.893000Z"/>
+<entry
+   name="spinnerText.png"
+   checksum="7030e873268dd0beecf1acbdc4cc0090"
+   last-author="alejandroarielp"
+   committed-rev="15"
+   text-time="2012-06-20T19:22:11.025000Z"
+   kind="file"
+   committed-date="2012-06-20T19:22:11.025952Z"
+   prop-time="2012-10-07T00:34:50.912000Z"/>
+<entry
+   name="spinnerTextBig.png"
+   checksum="9db9c7e870f45588ce0a10da7124f969"
+   last-author="alejandroarielp"
+   committed-rev="15"
+   text-time="2012-06-20T19:22:11.025000Z"
+   kind="file"
+   committed-date="2012-06-20T19:22:11.025952Z"
+   prop-time="2012-10-07T00:34:50.794000Z"/>
+<entry
+   name="spinnerUpDown.png"
+   checksum="e3e65798fdf8f03d17b672e3175b2634"
+   last-author="alejandroarielp"
+   committed-rev="15"
+   text-time="2012-06-20T19:22:11.025000Z"
+   kind="file"
+   committed-date="2012-06-20T19:22:11.025952Z"
+   prop-time="2012-10-07T00:34:50.843000Z"/>
+<entry
+   name="spinnerUpDownBig.png"
+   checksum="81073b6440d1ae1dc8345c039eee629e"
+   last-author="alejandroarielp"
+   committed-rev="15"
+   text-time="2012-06-20T19:22:11.025000Z"
+   kind="file"
+   committed-date="2012-06-20T19:22:11.025952Z"
+   prop-time="2012-10-07T00:34:50.761000Z"/>
+</wc-entries>

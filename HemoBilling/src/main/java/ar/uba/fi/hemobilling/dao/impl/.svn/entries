@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   name=""
+   repos="https://tp-fundacion-hemofilia.googlecode.com/svn"
+   revision="321"
+   last-author="mflorenciapereira"
+   uuid="4b37757a-23b0-7fe8-faf4-639ec12c5352"
+   url="https://tp-fundacion-hemofilia.googlecode.com/svn/trunk/HemoBilling/src/main/java/ar/uba/fi/hemobilling/dao/impl"
+   committed-rev="320"
+   kind="dir"
+   committed-date="2013-03-10T00:09:29.360286Z"/>
+<entry
+   name="AsociacionListaPrecioObraSocialDAOImpl.java"
+   checksum="687c250674e2b84f429bd6c8677cdc16"
+   last-author="mflorenciapereira"
+   text-time="2012-11-19T02:39:54.933000Z"
+   committed-rev="272"
+   kind="file"
+   committed-date="2012-12-06T20:07:56.552233Z"/>
+<entry
+   name="BackupDAOImpl.java"
+   checksum="506d520e776f2de7ab4f078371c169e6"
+   last-author="alejandroarielp@gmail.com"
+   committed-rev="222"
+   text-time="2012-11-02T02:48:03.921000Z"
+   kind="file"
+   committed-date="2012-11-02T02:48:03.921746Z"/>
+<entry
+   name="ClienteDAOImpl.java"
+   checksum="efacdff4b3c36ab9ac82f2de7a1eee08"
+   last-author="alejandroarielp@gmail.com"
+   committed-rev="240"
+   text-time="2012-11-12T02:27:57.429000Z"
+   kind="file"
+   committed-date="2012-11-12T02:27:57.429464Z"/>
+<entry
+   name="FacturaPrestacionDAOImpl.java"
+   revision="322"
+   checksum="40516e720afa53f0e85dce51ca61a19b"
+   last-author="mflorenciapereira"
+   committed-rev="322"
+   text-time="2013-08-25T22:57:58.173000Z"
+   kind="file"
+   committed-date="2014-02-02T18:57:48.365000Z"/>
+<entry
+   name="FacturaServicioDAOImpl.java"
+   checksum="d8bd1203a7df666e59b23aa3550eabb8"
+   last-author="alejandroarielp@gmail.com"
+   committed-rev="241"
+   text-time="2012-11-12T14:40:08.173000Z"
+   kind="file"
+   committed-date="2012-11-12T14:40:08.173343Z"/>
+<entry
+   name="InformesDAOImpl.java"
+   checksum="987ec99fc707ad29af4462cb5910d3a3"
+   last-author="alejandroarielp@gmail.com"
+   committed-rev="282"
+   text-time="2012-12-09T19:01:01.748000Z"
+   kind="file"
+   committed-date="2012-12-09T19:01:01.748311Z"/>
+<entry
+   name="ListaPrecioDAOImpl.java"
+   revision="322"
+   checksum="a5e4ecda58a3f5f88de5ff784cc95f83"
+   last-author="mflorenciapereira"
+   text-time="2013-05-12T23:32:55.034000Z"
+   committed-rev="322"
+   kind="file"
+   committed-date="2014-02-02T18:57:48.365000Z"/>
+<entry
+   name="ObraSocialDAOImpl.java"
+   checksum="524ccae19d8ba2dae37ac716a9d58af3"
+   last-author="mflorenciapereira"
+   text-time="2013-03-08T01:31:40.072000Z"
+   committed-rev="320"
+   kind="file"
+   committed-date="2013-03-10T00:09:29.360000Z"/>
+<entry
+   name="PacienteDAOImpl.java"
+   checksum="21686ea9ac2e144f41b63840ff7342c4"
+   last-author="alejandroarielp@gmail.com"
+   committed-rev="260"
+   text-time="2012-11-29T02:21:50.101000Z"
+   kind="file"
+   committed-date="2012-11-29T02:21:50.101907Z"/>
+<entry
+   name="PrestacionBrindadaDAOImpl.java"
+   revision="322"
+   checksum="9dc09f6ed1ef234b8129ccf4e9afda0e"
+   last-author="mflorenciapereira"
+   committed-rev="322"
+   text-time="2013-06-09T05:11:28.309000Z"
+   kind="file"
+   committed-date="2014-02-02T18:57:48.365000Z"/>
+<entry
+   name="PrestacionDAOImpl.java"
+   checksum="3ed71fb50c3cb98df842d4466c4fe30e"
+   last-author="alejandroarielp@gmail.com"
+   committed-rev="257"
+   text-time="2012-11-27T02:52:16.519000Z"
+   kind="file"
+   committed-date="2012-11-27T02:52:16.519069Z"/>
+<entry
+   name="RolesUsuarioDAOImpl.java"
+   checksum="d377c6cff2280ea115c4dbaeee8ee6b4"
+   last-author="alejandroarielp@gmail.com"
+   text-time="2012-09-24T12:57:04.974000Z"
+   committed-rev="148"
+   kind="file"
+   committed-date="2012-09-24T12:57:04.974313Z"/>
+<entry
+   name="TipoIVADAOImpl.java"
+   checksum="e4817a57d944b4101ae664d57cdd0901"
+   last-author="alejandroarielp@gmail.com"
+   text-time="2012-09-24T12:57:04.974000Z"
+   committed-rev="148"
+   kind="file"
+   committed-date="2012-09-24T12:57:04.974313Z"/>
+<entry
+   name="UsuarioDAOImpl.java"
+   checksum="5cdf9219dd14f9dd0c70c86b7f1ef0ff"
+   last-author="alejandroarielp@gmail.com"
+   text-time="2012-09-24T12:57:04.974000Z"
+   committed-rev="148"
+   kind="file"
+   committed-date="2012-09-24T12:57:04.974313Z"/>
+</wc-entries>

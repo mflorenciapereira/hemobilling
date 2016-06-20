@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   repos="https://tp-fundacion-hemofilia.googlecode.com/svn"
+   name=""
+   revision="321"
+   last-author="alejandroarielp@gmail.com"
+   url="https://tp-fundacion-hemofilia.googlecode.com/svn/trunk/HemoBilling/src/main/java/ar/uba/fi/hemobilling/domain/usuarios"
+   uuid="4b37757a-23b0-7fe8-faf4-639ec12c5352"
+   committed-rev="68"
+   kind="dir"
+   committed-date="2012-07-29T02:03:54.115941Z"/>
+<entry
+   name="FiltroConsultaUsuarios.java"
+   checksum="4b95871059f3d4a6eeff742581c99021"
+   last-author="alejandroarielp@gmail.com"
+   committed-rev="68"
+   text-time="2012-07-29T02:03:54.115000Z"
+   kind="file"
+   committed-date="2012-07-29T02:03:54.115941Z"/>
+<entry
+   name="RolUsuario.java"
+   checksum="f943c9169501c94339f010ed84d434a4"
+   last-author="alejandroarielp@gmail.com"
+   committed-rev="66"
+   text-time="2012-07-26T04:21:06.905000Z"
+   kind="file"
+   committed-date="2012-07-26T04:21:06.905013Z"/>
+<entry
+   name="Usuario.java"
+   checksum="c140769a345fb4b4fa3add5f74b47864"
+   last-author="alejandroarielp@gmail.com"
+   committed-rev="66"
+   text-time="2012-07-26T04:21:06.905000Z"
+   kind="file"
+   committed-date="2012-07-26T04:21:06.905013Z"/>
+</wc-entries>

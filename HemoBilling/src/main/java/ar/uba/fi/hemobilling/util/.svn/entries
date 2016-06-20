@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   name=""
+   repos="https://tp-fundacion-hemofilia.googlecode.com/svn"
+   revision="321"
+   last-author="alejandroarielp@gmail.com"
+   uuid="4b37757a-23b0-7fe8-faf4-639ec12c5352"
+   url="https://tp-fundacion-hemofilia.googlecode.com/svn/trunk/HemoBilling/src/main/java/ar/uba/fi/hemobilling/util"
+   committed-rev="264"
+   kind="dir"
+   committed-date="2012-12-01T17:56:01.330663Z"/>
+<entry
+   name="HTMLEntities.java"
+   checksum="e8fdbd99ca7087b0002e78002bcab391"
+   last-author="alejandroarielp"
+   text-time="2012-06-20T19:22:11.025000Z"
+   committed-rev="15"
+   kind="file"
+   committed-date="2012-06-20T19:22:11.025952Z"/>
+<entry
+   name="ImporteUtils.java"
+   checksum="d82302c4d7952d6ea4391d92335f3964"
+   last-author="alejandroarielp@gmail.com"
+   text-time="2012-12-01T17:56:01.330000Z"
+   committed-rev="264"
+   kind="file"
+   committed-date="2012-12-01T17:56:01.330663Z"/>
+<entry
+   name="PrecioToStringConverter.java"
+   revision="322"
+   checksum="923b6de8d90a3a12f6c6d76b48408815"
+   last-author="mflorenciapereira"
+   text-time="2013-07-09T23:38:32.623000Z"
+   committed-rev="322"
+   kind="file"
+   committed-date="2014-02-02T18:57:48.365000Z"/>
+<entry
+   name="PropertiesReader.java"
+   checksum="a41c37ebf2bd35b14841e688fc981b4e"
+   last-author="alejandroarielp@gmail.com"
+   text-time="2012-06-23T13:16:17.180000Z"
+   committed-rev="17"
+   kind="file"
+   committed-date="2012-06-23T13:16:17.180752Z"/>
+</wc-entries>

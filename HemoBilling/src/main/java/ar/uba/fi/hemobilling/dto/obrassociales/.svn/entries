@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   repos="https://tp-fundacion-hemofilia.googlecode.com/svn"
+   name=""
+   revision="321"
+   last-author="mflorenciapereira"
+   url="https://tp-fundacion-hemofilia.googlecode.com/svn/trunk/HemoBilling/src/main/java/ar/uba/fi/hemobilling/dto/obrassociales"
+   uuid="4b37757a-23b0-7fe8-faf4-639ec12c5352"
+   committed-rev="281"
+   kind="dir"
+   committed-date="2012-12-08T22:38:58.028378Z"/>
+<entry
+   name="AsociacionObraSocialListaPrecioDTO.java"
+   revision="322"
+   checksum="1fb51dcbf68f6a4726f6119272d4b57a"
+   last-author="mflorenciapereira"
+   committed-rev="322"
+   text-time="2013-05-12T07:42:47.865000Z"
+   kind="file"
+   committed-date="2014-02-02T18:57:48.365000Z"/>
+<entry
+   name="FiltroConsultaObrasSocialesDTO.java"
+   checksum="ae210595e7e294c0b6321c34dd42a854"
+   last-author="mflorenciapereira"
+   committed-rev="176"
+   text-time="2012-10-07T23:29:38.973000Z"
+   kind="file"
+   committed-date="2012-10-08T03:14:29.917000Z"/>
+<entry
+   name="ObraSocialDTO.java"
+   revision="322"
+   checksum="964d7df711cd590588fa0fbfe9fb49c3"
+   last-author="mflorenciapereira"
+   committed-rev="322"
+   text-time="2013-05-07T01:14:30.108000Z"
+   kind="file"
+   committed-date="2014-02-02T18:57:48.365000Z"/>
+<entry
+   name="PlanDTO.java"
+   checksum="56209dde0c40aee9000a33c3378ce716"
+   last-author="mflorenciapereira"
+   committed-rev="178"
+   text-time="2012-10-10T18:28:21.027000Z"
+   kind="file"
+   committed-date="2012-10-10T19:04:47.601000Z"/>
+</wc-entries>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   name=""
+   repos="https://tp-fundacion-hemofilia.googlecode.com/svn"
+   revision="321"
+   last-author="mflorenciapereira"
+   uuid="4b37757a-23b0-7fe8-faf4-639ec12c5352"
+   url="https://tp-fundacion-hemofilia.googlecode.com/svn/trunk/HemoBilling/src/main/webapp/estilos/cupertino"
+   committed-rev="174"
+   kind="dir"
+   committed-date="2012-10-07T19:39:09.046380Z"/>
+<entry
+   name="datepicker.css"
+   checksum="b7404356a0b63bb1d4cb3189020763ed"
+   last-author="mflorenciapereira"
+   committed-rev="174"
+   text-time="2012-10-07T15:13:42.000000Z"
+   kind="file"
+   committed-date="2012-10-07T19:39:09.046000Z"/>
+<entry
+   name="images"
+   kind="dir"/>
+</wc-entries>

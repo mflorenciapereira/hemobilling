@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   repos="https://tp-fundacion-hemofilia.googlecode.com/svn"
+   name=""
+   revision="321"
+   last-author="alejandroarielp@gmail.com"
+   url="https://tp-fundacion-hemofilia.googlecode.com/svn/trunk/HemoBilling/src/main/java/ar/uba/fi/hemobilling/archivosCSV/generador"
+   uuid="4b37757a-23b0-7fe8-faf4-639ec12c5352"
+   committed-rev="264"
+   kind="dir"
+   committed-date="2012-12-01T17:56:01.330663Z"/>
+<entry
+   name="ArchivoCSV.java"
+   checksum="8204549ddfc79c2d672fcb994d11461e"
+   last-author="alejandroarielp@gmail.com"
+   committed-rev="180"
+   text-time="2012-10-13T02:50:13.606000Z"
+   kind="file"
+   committed-date="2012-10-13T02:50:13.606977Z"/>
+<entry
+   name="CampoRegistroArchivoCSV.java"
+   checksum="bfdf0e853de208d8fe3f0923e8cc57d9"
+   last-author="alejandroarielp@gmail.com"
+   committed-rev="180"
+   text-time="2012-10-13T02:50:13.606000Z"
+   kind="file"
+   committed-date="2012-10-13T02:50:13.606977Z"/>
+<entry
+   name="GeneradorArchivoCSV.java"
+   checksum="34a31346f8bc3dd4f111e14a538e62ef"
+   last-author="alejandroarielp@gmail.com"
+   text-time="2012-12-01T17:56:01.330000Z"
+   committed-rev="264"
+   kind="file"
+   committed-date="2012-12-01T17:56:01.330663Z"/>
+<entry
+   name="RegistroArchivoCSV.java"
+   checksum="69056c134ebb77b601cf348387275589"
+   last-author="alejandroarielp@gmail.com"
+   committed-rev="180"
+   text-time="2012-10-13T02:50:13.606000Z"
+   kind="file"
+   committed-date="2012-10-13T02:50:13.606977Z"/>
+</wc-entries>

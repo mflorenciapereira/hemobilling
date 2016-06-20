@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   name=""
+   repos="https://tp-fundacion-hemofilia.googlecode.com/svn"
+   revision="321"
+   last-author="mflorenciapereira"
+   uuid="4b37757a-23b0-7fe8-faf4-639ec12c5352"
+   url="https://tp-fundacion-hemofilia.googlecode.com/svn/trunk/HemoBilling/src/main/java/ar/uba/fi/hemobilling/domain/general"
+   committed-rev="242"
+   kind="dir"
+   committed-date="2012-11-13T16:18:13.747126Z"/>
+<entry
+   name="Direccion.java"
+   checksum="4049be0f1f26c93811d36444ae9caa8d"
+   last-author="mflorenciapereira"
+   text-time="2012-11-12T03:24:38.272000Z"
+   committed-rev="242"
+   kind="file"
+   committed-date="2012-11-13T16:18:13.747000Z"/>
+<entry
+   name="TipoIVA.java"
+   checksum="466cc50da812e8f0797045108a27b86f"
+   last-author="mflorenciapereira"
+   text-time="2012-08-16T20:11:11.760000Z"
+   committed-rev="110"
+   kind="file"
+   committed-date="2012-08-16T20:11:11.760373Z"/>
+</wc-entries>

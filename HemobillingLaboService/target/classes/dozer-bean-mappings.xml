@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mappings xmlns="http://dozer.sourceforge.net" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://dozer.sourceforge.net
+          http://dozer.sourceforge.net/schema/beanmapping.xsd">
+          
+    <mapping>
+        <class-a>ar.uba.fi.hemobillingLaboService.domain.EstudioLaboratorio</class-a>
+        <class-b>ar.uba.fi.hemobilling.commons.dto.EstudioLaboratorioDTO</class-b>
+        <field>
+            <a>tipoEstudio</a>
+            <b>idEstudio</b>
+        </field>
+        <field>
+            <a>resultado</a>
+            <b>resultado</b>
+        </field>      
+	</mapping>
+          
+</mappings>

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   name=""
+   repos="https://tp-fundacion-hemofilia.googlecode.com/svn"
+   revision="321"
+   last-author="mflorenciapereira"
+   uuid="4b37757a-23b0-7fe8-faf4-639ec12c5352"
+   url="https://tp-fundacion-hemofilia.googlecode.com/svn/trunk/HemoBilling/src/main/resources"
+   committed-rev="320"
+   kind="dir"
+   committed-date="2013-03-10T00:09:29.360286Z"/>
+<entry
+   name="dozer-bean-mappings-backup.xml"
+   checksum="59f9e8454be0c6f9e17d004359754b97"
+   last-author="alejandroarielp@gmail.com"
+   committed-rev="222"
+   text-time="2012-11-02T02:48:03.921000Z"
+   kind="file"
+   committed-date="2012-11-02T02:48:03.921746Z"/>
+<entry
+   name="dozer-bean-mappings-clientes.xml"
+   checksum="f7f7697fe8101156843d00c1db3a98d7"
+   last-author="mflorenciapereira"
+   text-time="2012-10-14T19:44:04.145000Z"
+   committed-rev="198"
+   kind="file"
+   committed-date="2012-10-15T01:59:34.685000Z"/>
+<entry
+   name="dozer-bean-mappings-facturas.xml"
+   checksum="e69bb87d3e6faaa8b78ef9b1b18b4cca"
+   last-author="alejandroarielp@gmail.com"
+   text-time="2012-11-12T14:40:08.173000Z"
+   committed-rev="241"
+   kind="file"
+   committed-date="2012-11-12T14:40:08.173343Z"/>
+<entry
+   name="dozer-bean-mappings-informes.xml"
+   checksum="9c6a13b63abdd67b7d8231034e94eaeb"
+   last-author="mflorenciapereira"
+   text-time="2012-12-07T10:21:23.948000Z"
+   committed-rev="276"
+   kind="file"
+   committed-date="2012-12-07T10:58:55.839000Z"/>
+<entry
+   name="dozer-bean-mappings-listasprecio.xml"
+   checksum="34c8c085fc613e456b05f5f6bb6cdfda"
+   last-author="alejandroarielp@gmail.com"
+   committed-rev="250"
+   text-time="2012-11-22T03:48:53.751000Z"
+   kind="file"
+   committed-date="2012-11-22T03:48:53.751035Z"/>
+<entry
+   name="dozer-bean-mappings-obrassociales.xml"
+   revision="334"
+   checksum="d0be56bae796f89c9e80503181945ac0"
+   last-author="mflorenciapereira"
+   text-time="2013-05-07T00:17:41.635000Z"
+   committed-rev="334"
+   kind="file"
+   committed-date="2014-02-02T19:24:38.928000Z"/>
+<entry
+   name="dozer-bean-mappings-pacientes.xml"
+   checksum="ffa987eab05ff15a272bc460c8e472ce"
+   last-author="alejandroarielp@gmail.com"
+   committed-rev="311"
+   text-time="2013-02-06T02:33:03.302000Z"
+   kind="file"
+   committed-date="2013-02-06T02:33:03.302527Z"/>
+<entry
+   name="dozer-bean-mappings-prestaciones-bindadas.xml"
+   checksum="63dc5d3aa22e1298f58e7067242cc999"
+   last-author="alejandroarielp@gmail.com"
+   text-time="2013-03-05T01:46:54.357000Z"
+   committed-rev="318"
+   kind="file"
+   committed-date="2013-03-05T01:46:54.357191Z"/>
+<entry
+   name="dozer-bean-mappings-prestaciones.xml"
+   checksum="1ec19f976bef790c729d6897fdb68b3f"
+   last-author="mflorenciapereira"
+   text-time="2012-08-09T04:27:05.229000Z"
+   committed-rev="101"
+   kind="file"
+   committed-date="2012-08-09T04:27:05.229758Z"/>
+<entry
+   name="dozer-bean-mappings-tiposIVA.xml"
+   checksum="31b9bf9cd2bd3ca12047e6b5ba02bc5a"
+   last-author="mflorenciapereira"
+   text-time="2012-08-16T20:11:11.760000Z"
+   committed-rev="110"
+   kind="file"
+   committed-date="2012-08-16T20:11:11.760373Z"/>
+<entry
+   name="dozer-bean-mappings-usuarios.xml"
+   checksum="3786fef78527ab735ec0a5862a0763f8"
+   last-author="alejandroarielp@gmail.com"
+   text-time="2012-07-29T17:31:35.723000Z"
+   committed-rev="69"
+   kind="file"
+   committed-date="2012-07-29T17:31:35.723603Z"/>
+<entry
+   name="java.policy"
+   checksum="1abd41e15c4068131251c6fc11bd3b9a"
+   last-author="alejandroarielp@gmail.com"
+   text-time="2012-09-08T02:50:26.095000Z"
+   committed-rev="135"
+   kind="file"
+   committed-date="2012-09-08T02:50:26.095077Z"/>
+<entry
+   name="properties"
+   kind="dir"/>
+<entry
+   name="reportes"
+   kind="dir"/>
+</wc-entries>

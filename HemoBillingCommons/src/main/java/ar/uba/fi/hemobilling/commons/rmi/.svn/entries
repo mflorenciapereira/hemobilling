@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   repos="https://tp-fundacion-hemofilia.googlecode.com/svn"
+   name=""
+   revision="321"
+   last-author="alejandroarielp@gmail.com"
+   url="https://tp-fundacion-hemofilia.googlecode.com/svn/trunk/HemoBillingCommons/src/main/java/ar/uba/fi/hemobilling/commons/rmi"
+   uuid="4b37757a-23b0-7fe8-faf4-639ec12c5352"
+   committed-rev="286"
+   kind="dir"
+   committed-date="2012-12-11T00:34:10.542224Z"/>
+<entry
+   name="PolicyFileLocator.java"
+   last-author="alejandroarielp@gmail.com"
+   text-time="2012-12-11T00:34:10.542000Z"
+   committed-rev="286"
+   kind="file"
+   committed-date="2012-12-11T00:34:10.542224Z"
+   checksum="085d544699d198718494d4a2dcaf0add"/>
+</wc-entries>

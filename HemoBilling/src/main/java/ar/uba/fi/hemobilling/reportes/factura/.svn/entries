@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   repos="https://tp-fundacion-hemofilia.googlecode.com/svn"
+   name=""
+   revision="321"
+   last-author="mflorenciapereira"
+   url="https://tp-fundacion-hemofilia.googlecode.com/svn/trunk/HemoBilling/src/main/java/ar/uba/fi/hemobilling/reportes/factura"
+   uuid="4b37757a-23b0-7fe8-faf4-639ec12c5352"
+   committed-rev="288"
+   kind="dir"
+   committed-date="2012-12-11T20:53:17.304155Z"/>
+<entry
+   name="DatoListaReporteFactura.java"
+   revision="322"
+   checksum="4c5ff11234c5a9894fc57744702f3f56"
+   last-author="mflorenciapereira"
+   text-time="2013-05-09T03:23:30.326000Z"
+   committed-rev="322"
+   kind="file"
+   committed-date="2014-02-02T18:57:48.365000Z"/>
+<entry
+   name="DatosReporteFactura.java"
+   revision="322"
+   checksum="83a801d5d56743bab6f2ddfbb8e239e6"
+   last-author="mflorenciapereira"
+   committed-rev="322"
+   text-time="2013-05-14T01:47:37.707000Z"
+   kind="file"
+   committed-date="2014-02-02T18:57:48.365000Z"/>
+<entry
+   name="ReporteFactura.java"
+   revision="322"
+   checksum="3bf06b752ce537b443f4e8ae224de897"
+   last-author="mflorenciapereira"
+   committed-rev="322"
+   text-time="2014-01-19T19:54:43.353000Z"
+   kind="file"
+   committed-date="2014-02-02T18:57:48.365000Z"/>
+</wc-entries>

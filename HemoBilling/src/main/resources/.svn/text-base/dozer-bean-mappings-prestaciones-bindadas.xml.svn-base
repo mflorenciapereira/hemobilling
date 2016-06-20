@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mappings xmlns="http://dozer.sourceforge.net" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://dozer.sourceforge.net
+          http://dozer.sourceforge.net/schema/beanmapping.xsd">
+          
+	<mapping>
+        <class-a>ar.uba.fi.hemobilling.domain.prestacionesBrindadas.PrestacionBrindada</class-a>
+        <class-b>ar.uba.fi.hemobilling.dto.prestacionesBrindadas.PrestacionBrindadaDTO</class-b>
+        
+        <field custom-converter="ar.uba.fi.hemobilling.dozer.converter.CustomLongConverter">
+            <a>codigo</a>
+            <b>codigo</b>
+        </field>
+
+        <field custom-converter="ar.uba.fi.hemobilling.dozer.converter.CustomDateToStringConverter">
+            <a>fecha</a>
+            <b>fecha</b>
+        </field>
+        
+        <field custom-converter="ar.uba.fi.hemobilling.dozer.converter.CustomDateToStringConverter">
+            <a>fechaEgreso</a>
+            <b>fechaEgreso</b>
+        </field>
+        
+        <field custom-converter="ar.uba.fi.hemobilling.dozer.converter.CustomDateToStringConverter">
+            <a>fechaImportacion</a>
+            <b>fechaImportacion</b>
+        </field>
+        
+
+        <field custom-converter="ar.uba.fi.hemobilling.dozer.converter.CustomLongConverter">
+            <a>paciente.id</a>
+            <b>idPaciente</b>
+        </field>
+        
+        <field custom-converter="ar.uba.fi.hemobilling.dozer.converter.CustomLongConverter">
+            <a>paciente.numHistoriaClinica</a>
+            <b>nroHCPaciente</b>
+        </field>
+        
+        <field>
+            <a>paciente.nombreyApellido</a>
+            <b>nombrePaciente</b>
+        </field>
+        
+        <field custom-converter="ar.uba.fi.hemobilling.dozer.converter.CustomLongConverter">
+            <a>prestacion.codigo</a>
+            <b>codPrestacion</b>
+        </field>
+        
+        <field>
+            <a>prestacion.descripcion</a>
+            <b>nombrePrestacion</b>
+        </field>
+        
+        <field custom-converter="ar.uba.fi.hemobilling.dozer.converter.CustomBigIntegerConverter">
+            <a>cantidadDePrestaciones</a>
+            <b>cantidadDePrestaciones</b>
+        </field>
+        
+        <field>
+            <a>profesional</a>
+            <b>profesional</b>
+        </field>
+        
+        <field custom-converter="ar.uba.fi.hemobilling.dozer.converter.CustomBigDecimalConverter">
+            <a>precioManual</a>
+            <b>precioManual</b>
+        </field>    
+ 
+     </mapping>   
+     
+     
+     
+	<mapping>
+        <class-a>ar.uba.fi.hemobilling.commons.dto.EstudioLaboratorioDTO</class-a>
+        <class-b>ar.uba.fi.hemobilling.dto.prestacionesBrindadas.PrestacionBrindadaDTO</class-b>
+
+        <field>
+            <a>fechaRealizacion</a>
+            <b>fecha</b>
+        </field>
+        
+        <field>
+            <a>resultado</a>
+            <b>observaciones</b>
+        </field>
+        
+        <field>
+        	<a>nroHC</a>
+        	<b>nroHCPaciente</b>
+        </field>
+        
+        <field>
+        	<a>idEstudio</a>
+        	<b>codPrestacion</b>
+        </field>
+ 
+     </mapping>   
+     
+	
+	    <mapping>
+        <class-a>ar.uba.fi.hemobilling.domain.prestacionesBrindadas.FiltroConsultaPrestacionesBrindadas</class-a>
+        <class-b>ar.uba.fi.hemobilling.dto.prestacionesBrindadas.FiltroConsultaPrestacionBrindadaDTO</class-b>
+        <field>
+            <a>historiaClinica</a>
+            <b>historiaClinica</b>
+        </field>
+        <field>
+            <a>nombrePaciente</a>
+            <b>nombrePaciente</b>
+        </field> 
+        
+         <field>
+            <a>codigoPrestacion</a>
+            <b>codigoPrestacion</b>
+        </field>
+         <field>
+            <a>nombrePrestacion</a>
+            <b>nombrePrestacion</b>
+        </field>         
+        <field>
+            <a>profesional</a>
+            <b>profesional</b>
+        </field>         
+        <field>
+            <a>fechaDesde</a>
+            <b>fechaDesde</b>
+        </field>         
+        <field>
+            <a>fechaHasta</a>
+            <b>fechaHasta</b>
+        </field>         
+        
+
+    </mapping>
+    
+          
+          
+</mappings> 

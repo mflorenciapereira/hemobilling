@@ -1,0 +1,607 @@
+<%@ taglib uri="http://tiles.apache.org/tags-tiles" prefix="tiles" %>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
+<%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %>
+<%@ taglib prefix="spring" uri="http://www.springframework.org/tags" %>
+<%@ taglib prefix="form" uri="http://www.springframework.org/tags/form"%>
+
+<link rel="stylesheet" href="estilos/cupertino/datepicker.css">
+<script src="js/jquery/ui/jquery.ui.core.js"></script>
+<script src="js/jquery/ui/jquery.ui.widget.js"></script>
+<script src="js/jquery/ui/jquery.ui.datepicker-es.js"></script>
+<script src="js/jquery/datepicker.js"></script>
+
+<script src="js/ajaxForm.js" type="text/javascript"></script>
+<script src="js/hemoUtils.js" type="text/javascript"></script>
+<script src="js/inputValidators.js" type="text/javascript"></script>
+
+<script>
+	
+	var listaFacturas = null;
+	
+	/* FUNCIONES DE CONTROL DE CHECKBOXS DE FACTURACION ------------------------------------------ */
+
+	function actualizarImporte( nroFactura , importe )
+	{
+		var idImporteFactura = "importeFactura"+nroFactura;
+		if( importe!=0 )
+		{
+			$( '#'+idImporteFactura ).html( "<b>Importe total: $"+importe.toString()+"</b>" );
+		}
+		else
+		{
+			$( '#'+idImporteFactura ).html( "<b>No se facturar&aacute;</b>" );
+		}
+	}
+	
+	function actualizarFactura( nroFactura )
+	{
+		var idCheckFactura = "factura-"+nroFactura;
+		var items = eval( listaFacturas[nroFactura].items[0] );
+		var total = 0;
+		
+		for( var i=0 ; i<items.length ; i++ )
+		{
+			var idCheckItem = "item-"+nroFactura+"-"+i;
+			
+			if( $( '#'+idCheckFactura ).is(':checked') )
+			{
+				$( '#'+idCheckItem ).attr('checked', true );
+				$( '#'+idCheckItem ).attr('disabled', false );
+				
+				var item = items[i];
+				var cantidad = parseInt( item.cantidad );
+				var precio = parseFloat( item.precio.replace(",", "."));
+				
+				total += cantidad * precio;
+			}
+			else
+			{
+				$( '#'+idCheckItem ).attr('checked', false );
+				$( '#'+idCheckItem ).attr('disabled', true );
+			}
+		}
+		
+		actualizarImporte( nroFactura , total );
+	}
+	
+	function actualizarFacturaPorItem( nroFactura )
+	{
+		var items = eval( listaFacturas[nroFactura].items[0] );
+		var total = 0;
+		
+		for( var i=0 ; i<items.length ; i++ )
+		{
+			var idCheckItem = "item-"+nroFactura+"-"+i;
+			var item = items[i];
+			
+			if( $( '#'+idCheckItem ).is(':checked') )
+			{				
+				var cantidad = parseInt( item.cantidad );
+				var precio = parseFloat( item.precio.replace(",", "."));
+				
+				total += cantidad * precio;
+			}
+		}
+		
+		actualizarImporte( nroFactura , total );
+	}
+	
+	function doFacturar( acepto )
+	{
+		if( acepto=="false") 
+		{
+			$('#datosComienzoFacturacion').jqmHide();
+		}
+		else
+		{
+			if( !validarDatosFacturas() )
+			{
+				return;
+			}
+			
+			$('#datosComienzoFacturacion').jqmHide();
+			
+			var htmlGeneral = "";
+			var nroFactura = parseInt( $('#primerNroFactura').val() );
+			
+			
+			for( var f=0 ; f<listaFacturas.length ; f++ )
+			{
+				var idCheckFactura = "factura-"+f;
+				var factura = listaFacturas[f];
+				var htmlFacturas = "";
+				
+				if( $( '#'+idCheckFactura ).is(':checked') ) 
+				{
+					//Debo facturarla ya que esta seleccionada
+					
+					var htmlItems = "";
+					var items = eval( factura.items[0] );		
+					for( var i=0 ; i<items.length ; i++ )
+					{
+						var idCheckItem = "item-"+f+"-"+i;
+						var item = items[i];
+						
+						if( $( '#'+idCheckItem ).is(':checked') ) 
+						{
+							htmlItems += "<input type='hidden' id='facturas" + f + ".items" + i + ".codigoPrestacionBrindada' name='facturas[" + f + "].items["+i+"].codigoPrestacionBrindada' value='"+item.codigoPrestacionBrindada+"'/> ";
+							htmlItems += "<input type='hidden' id='facturas" + f + ".items" + i + ".fecha' name='facturas[" + f + "].items["+i+"].fecha' value='"+item.fecha+"'/> ";
+							htmlItems += "<input type='hidden' id='facturas" + f + ".items" + i + ".cantidad' name='facturas[" + f + "].items["+i+"].cantidad' value='"+item.cantidad+"'/> ";
+							
+							htmlItems += "<input type='hidden' id='facturas" + f + ".items" + i + ".idPaciente' name='facturas[" + f + "].items["+i+"].idPaciente' value='"+item.idPaciente+"'/> ";
+							htmlItems += "<input type='hidden' id='facturas" + f + ".items" + i + ".nombrePaciente' name='facturas[" + f + "].items["+i+"].nombrePaciente' value='"+item.nombrePaciente+"'/> ";
+							htmlItems += "<input type='hidden' id='facturas" + f + ".items" + i + ".numeroHC' name='facturas[" + f + "].items["+i+"].numeroHC' value='"+item.numeroHC+"'/> ";
+							
+							htmlItems += "<input type='hidden' id='facturas" + f + ".items" + i + ".codigoPrestacion' name='facturas[" + f + "].items["+i+"].codigoPrestacion' value='"+item.codigoPrestacion+"'/> ";
+							htmlItems += "<input type='hidden' id='facturas" + f + ".items" + i + ".descripcionPrestacion' name='facturas[" + f + "].items["+i+"].descripcionPrestacion' value='"+item.descripcionPrestacion+"'/> ";
+							htmlItems += "<input type='hidden' id='facturas" + f + ".items" + i + ".precio' name='facturas[" + f + "].items["+i+"].precio' value='"+item.precio+"'/> ";
+							
+							htmlItems += "<input type='hidden' id='facturas" + f + ".items" + i + ".codigoPrestacionSegunOS' name='facturas[" + f + "].items["+i+"].codigoPrestacionSegunOS' value='"+item.codigoPrestacionSegunOS+"'/> ";
+						}
+						
+					}
+					
+					if( htmlItems != "" )
+					{
+						htmlFacturas += "<input type='hidden' id='facturas" + f + ".fechaEmision' name='facturas[" + f + "].fechaEmision' value='"+ $('#fechaFacturacion').val()+"'/> ";
+						if(factura.obraSocial.contabilizaFactura){
+							htmlFacturas += "<input type='hidden' id='facturas" + f + ".numero' name='facturas[" + f + "].numero' value='"+nroFactura.toString()+"'/> ";
+							nroFactura++;
+						}else{
+							htmlFacturas += "<input type='hidden' id='facturas" + f + ".numero' name='facturas[" + f + "].numero' value='"+'0'+"'/> ";
+							
+						}
+						
+						
+						
+						htmlFacturas += "<input type='hidden' id='facturas" + f + ".obraSocial.codigo' name='facturas[" + f + "].obraSocial.codigo' value='"+factura.obraSocial.codigo+"'/> ";
+						htmlFacturas += "<input type='hidden' id='facturas" + f + ".obraSocial.nombre' name='facturas[" + f + "].obraSocial.nombre' value='"+factura.obraSocial.nombre+"'/> ";
+						htmlFacturas += "<input type='hidden' id='facturas" + f + ".obraSocial.sigla' name='facturas[" + f + "].obraSocial.sigla' value='"+factura.obraSocial.sigla+"'/> ";
+						htmlFacturas += "<input type='hidden' id='facturas" + f + ".obraSocial.tipoFactura' name='facturas[" + f + "].obraSocial.tipoFactura' value='"+factura.obraSocial.tipoFactura+"'/> ";
+						
+						if( factura.paciente!=null && factura.paciente!="null" && factura.paciente!="undefined" && factura.paciente!="" )
+						{
+							htmlFacturas += "<input type='hidden' id='facturas" + f + ".paciente.id' name='facturas[" + f + "].paciente.id' value='"+factura.paciente.id+"'/> ";
+							htmlFacturas += "<input type='hidden' id='facturas" + f + ".paciente.nombreyApellido' name='facturas[" + f + "].paciente.nombreyApellido' value='"+factura.paciente.nombreyApellido+"'/> ";
+							htmlFacturas += "<input type='hidden' id='facturas" + f + ".paciente.numHistoriaClinica' name='facturas[" + f + "].paciente.numHistoriaClinica' value='"+factura.paciente.numHistoriaClinica+"'/> ";
+						}
+		
+						htmlFacturas += htmlItems;
+						
+						htmlGeneral += htmlFacturas;
+					}
+				
+				}
+				
+			}
+			
+			$('#facturasSeleccionadas').html( htmlGeneral );
+			
+			showEspera('esperaFacturacion');
+			$('#submitFacturar').attr('disabled', true);
+			
+			$('#ingresarFacturasForm').submit();
+		}
+
+	}
+	
+	function comenzarFacturacion()
+	{
+		$('#datosComienzoFacturacion').jqmShow();
+	}
+	
+
+	/*FUNCIONES DE ARMADO DE LA LISTA DE FACTURAS ------------------------------------------------*/
+	
+	function mostrarFacturasAIngresar()
+	{
+		var html = "";
+		for( var c=0 ; c<listaFacturas.length ; c++ )
+		{
+			var factura = listaFacturas[c];
+			
+			var obraSocial = factura.obraSocial;
+			var paciente = factura.paciente;
+			var tipoFactura = "D";
+			
+			var items = eval( factura.items[0] );
+			var itemsNoFacturables = eval( factura.itemsNoFacturables[0] );
+			
+			if( paciente.id==null || paciente.id=="null" || paciente.id=="undefined" || paciente.id=="" )
+			{	
+				tipoFactura = "T";
+			}
+			
+			html += "<table id='rounded-corner' style='width: 800px;'>";
+			html += " <thead> ";
+			html += "<tr> <th class='rounded-company' colspan='2' scope='col' style='width: 90%;'><b> ("+tipoFactura+") | Obra Social: "+obraSocial.nombre;
+			
+			if( tipoFactura == "D" )
+			{
+				html += "<br> Paciente: "+paciente.nombreyApellido+" ("+paciente.numHistoriaClinica+") </b>";
+			}
+			
+			html += "</th>";
+			
+			
+			//if( itemsNoFacturables.length == 0)
+			//{
+				var idCheck = "factura-"+c;
+				html += "<th class='rounded-q4' scope='col' style='width: 10%; align: center;'> Facturar? <input type='checkbox' id='"+idCheck+"' name='"+idCheck+"' onClick='actualizarFactura("+c+")' checked='checked' /> </th>";
+			//}
+			//else
+			//{
+			//	html += "<th class='rounded-q4' scope='col' style='width: 10%; align: center;'> </th>";
+			//}
+
+			html += "</tr> </thead>";
+			html += "<tbody>";
+			
+			var total = 0;
+			for( var i=0 ; i<items.length ; i++ )
+			{
+				var item = items[i];				
+				var info = "";
+				
+				if( tipoFactura == "T" )
+				{
+					info += "Paciente: "+item.nombrePaciente+" ("+item.numeroHC+") | ";
+				}
+				
+				info += "Fecha: "+item.fecha+" | ";
+				info += "Cantidad: "+item.cantidad+" <br> ";
+				info += "Prestaci&oacute;n: "+item.descripcionPrestacion+" ("+item.codigoPrestacion+") | ";
+				info += "Precio: $ "+item.precio+" ";
+				
+				var cantidad = parseInt( item.cantidad );
+				var precio = parseFloat( item.precio.replace(",", "."));
+				
+				total += cantidad * precio;
+				
+				var idCheck = "item-"+c+"-"+i;
+				
+				//HTML de la prestacion
+				html += "<tr>";
+				html += "<td> "+i+" </td>";
+				html += "<td >"+info+"</td>";
+				html += "<td> <input type='checkbox' id='"+idCheck+"' name='"+idCheck+"' checked='checked' onClick='actualizarFacturaPorItem("+c+")'/></td></tr>";				
+			}
+			
+			
+			for( var i=0 ; i<itemsNoFacturables.length ; i++ )
+			{
+				var item = itemsNoFacturables[i];				
+				var info = "";
+				
+				if( tipoFactura == "T" )
+				{
+					info += "Paciente: "+item.nombrePaciente+" ("+item.numeroHC+") | ";
+				}
+				
+				info += "Fecha: "+item.fecha+" | ";
+				info += "Cantidad: "+item.cantidad+" <br> ";
+				info += "Prestaci&oacute;n: "+item.descripcionPrestacion+" ("+item.codigoPrestacion+") | ";
+				info += "Precio: $ 0 ";
+				
+				//HTML de la prestacion
+				html += "<tr>";
+				html += "<td> <div style='color: red;'> "+i+"</div></td>";
+				html += "<td> <div style='color: red;'> "+info+"</div></td>";
+				html += "<td></td></tr>";				
+			}
+			
+			actualizarImporte( c , total );
+			
+			html += "</tbody> ";
+			
+			html += "<tfoot> <tr>";
+			html += "<td class='rounded-foot-left' colspan='2'><div id='importeFactura"+c+"'><b>Importe total: $"+total.toString()+"</b></div></td> <td class='rounded-foot-right'>&nbsp;</td>";
+			html += "</tr> </tfoot><br>";
+		}
+		
+		
+		
+		$('#listaResultadoPrevisualizarFacturas').html( html ); 
+	}
+
+
+
+	/* FUNCIONES DE VALIDACION -------------------------------------------------------------------*/
+	
+	function hideAllMessageError() {			
+		hideMessage("errorInput");
+		
+		hideMessage("errorMessageDivID");	
+		hideMessage("exitoMessageDivID");
+		hideMessage("errorInputDatosFacturacion");
+	}
+
+	function armarOSElegidas()
+	{
+		var htmlAnalisis = "";
+		var c = 0;
+		var filtrar = true;		
+		
+		$('#obraSocialSelect :selected').each(function () {
+			if( $(this).val()=="T" )
+				filtrar = false;
+			
+			htmlAnalisis += "<input type='hidden' id='obrasSociales" + c + ".fecha' name='obrasSociales[" + c + "].codigo' value='"+$(this).val()+"'/> ";
+			c++;
+          });
+		
+		if( filtrar ) 
+			$('#obraSocialesElegidasID').html(htmlAnalisis);
+		else
+			$('#obraSocialesElegidasID').html("");
+	}
+	
+	function validarDatosFacturas()
+	{
+		var error = false;
+		hideAllMessageError();
+		
+		if( $("#primerNroFactura").val()=="" )
+		{
+			error = true;
+			showMessage( "El n&uacute;mero inicial de factura es obligatorio" , "errorInputDatosFacturacion" );
+		}
+		
+		if( $("#fechaFacturacion").val()=="" && !error )
+		{
+			error = true;
+			showMessage( "La fecha de facturaci&oacute;n es obligatoria" , "errorInputDatosFacturacion" );
+		}
+		
+		if( $('#fechaFacturacion').val()!="" && !validarFormato( $('#fechaFacturacion').val() ) && !error )
+		{
+			error = true;
+			showMessage( "El formato de la fecha de facturaci&oacute;n es incorrecto" , "errorInputDatosFacturacion" );
+		}
+		
+		return !error;		
+	}
+	
+	function validaryComitearForm()
+	{
+		var error = false;
+		hideAllMessageError();
+		
+		if( $("#fechaDesdeID").val()=="" )
+		{
+			error = true;
+			showMessage( "La fecha desde es obligatoria." , "errorInput" );
+		}
+		
+		if( $('#fechaDesdeID').val()!="" && !validarFormato( $('#fechaDesdeID').val() ) )
+		{
+			error = true;
+			showMessage( "El formato de la fecha desde es incorrecto" , "errorInput" );
+		}
+		
+		if( $("#fechaHastaID").val()=="" )
+		{
+			error = true;
+			showMessage( "El valor de la fecha hasta es obligatorio." , "errorInput" );
+		}
+		
+		if( $('#fechaHastaID').val()!="" && !validarFormato( $('#fechaHastaID').val() ) )
+		{
+			error = true;
+			showMessage( "El formato de la fecha hasta es incorrecto" , "errorInput" );
+		}
+		
+		if( error==false )
+		{
+			armarOSElegidas();
+			showEspera('esperaConsulta');
+			$('#consultarFacturasACargarForm').submit();
+		}
+		
+	}
+
+	/* CALLBACKS DE LA LLAMADA AL FORM DE PREVISUALIZACION---------------------------------------------*/
+	
+	var sucessPreviasualizacion = function sucessPreviasualizacion( json )
+	{
+		var result = json.data[0];
+		hideEspera('esperaConsulta');
+		if( result.error==true)
+		{
+			//Me quedo y muestro el mensaje de error
+			showMessage( result.errorMessage , "errorMessageDivID" );
+			setTimeout(function(){hideMessage("errorMessageDivID");},5000);
+		}
+		else
+		{
+			var lista = eval( result.facturas );
+			var html_lista;
+			
+			if( lista[0].length!=0 )
+			{
+				listaFacturas = eval( lista[0] );
+				mostrarFacturasAIngresar();
+				$('#pevisualizacionFacturas').show();
+				$('#noHayPevisualizacionFacturas').hide();
+			}
+			else
+			{
+				$('#noHayPevisualizacionFacturas').show();
+				$('#pevisualizacionFacturas').hide();
+			}		
+		}
+		
+	}
+	
+	var errorPreviasualizacion = function errorPreviasualizacion(json)
+	{
+		showMessage( '<spring:message code="general.errorContactoController"/>' , "errorMessageDivID" );
+	};
+	
+	/* CALLBACKS DE LA LLAMADA AL FORM DE CARGA---------------------------------------------*/
+	
+	var sucessCarga = function sucessCarga( json )
+	{
+		var result = json.data[0];
+		hideEspera('esperaFacturacion');
+		if( result.error==true)
+		{
+			showMessage( result.errorMessage , "errorMessageDivID" );
+			setTimeout(function(){hideMessage("errorMessageDivID");},5000);
+		}
+		else
+		{
+			//Me quedo y muestro el mensaje de error
+			showMessage( result.errorMessage , "exitoMessageDivID" );
+			setTimeout(function(){hideMessage("exitoMessageDivID");},10000);		
+		}
+		
+	}
+	
+	var errorCarga = function errorCarga(json)
+	{
+		showMessage( '<spring:message code="general.errorContactoController"/>' , "errorMessageDivID" );
+	};
+	
+	/* PRINCIPAL -------------------------------------------------------------------*/
+	
+	$(function() {
+		$("#fechaDesdeID").datepicker($.datepicker.regional['es']);
+		$("#fechaHastaID").datepicker($.datepicker.regional['es']);
+		$("#fechaFacturacion").datepicker($.datepicker.regional['es']);
+		
+		ajaxForm( 'consultarFacturasACargarForm' , sucessPreviasualizacion , null , errorPreviasualizacion );
+		ajaxForm( 'ingresarFacturasForm' , sucessCarga , null , errorCarga  );
+		
+		$('#datosComienzoFacturacion').jqm({modal: true});
+		
+		$('#datosComienzoFacturacion').class = "disabled";
+	});
+	</script>
+ 
+
+<div class="center_content">
+	<h2>Facturar Prestaciones Brindadas</h2>
+      
+	<div id="errorMessageDivID" class="error_box" style="display: none;"></div>
+
+	<div id="exitoMessageDivID" class="valid_box" style="display: none;"></div>
+	
+	<div>
+         
+		<form:form id="consultarFacturasACargarForm" action="previsualizarFacturacion.htm" method="post" cssClass="niceform" modelAttribute="filtroConsultaDTO" commandName="filtroConsultaDTO">
+         
+			<div style="width=500px; align=left;">
+			<table style="width=100%;" >
+				<tr>
+					<td width="10%"> <label for="desde">Desde:</label> </td>
+					<td width="20%" align="left"> <input type="text" name="fechaDesde" id="fechaDesdeID" size="10" /> </td>
+					<td width="10%"> <label for="hasta">Hasta:</label> </td>
+					<td width="20%" align="left"> <form:input path="fechaHasta" id="fechaHastaID" size="10" /> </td>
+					<td width="30%" align="right"> <input type="button" name="submit" id="submit" onclick="validaryComitearForm();" value="Previsualizar" /> </td>
+					<td width="30%" align="left"> <div id='esperaConsulta'></div> </td>
+				</tr>
+				<tr>
+					<td width="10%"> <label for="obraSocial">Obra Social:</label> </td>
+					<td colspan="5">
+
+
+							<select id="obraSocialSelect" multiple="multiple" class="fuenteChica" size="7">
+								<option value="T">Todas</option>
+								
+								<c:forEach items="${osPosiblesDTO}" var="os" varStatus="i">
+									<option value="${os.codigo}">${os.nombre}</option>
+								</c:forEach>
+							
+							</select> 
+
+
+
+
+					</td>
+				</tr>
+				
+				<tr>
+				<tr><td colspan='6'><div id="errorInput" class="divError"></div></td></tr>
+				<tr><td colspan='6'><div id="obraSocialesElegidasID"></div></td></tr>
+				
+			</table>
+			</div>
+			
+         </form:form>
+	</div>
+         
+
+         
+	<div id="pevisualizacionFacturas" style="display: none;">
+	<hr>
+	
+		<div>
+			<table>
+				<tr><td> <div id='facturasPrevias'></div> </td></tr>
+				<tr><td>Estas son las facturas que se ingresar&aacute;n<br> NOTA: En la factur final no se incluirán las prestaciones marcadas con <font color="#FF0000">rojo</font> dado que no tienen un precio asignado (esto se debe a que no cuentan con un precio en la lista de precio asignada a la OS en la fecha ingresada y tampoco fue ingresado un precio unitario manual al momento de dar de alta la prestación). En estos casos solamente se considerar&aacute;n las prestaciones en azul.</td></tr>
+			</table>  
+		</div>
+		
+		<form:form action="doFacturar.htm" id="ingresarFacturasForm" cssClass="niceform" name="ingresarFacturasForm" method="post" modelAttribute="resultPrevisualizarFacturasDTO" >
+			
+			<table>
+			<tr >
+				<td colspan="2">
+					<div id="listaResultadoPrevisualizarFacturas">
+					</div>
+				</td>
+			</tr>
+			<tr>
+				<td width="70%"> 
+					<div id='esperaFacturacion' align="right"></div>					
+				</td>
+				<td  width="30%"> 
+					<div align="right"> <input type="button" name="submitFacturar" id="submitFacturar" onclick="comenzarFacturacion()" value="Facturar Prestaciones" /> </div>
+				</td>
+			</tr>
+			</table>
+			
+			<div id="facturasSeleccionadas"></div>
+	
+		</form:form>		
+	</div>
+	
+	<div id="noHayPevisualizacionFacturas" style="display: none;">
+		<div>
+			<table>
+				<tr><td>No existen facturas a cargar para el criterio de busqueda elegido</td></tr>
+			</table>  
+		</div>		
+	</div>
+	
+	<div id="datosComienzoFacturacion" style="display:none;" class="jqmWindow">
+	
+		<div>Se facturar&aacute;n las facturas seleccionadas a partir del siguiente n&uacute;mero de factura inicial <br>y con la fecha indicada abajo.</div>
+		<form:form  method="post" name="datosComienzoFacturacionForm" id="datosComienzoFacturacionForm" cssClass="niceform" action="" commandName="">
+		
+			<fieldset>
+				<dl>
+					<dt> <label for="primerNroFactura">N&uacute;mero inicial de Factura:</label> </dt>
+					<dd> <input type="text" id="primerNroFactura" name="primerNroFactura"/> </dd>
+				</dl>
+				<dl>
+					<dt> <label for="fechaFacturacion">Fecha:</label> </dt>
+					<dd> <input type="text" id="fechaFacturacion" name="fechaFacturacion"/> </dd>
+				</dl>
+				
+				
+				<dl><dt></dt></dl>
+				<dl class="submit">
+					<dt> <input type="button" value="Facturar" onclick="doFacturar('true');"/> </dt>
+					<dt> <input type="button" value="Cancelar" onclick="doFacturar('false');"/> </dt>			
+				</dl>
+			</fieldset>
+			
+			<div id="errorInputDatosFacturacion" class="divError"></div>
+
+		</form:form>
+	</div>
+         
+         
+</div>

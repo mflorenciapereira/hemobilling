@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   name=""
+   repos="https://tp-fundacion-hemofilia.googlecode.com/svn"
+   revision="321"
+   last-author="alejandroarielp"
+   uuid="4b37757a-23b0-7fe8-faf4-639ec12c5352"
+   url="https://tp-fundacion-hemofilia.googlecode.com/svn/trunk/HemobillingLaboService/src/main/java/ar/uba/fi/hemobillingLaboService/controller"
+   committed-rev="107"
+   kind="dir"
+   committed-date="2012-08-11T22:09:04.396989Z"/>
+<entry
+   name="HBLaboratorioController.java"
+   checksum="6e8819f40a48231bc596c9239406c244"
+   last-author="alejandroarielp"
+   text-time="2012-08-11T22:09:04.396000Z"
+   committed-rev="107"
+   kind="file"
+   committed-date="2012-08-11T22:09:04.396989Z"/>
+<entry
+   name="impl"
+   kind="dir"/>
+</wc-entries>

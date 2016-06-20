@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mappings xmlns="http://dozer.sourceforge.net" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://dozer.sourceforge.net
+          http://dozer.sourceforge.net/schema/beanmapping.xsd">
+
+    <mapping>
+        <class-a>ar.uba.fi.hemobilling.domain.factura.FiltroConsultaFacturasPrestacion</class-a>
+        <class-b>ar.uba.fi.hemobilling.dto.factura.FiltroConsultaFacturasPrestacionDTO</class-b>
+     	<field custom-converter="ar.uba.fi.hemobilling.dozer.converter.CustomDateToStringConverter">
+            <a>fechaDesde</a>
+            <b>fechaDesde</b>
+        </field>
+        <field custom-converter="ar.uba.fi.hemobilling.dozer.converter.CustomDateToStringConverter">
+            <a>fechaHasta</a>
+            <b>fechaHasta</b>
+        </field>         
+    </mapping>
+    	
+    <mapping>
+        <class-a>ar.uba.fi.hemobilling.domain.factura.FacturaPrestacion</class-a>
+        <class-b>ar.uba.fi.hemobilling.dto.factura.FacturaPrestacionDTO</class-b>
+     	<field>
+            <a>id</a>
+            <b>id</b>
+        </field>
+        <field>
+            <a>numero</a>
+            <b>numero</b>
+        </field>  
+     	<field custom-converter="ar.uba.fi.hemobilling.dozer.converter.CustomDateToStringConverter">
+            <a>fechaEmision</a>
+            <b>fechaEmision</b>
+        </field>
+        <field>
+            <a>obraSocialFacturada</a>
+            <b>obraSocial</b>
+        </field> 
+     	<field>
+            <a>pacienteFacturado</a>
+            <b>paciente</b>
+        </field>       
+    </mapping>
+    
+    
+    <mapping>
+        <class-a>ar.uba.fi.hemobilling.domain.factura.PrestacionBrindadaFacturada</class-a>
+        <class-b>ar.uba.fi.hemobilling.dto.factura.ItemFacturaPrestacionDTO</class-b>
+     	<field>
+            <a>prestacionBrindada.codigo</a>
+            <b>codigoPrestacionBrindada</b>
+        </field>
+        <field custom-converter="ar.uba.fi.hemobilling.dozer.converter.CustomDateToStringConverter">
+            <a>fecha</a>
+            <b>fecha</b>
+        </field>  
+     	<field custom-converter="ar.uba.fi.hemobilling.dozer.converter.CustomLongConverter">
+            <a>cantidad</a>
+            <b>cantidad</b>
+        </field>
+     	<field>
+            <a>pacienteFacturado.id</a>
+            <b>idPaciente</b>
+        </field>
+        <field>
+            <a>pacienteFacturado.nombreyApellido</a>
+            <b>nombrePaciente</b>
+        </field> 
+        <field custom-converter="ar.uba.fi.hemobilling.dozer.converter.CustomLongConverter">
+            <a>pacienteFacturado.numHistoriaClinica</a>
+            <b>numeroHC</b>
+        </field>
+        
+        <field>
+            <a>prestacionBrindada.prestacion.codigo</a>
+            <b>codigoPrestacion</b>
+        </field>
+        <field>
+            <a>prestacionBrindada.prestacion.descripcion</a>
+            <b>descripcionPrestacion</b>
+        </field>    
+		<field custom-converter="ar.uba.fi.hemobilling.dozer.converter.CustomBigDecimalConverter">
+            <a>importeUnitario</a>
+            <b>precio</b>
+        </field>      
+              
+    </mapping>
+    
+    
+    <mapping>
+        <class-a>ar.uba.fi.hemobilling.domain.factura.FacturaServicio</class-a>
+        <class-b>ar.uba.fi.hemobilling.dto.factura.FacturaServicioDTO</class-b>
+     	<field>
+            <a>id</a>
+            <b>id</b>
+        </field>
+        <field>
+            <a>numero</a>
+            <b>numero</b>
+        </field>  
+     	<field custom-converter="ar.uba.fi.hemobilling.dozer.converter.CustomDateToStringConverter">
+            <a>fechaEmision</a>
+            <b>fecha</b>
+        </field>
+     	<field>
+            <a>clienteFacturado</a>
+            <b>cliente</b>
+        </field>      
+    </mapping>
+    
+	<mapping>
+        <class-a>ar.uba.fi.hemobilling.domain.factura.ServicioFacturado</class-a>
+        <class-b>ar.uba.fi.hemobilling.dto.factura.ServicioFacturadoDTO</class-b>
+     	<field>
+            <a>id</a>
+            <b>id</b>
+        </field>
+        <field custom-converter="ar.uba.fi.hemobilling.dozer.converter.CustomDateToStringConverter">
+            <a>fecha</a>
+            <b>fecha</b>
+        </field>  
+        <field>
+            <a>codigo</a>
+            <b>codigo</b>
+        </field> 
+     	<field custom-converter="ar.uba.fi.hemobilling.dozer.converter.CustomLongConverter">
+            <a>cantidad</a>
+            <b>cantidad</b>
+        </field>
+     	<field>
+            <a>descripcion</a>
+            <b>descripcion</b>
+        </field>
+		<field custom-converter="ar.uba.fi.hemobilling.dozer.converter.CustomBigDecimalConverter">
+            <a>importeUnitario</a>
+            <b>importeUnitario</b>
+        </field>      
+              
+    </mapping>
+    
+    <mapping>
+        <class-a>ar.uba.fi.hemobilling.domain.factura.FiltroConsultaFacturaServicio</class-a>
+        <class-b>ar.uba.fi.hemobilling.dto.factura.FiltroConsultaFacturasServicioDTO</class-b>
+     	<field custom-converter="ar.uba.fi.hemobilling.dozer.converter.CustomDateToStringConverter">
+            <a>fechaDesde</a>
+            <b>fechaDesde</b>
+        </field>
+        <field custom-converter="ar.uba.fi.hemobilling.dozer.converter.CustomDateToStringConverter">
+            <a>fechaHasta</a>
+            <b>fechaHasta</b>
+        </field>         
+    </mapping>
+    
+    
+</mappings> 

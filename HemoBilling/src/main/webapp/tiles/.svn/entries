@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   repos="https://tp-fundacion-hemofilia.googlecode.com/svn"
+   name=""
+   revision="321"
+   last-author="mflorenciapereira"
+   url="https://tp-fundacion-hemofilia.googlecode.com/svn/trunk/HemoBilling/src/main/webapp/tiles"
+   uuid="4b37757a-23b0-7fe8-faf4-639ec12c5352"
+   committed-rev="51"
+   kind="dir"
+   committed-date="2012-07-16T03:53:10.137727Z"/>
+<entry
+   name="basicLayout.jsp"
+   checksum="801e5fb8ecb85a693952751da8bbe75c"
+   last-author="mflorenciapereira"
+   committed-rev="51"
+   text-time="2012-07-16T03:53:10.137000Z"
+   kind="file"
+   committed-date="2012-07-16T03:53:10.137727Z"/>
+</wc-entries>

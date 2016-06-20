@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mappings xmlns="http://dozer.sourceforge.net" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://dozer.sourceforge.net
+          http://dozer.sourceforge.net/schema/beanmapping.xsd">
+
+    <mapping>
+        <class-a>ar.uba.fi.hemobilling.domain.general.TipoIVA</class-a>
+        <class-b>ar.uba.fi.hemobilling.dto.general.TipoIVADTO</class-b>
+        <field>
+            <a>id</a>
+            <b>id</b>
+        </field>
+        <field>
+            <a>descripcion</a>
+            <b>descripcion</b>
+        </field>
+        
+		
+    </mapping>
+    
+    
+    
+</mappings> 

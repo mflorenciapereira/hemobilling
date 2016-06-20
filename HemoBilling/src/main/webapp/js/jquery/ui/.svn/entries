@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   name=""
+   repos="https://tp-fundacion-hemofilia.googlecode.com/svn"
+   revision="321"
+   last-author="alejandroarielp@gmail.com"
+   uuid="4b37757a-23b0-7fe8-faf4-639ec12c5352"
+   url="https://tp-fundacion-hemofilia.googlecode.com/svn/trunk/HemoBilling/src/main/webapp/js/jquery/ui"
+   committed-rev="313"
+   kind="dir"
+   committed-date="2013-02-10T21:07:29.604294Z"/>
+<entry
+   name="jquery-ui-1.8.6.custom.min.js"
+   checksum="39187b93f52923cec8e2d2bb9a0840b9"
+   last-author="alejandroarielp"
+   text-time="2012-06-20T19:22:11.025000Z"
+   committed-rev="15"
+   kind="file"
+   committed-date="2012-06-20T19:22:11.025952Z"/>
+<entry
+   name="jquery.ui.autocomplete.js"
+   checksum="107077160163d73054b0ef67cc19087a"
+   last-author="mflorenciapereira"
+   text-time="2012-08-03T06:30:47.935000Z"
+   committed-rev="86"
+   kind="file"
+   committed-date="2012-08-03T06:30:47.935873Z"/>
+<entry
+   name="jquery.ui.button.js"
+   checksum="1756a1d05062fc14d8fc13263a53665e"
+   last-author="mflorenciapereira"
+   text-time="2012-08-03T06:30:47.935000Z"
+   committed-rev="86"
+   kind="file"
+   committed-date="2012-08-03T06:30:47.935873Z"/>
+<entry
+   name="jquery.ui.core.js"
+   checksum="2dc3f90fae2f841ae961d9da113f2309"
+   last-author="mflorenciapereira"
+   text-time="2012-08-03T06:30:47.935000Z"
+   committed-rev="86"
+   kind="file"
+   committed-date="2012-08-03T06:30:47.935873Z"/>
+<entry
+   name="jquery.ui.datepicker-es.js"
+   checksum="87424ff307ce1cef5a91e8f092840f5b"
+   last-author="mflorenciapereira"
+   text-time="2012-10-07T19:20:59.572000Z"
+   committed-rev="173"
+   kind="file"
+   committed-date="2012-10-07T19:34:48.787000Z"/>
+<entry
+   name="jquery.ui.position.js"
+   checksum="c21232b3f0ebbdfb68df265ee26faeca"
+   last-author="mflorenciapereira"
+   text-time="2012-08-03T06:30:47.935000Z"
+   committed-rev="86"
+   kind="file"
+   committed-date="2012-08-03T06:30:47.935873Z"/>
+<entry
+   name="jquery.ui.selectmenu.js"
+   checksum="133449ab7dd880f71cafdde1061674d2"
+   last-author="alejandroarielp@gmail.com"
+   text-time="2013-02-10T21:07:29.604000Z"
+   committed-rev="313"
+   kind="file"
+   committed-date="2013-02-10T21:07:29.604294Z"/>
+<entry
+   name="jquery.ui.widget.js"
+   checksum="f22f448d7cb504b161950ff2ec24fd8a"
+   last-author="mflorenciapereira"
+   text-time="2012-08-03T06:30:47.935000Z"
+   committed-rev="86"
+   kind="file"
+   committed-date="2012-08-03T06:30:47.935873Z"/>
+</wc-entries>

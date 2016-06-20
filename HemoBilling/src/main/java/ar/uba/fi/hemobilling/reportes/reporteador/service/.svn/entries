@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   repos="https://tp-fundacion-hemofilia.googlecode.com/svn"
+   name=""
+   revision="321"
+   last-author="alejandroarielp@gmail.com"
+   url="https://tp-fundacion-hemofilia.googlecode.com/svn/trunk/HemoBilling/src/main/java/ar/uba/fi/hemobilling/reportes/reporteador/service"
+   uuid="4b37757a-23b0-7fe8-faf4-639ec12c5352"
+   committed-rev="290"
+   kind="dir"
+   committed-date="2012-12-12T20:36:15.498522Z"/>
+<entry
+   name="ExportHelper.java"
+   checksum="f1ca749efd8b5b9ff1a48671d45ff4d3"
+   last-author="alejandroarielp@gmail.com"
+   committed-rev="191"
+   text-time="2012-10-14T02:12:42.474000Z"
+   kind="file"
+   committed-date="2012-10-14T02:12:42.474244Z"/>
+<entry
+   name="ExportType.java"
+   checksum="9689a482ea41ae009403e692ad77c1ab"
+   last-author="alejandroarielp@gmail.com"
+   committed-rev="191"
+   text-time="2012-10-14T02:12:42.474000Z"
+   kind="file"
+   committed-date="2012-10-14T02:12:42.474244Z"/>
+<entry
+   name="GeneradorReportesService.java"
+   checksum="2b757bed500ffe44f71760c4882c3318"
+   last-author="mflorenciapereira"
+   committed-rev="244"
+   text-time="2012-11-16T16:41:26.101000Z"
+   kind="file"
+   committed-date="2012-11-16T17:33:38.997000Z"/>
+<entry
+   name="GeneradorReportesServiceImpl.java"
+   checksum="c50c6f11e4d916e6826c18005555da17"
+   last-author="alejandroarielp@gmail.com"
+   text-time="2012-12-12T20:36:15.498000Z"
+   committed-rev="290"
+   kind="file"
+   committed-date="2012-12-12T20:36:15.498522Z"/>
+<entry
+   name="ReportAlign.java"
+   checksum="c279b37528e68472f863fa9a9c144ea4"
+   last-author="alejandroarielp@gmail.com"
+   committed-rev="191"
+   text-time="2012-10-14T02:12:42.474000Z"
+   kind="file"
+   committed-date="2012-10-14T02:12:42.474244Z"/>
+<entry
+   name="ReporteBuilder.java"
+   revision="322"
+   checksum="8887951cc84c0821d657c90042edd0c4"
+   last-author="mflorenciapereira"
+   text-time="2014-01-19T20:23:08.276000Z"
+   committed-rev="322"
+   kind="file"
+   committed-date="2014-02-02T18:57:48.365000Z"/>
+</wc-entries>

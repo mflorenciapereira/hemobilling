@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   name=""
+   repos="https://tp-fundacion-hemofilia.googlecode.com/svn"
+   revision="321"
+   last-author="alejandroarielp@gmail.com"
+   uuid="4b37757a-23b0-7fe8-faf4-639ec12c5352"
+   url="https://tp-fundacion-hemofilia.googlecode.com/svn/trunk/HemoBilling/src/main/java/ar/uba/fi/hemobilling/reportes/listaPrecios"
+   committed-rev="252"
+   kind="dir"
+   committed-date="2012-11-24T03:00:20.348340Z"/>
+<entry
+   name="DatoListaReporteListaPrecios.java"
+   checksum="54954a5c4e3fea05b9b883a546a979b2"
+   last-author="alejandroarielp@gmail.com"
+   text-time="2012-11-08T04:01:44.895000Z"
+   committed-rev="227"
+   kind="file"
+   committed-date="2012-11-08T04:01:44.895478Z"/>
+<entry
+   name="DatosReporteListaPrecios.java"
+   checksum="ca07fc90f856d8025f0bd7b6b29dde71"
+   last-author="alejandroarielp@gmail.com"
+   text-time="2012-11-08T04:01:44.895000Z"
+   committed-rev="227"
+   kind="file"
+   committed-date="2012-11-08T04:01:44.895478Z"/>
+<entry
+   name="ListaPrecios.java"
+   checksum="ad53dc0db364a70ee36fef3ebf783e7f"
+   last-author="alejandroarielp@gmail.com"
+   text-time="2012-11-24T03:00:20.348000Z"
+   committed-rev="252"
+   kind="file"
+   committed-date="2012-11-24T03:00:20.348340Z"/>
+</wc-entries>

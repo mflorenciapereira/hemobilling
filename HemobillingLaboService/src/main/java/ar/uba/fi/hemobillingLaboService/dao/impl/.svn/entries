@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   name=""
+   repos="https://tp-fundacion-hemofilia.googlecode.com/svn"
+   revision="321"
+   last-author="alejandroarielp"
+   uuid="4b37757a-23b0-7fe8-faf4-639ec12c5352"
+   url="https://tp-fundacion-hemofilia.googlecode.com/svn/trunk/HemobillingLaboService/src/main/java/ar/uba/fi/hemobillingLaboService/dao/impl"
+   committed-rev="149"
+   kind="dir"
+   committed-date="2012-09-24T18:29:36.671483Z"/>
+<entry
+   name="OperacionesLaboratorioDAOImpl.java"
+   checksum="0c7cee40e7099abaa52aa85c2777b36f"
+   last-author="alejandroarielp"
+   text-time="2012-09-24T18:29:36.671000Z"
+   committed-rev="149"
+   kind="file"
+   committed-date="2012-09-24T18:29:36.671483Z"/>
+<entry
+   name="PacienteLaboratorioDAOImpl.java"
+   checksum="f1e4a2fec7a2340c2041118608a78e0e"
+   last-author="alejandroarielp"
+   text-time="2012-09-24T18:29:36.671000Z"
+   committed-rev="149"
+   kind="file"
+   committed-date="2012-09-24T18:29:36.671483Z"/>
+</wc-entries>

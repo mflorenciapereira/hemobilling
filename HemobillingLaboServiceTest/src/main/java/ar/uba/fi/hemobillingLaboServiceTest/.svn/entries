@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   name=""
+   repos="https://tp-fundacion-hemofilia.googlecode.com/svn"
+   revision="321"
+   last-author="alejandroarielp"
+   uuid="4b37757a-23b0-7fe8-faf4-639ec12c5352"
+   url="https://tp-fundacion-hemofilia.googlecode.com/svn/trunk/HemobillingLaboServiceTest/src/main/java/ar/uba/fi/hemobillingLaboServiceTest"
+   committed-rev="157"
+   kind="dir"
+   committed-date="2012-09-29T18:36:38.901309Z"/>
+<entry
+   name="HBLaboServiceTest.java"
+   checksum="092d39476be2871d9dae10b0404f709e"
+   last-author="alejandroarielp"
+   text-time="2012-09-29T18:36:38.901000Z"
+   committed-rev="157"
+   kind="file"
+   committed-date="2012-09-29T18:36:38.901309Z"/>
+</wc-entries>

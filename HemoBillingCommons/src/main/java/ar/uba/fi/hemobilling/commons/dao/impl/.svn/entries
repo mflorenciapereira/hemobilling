@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   name=""
+   repos="https://tp-fundacion-hemofilia.googlecode.com/svn"
+   revision="321"
+   last-author="alejandroarielp@gmail.com"
+   uuid="4b37757a-23b0-7fe8-faf4-639ec12c5352"
+   url="https://tp-fundacion-hemofilia.googlecode.com/svn/trunk/HemoBillingCommons/src/main/java/ar/uba/fi/hemobilling/commons/dao/impl"
+   committed-rev="148"
+   kind="dir"
+   committed-date="2012-09-24T12:57:04.974313Z"/>
+<entry
+   name="GenericHibernateDAO.java"
+   checksum="a57774ea58ee50bbf4a192839a492619"
+   last-author="alejandroarielp@gmail.com"
+   text-time="2012-09-24T12:57:04.974000Z"
+   committed-rev="148"
+   kind="file"
+   committed-date="2012-09-24T12:57:04.974313Z"/>
+</wc-entries>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   name=""
+   repos="https://tp-fundacion-hemofilia.googlecode.com/svn"
+   revision="321"
+   last-author="alejandroarielp@gmail.com"
+   uuid="4b37757a-23b0-7fe8-faf4-639ec12c5352"
+   url="https://tp-fundacion-hemofilia.googlecode.com/svn/trunk/HemoBilling/src/main/java/ar/uba/fi/hemobilling/dto/prestacionesBrindadas"
+   committed-rev="318"
+   kind="dir"
+   committed-date="2013-03-05T01:46:54.357191Z"/>
+<entry
+   name="FiltroConsultaPrestacionBrindadaDTO.java"
+   checksum="caf3e4996ee8d9935adeed441614b13e"
+   last-author="mflorenciapereira"
+   committed-rev="204"
+   text-time="2012-10-24T18:23:50.234000Z"
+   kind="file"
+   committed-date="2012-10-24T18:30:16.972000Z"/>
+<entry
+   name="FiltroImportacionAnalisisLaboratorioDTO.java"
+   checksum="e9eb5abd3967fc55292b4dd12e3c16f0"
+   last-author="alejandroarielp@gmail.com"
+   text-time="2012-09-24T20:31:01.274000Z"
+   committed-rev="150"
+   kind="file"
+   committed-date="2012-09-24T20:31:01.274208Z"/>
+<entry
+   name="PrestacionBrindadaDTO.java"
+   revision="322"
+   checksum="bee8dcca4d103338dfd35d9dd0fdeff5"
+   last-author="mflorenciapereira"
+   text-time="2013-06-09T04:34:58.482000Z"
+   committed-rev="322"
+   kind="file"
+   committed-date="2014-02-02T18:57:48.365000Z"/>
+<entry
+   name="ResultConsultaAnalisisLaboratorioDTO.java"
+   checksum="bab021b84a750106b25201cec0980603"
+   last-author="alejandroarielp@gmail.com"
+   text-time="2012-12-07T01:18:32.289000Z"
+   committed-rev="274"
+   kind="file"
+   committed-date="2012-12-07T01:18:32.289892Z"/>
+</wc-entries>

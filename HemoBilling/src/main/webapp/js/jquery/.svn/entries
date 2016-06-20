@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   name=""
+   repos="https://tp-fundacion-hemofilia.googlecode.com/svn"
+   revision="321"
+   last-author="alejandroarielp@gmail.com"
+   uuid="4b37757a-23b0-7fe8-faf4-639ec12c5352"
+   url="https://tp-fundacion-hemofilia.googlecode.com/svn/trunk/HemoBilling/src/main/webapp/js/jquery"
+   committed-rev="313"
+   kind="dir"
+   committed-date="2013-02-10T21:07:29.604294Z"/>
+<entry
+   name="ayuda"
+   kind="dir"/>
+<entry
+   name="calendar"
+   kind="dir"/>
+<entry
+   name="contextmenu"
+   kind="dir"/>
+<entry
+   name="datepicker.js"
+   checksum="856604aee2e814b92207d78354edeabe"
+   last-author="mflorenciapereira"
+   committed-rev="174"
+   text-time="2012-10-07T19:27:54.626000Z"
+   kind="file"
+   committed-date="2012-10-07T19:39:09.046000Z"/>
+<entry
+   name="expander"
+   kind="dir"/>
+<entry
+   name="form"
+   kind="dir"/>
+<entry
+   name="jquery-1.4.2.min.js"
+   checksum="df0ff7fe7cd0e9795a02c58de82f6d69"
+   last-author="alejandroarielp"
+   text-time="2012-06-20T19:22:11.025000Z"
+   committed-rev="15"
+   kind="file"
+   committed-date="2012-06-20T19:22:11.025952Z"/>
+<entry
+   name="jquery.hoverIntent.minified.js"
+   checksum="b4cfa1d07f60eebd4746a3941196bd67"
+   last-author="alejandroarielp"
+   text-time="2012-06-20T19:22:11.025000Z"
+   committed-rev="15"
+   kind="file"
+   committed-date="2012-06-20T19:22:11.025952Z"/>
+<entry
+   name="jquery.jclock-1.2.0.js.txt"
+   checksum="ae2303f8a39d053d05aa8d3ea1213b3c"
+   last-author="mflorenciapereira"
+   text-time="2012-07-12T01:22:49.738000Z"
+   committed-rev="47"
+   kind="file"
+   committed-date="2012-07-12T01:22:49.738266Z"/>
+<entry
+   name="jquery.min.js"
+   checksum="bb381e2d19d8eace86b34d20759491a5"
+   last-author="mflorenciapereira"
+   text-time="2012-07-12T01:22:49.738000Z"
+   committed-rev="47"
+   kind="file"
+   committed-date="2012-07-12T01:22:49.738266Z"/>
+<entry
+   name="jquery.mousewheel.min.js"
+   checksum="25db04e9daee1c00f6ca337537c32c01"
+   last-author="alejandroarielp"
+   text-time="2012-06-20T19:22:11.025000Z"
+   committed-rev="15"
+   kind="file"
+   committed-date="2012-06-20T19:22:11.025952Z"/>
+<entry
+   name="jquery.scrollTo-1.4.2-min.js"
+   checksum="4aa3e2dfa3123d9373c817b77456aa25"
+   last-author="alejandroarielp"
+   text-time="2012-06-20T19:22:11.025000Z"
+   committed-rev="15"
+   kind="file"
+   committed-date="2012-06-20T19:22:11.025952Z"/>
+<entry
+   name="jquery.tmpl.min.js"
+   checksum="805c7dc322a386178b37dab79295445a"
+   last-author="alejandroarielp"
+   text-time="2012-06-20T19:22:11.025000Z"
+   committed-rev="15"
+   kind="file"
+   committed-date="2012-06-20T19:22:11.025952Z"/>
+<entry
+   name="keyboard"
+   kind="dir"/>
+<entry
+   name="menu"
+   kind="dir"/>
+<entry
+   name="modal"
+   kind="dir"/>
+<entry
+   name="qtip2"
+   kind="dir"/>
+<entry
+   name="table"
+   kind="dir"/>
+<entry
+   name="time"
+   kind="dir"/>
+<entry
+   name="ui"
+   kind="dir"/>
+<entry
+   name="validate"
+   kind="dir"/>
+</wc-entries>

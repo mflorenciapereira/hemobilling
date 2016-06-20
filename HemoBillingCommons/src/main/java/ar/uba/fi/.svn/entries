@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   name=""
+   repos="https://tp-fundacion-hemofilia.googlecode.com/svn"
+   revision="321"
+   last-author="alejandroarielp"
+   uuid="4b37757a-23b0-7fe8-faf4-639ec12c5352"
+   url="https://tp-fundacion-hemofilia.googlecode.com/svn/trunk/HemoBillingCommons/src/main/java/ar/uba/fi"
+   committed-rev="309"
+   kind="dir"
+   committed-date="2013-02-06T01:34:19.769426Z"/>
+<entry
+   name="hemobilling"
+   kind="dir"/>
+</wc-entries>

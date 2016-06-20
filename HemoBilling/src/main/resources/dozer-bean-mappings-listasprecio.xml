@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mappings xmlns="http://dozer.sourceforge.net" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://dozer.sourceforge.net
+          http://dozer.sourceforge.net/schema/beanmapping.xsd">
+
+    
+    
+	<mapping>
+        <class-a>ar.uba.fi.hemobilling.domain.listasprecio.ListaPrecio</class-a>
+        <class-b>ar.uba.fi.hemobilling.dto.listasprecio.ListaPrecioDTO</class-b>
+        <field>
+            <a >codigo</a>
+            <b>codigo</b>
+        </field>
+
+        <field>
+            <a>nombre</a>
+            <b>nombre</b>
+        </field>
+        
+    </mapping>
+    
+    <mapping>
+        <class-a>ar.uba.fi.hemobilling.domain.listasprecio.FiltroConsultaListasPrecio</class-a>
+        <class-b>ar.uba.fi.hemobilling.dto.listasprecio.FiltroConsultaListasPrecioDTO</class-b>
+        <field>
+            <a>codigo</a>
+            <b>codigo</b>
+        </field>
+        <field>
+            <a>nombre</a>
+            <b>nombre</b>
+        </field> 
+        <field>
+            <a date-format="dd/MM/yyyy">desde</a>
+            <b>desde</b>
+        </field>
+		<field>
+            <a date-format="dd/MM/yyyy">hasta</a>
+            <b>hasta</b>
+        </field>
+        <field>
+            <a>obrasocial</a>
+            <b>obrasocial</b>
+        </field>
+
+    </mapping>
+    
+    <mapping>
+        <class-a>ar.uba.fi.hemobilling.domain.listasprecio.ItemListaPrecio</class-a>
+        <class-b>ar.uba.fi.hemobilling.dto.listasprecio.ItemListaPrecioDTO</class-b>
+		<field>
+            <a>id</a>
+            <b>id</b>
+        </field>
+        <field>
+            <a>codigo</a>
+            <b>codigo</b>
+        </field>
+
+        <field>
+            <a>precio</a>
+            <b>precio</b>
+        </field>
+        
+		
+        <field>
+            <a>prestacion</a>
+            <b>prestacion</b>
+        </field>
+        
+        
+
+    </mapping>
+    
+
+ 
+    
+    
+</mappings> 

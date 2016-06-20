@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="Listado de Clientes" pageWidth="595" pageHeight="842" columnWidth="565" leftMargin="15" rightMargin="15" topMargin="15" bottomMargin="15">
+	<property name="net.sf.jasperreports.export.csv.exclude.origin.keep.first.band.1" value="pageHeader"/>
+	<property name="net.sf.jasperreports.export.csv.exclude.origin.band.2" value="pageFooter"/>
+	<property name="net.sf.jasperreports.export.xls.exclude.origin.keep.first.band.1" value="pageHeader"/>
+	<property name="net.sf.jasperreports.export.xls.exclude.origin.band.2" value="pageFooter"/>
+	<property name="ireport.scriptlethandling" value="0"/>
+	<property name="ireport.encoding" value="UTF-8"/>
+	<import value="net.sf.jasperreports.engine.*"/>
+	<import value="java.util.*"/>
+	<import value="net.sf.jasperreports.engine.data.*"/>
+	<parameter name="FECHA_CONSULTA" class="java.lang.String"/>
+	<parameter name="HORA_CONSULTA" class="java.lang.String"/>
+	<parameter name="PACIENTE" class="java.lang.String"/>
+	<parameter name="OBRA_SOCIAL" class="java.lang.String"/>
+	<parameter name="NRO_AFILIADO" class="java.lang.String"/>
+	<parameter name="TOTAL" class="java.lang.String"/>
+	<field name="periodoDesde" class="java.lang.String"/>
+	<field name="periodoHasta" class="java.lang.String"/>
+	<variable name="SUM_1" class="java.lang.Integer" resetType="Page" calculation="Sum">
+		<variableExpression><![CDATA[Custom Expression]]></variableExpression>
+	</variable>
+	<background>
+		<band height="800" splitType="Stretch">
+			<staticText>
+				<reportElement x="334" y="15" width="192" height="67"/>
+				<textElement/>
+				<text><![CDATA[PERSONERÍA JURÍDICA
+NRO: 15257
+
+Fecha:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="16" y="15" width="216" height="67"/>
+				<textElement/>
+				<text><![CDATA[FUNDACIÓN DE LA HEMOFILIA
+R 3483/85
+Soler 3485 C1425BWE - CAPITAL FEDERAL
+Tel./Fax 4963-1755]]></text>
+			</staticText>
+			<line>
+				<reportElement x="0" y="82" width="565" height="1"/>
+			</line>
+			<line>
+				<reportElement x="277" y="0" width="1" height="82"/>
+			</line>
+			<line>
+				<reportElement x="1" y="0" width="565" height="1"/>
+			</line>
+			<textField>
+				<reportElement x="58" y="92" width="491" height="20"/>
+				<textElement/>
+				<textFieldExpression class="java.lang.String"><![CDATA[$P{PACIENTE}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="11" y="92" width="47" height="20"/>
+				<textElement/>
+				<text><![CDATA[Paciente:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="11" y="121" width="63" height="20"/>
+				<textElement/>
+				<text><![CDATA[Obra Social:]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="74" y="121" width="475" height="20"/>
+				<textElement/>
+				<textFieldExpression class="java.lang.String"><![CDATA[$P{OBRA_SOCIAL}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="11" y="151" width="63" height="20"/>
+				<textElement/>
+				<text><![CDATA[Nro. Afiliado:]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="74" y="151" width="475" height="20"/>
+				<textElement/>
+				<textFieldExpression class="java.lang.String"><![CDATA[$P{NRO_AFILIADO}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="370" y="49" width="100" height="20"/>
+				<textElement/>
+				<textFieldExpression class="java.lang.String"><![CDATA[$P{FECHA_CONSULTA}]]></textFieldExpression>
+			</textField>
+			<line>
+				<reportElement x="2" y="184" width="565" height="1"/>
+			</line>
+		</band>
+	</background>
+	<title>
+		<band height="30" splitType="Stretch"/>
+	</title>
+	<pageHeader>
+		<band height="40" splitType="Stretch"/>
+	</pageHeader>
+	<columnHeader>
+		<band height="23" splitType="Stretch"/>
+	</columnHeader>
+	<detail>
+		<band height="20" splitType="Stretch"/>
+	</detail>
+	<columnFooter>
+		<band splitType="Stretch"/>
+	</columnFooter>
+	<pageFooter>
+		<band height="24" splitType="Stretch"/>
+	</pageFooter>
+	<summary>
+		<band splitType="Stretch"/>
+	</summary>
+</jasperReport>

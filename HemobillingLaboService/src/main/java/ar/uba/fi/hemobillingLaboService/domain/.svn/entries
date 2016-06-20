@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   name=""
+   repos="https://tp-fundacion-hemofilia.googlecode.com/svn"
+   revision="321"
+   last-author="alejandroarielp"
+   uuid="4b37757a-23b0-7fe8-faf4-639ec12c5352"
+   url="https://tp-fundacion-hemofilia.googlecode.com/svn/trunk/HemobillingLaboService/src/main/java/ar/uba/fi/hemobillingLaboService/domain"
+   committed-rev="166"
+   kind="dir"
+   committed-date="2012-10-06T15:31:13.114343Z"/>
+<entry
+   name="AnalisisLaboratorio.java"
+   checksum="e321445498dccc87e4d6e561f0988c56"
+   last-author="alejandroarielp"
+   text-time="2012-09-24T18:29:36.671000Z"
+   committed-rev="149"
+   kind="file"
+   committed-date="2012-09-24T18:29:36.671483Z"/>
+<entry
+   name="EstudioLaboratorio.java"
+   checksum="fd36cc3d4f5bca8cf189750666bbc2b6"
+   last-author="alejandroarielp"
+   text-time="2012-10-06T15:31:13.114000Z"
+   committed-rev="166"
+   kind="file"
+   committed-date="2012-10-06T15:31:13.114343Z"/>
+<entry
+   name="FiltroConsultaAnalisisLaboratorio.java"
+   checksum="a3e033675ff939855c154de0e0f9513a"
+   last-author="alejandroarielp"
+   text-time="2012-09-24T18:29:36.671000Z"
+   committed-rev="149"
+   kind="file"
+   committed-date="2012-09-24T18:29:36.671483Z"/>
+<entry
+   name="PacienteLaboratorio.java"
+   checksum="6b5a329808c9f102d56243f4bba7b721"
+   last-author="alejandroarielp"
+   text-time="2012-08-01T20:34:15.680000Z"
+   committed-rev="77"
+   kind="file"
+   committed-date="2012-08-01T20:34:15.680349Z"/>
+</wc-entries>

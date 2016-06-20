@@ -1,0 +1,2 @@
+Si se desea que el sistema inicie con un archivo de configuracion distinto al que viene en el war, debe 
+pasarsele a la JVM la variable -Dlog4j.configuration con el path del archivo de Log4J deseado

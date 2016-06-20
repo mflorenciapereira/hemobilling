@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8"  ?>
+<!-- Created with iReport - A designer for JasperReports -->
+<!DOCTYPE jasperReport PUBLIC "//JasperReports//DTD Report Design//EN" "http://jasperreports.sourceforge.net/dtds/jasperreport.dtd">
+<jasperReport
+		 name="Listado de Clientes"
+		 columnCount="1"
+		 printOrder="Vertical"
+		 orientation="Portrait"
+		 pageWidth="595"
+		 pageHeight="842"
+		 columnWidth="565"
+		 columnSpacing="0"
+		 leftMargin="15"
+		 rightMargin="15"
+		 topMargin="15"
+		 bottomMargin="15"
+		 whenNoDataType="NoPages"
+		 isTitleNewPage="false"
+		 isSummaryNewPage="false">
+	<property name="net.sf.jasperreports.export.csv.exclude.origin.keep.first.band.1" value="pageHeader" />
+	<property name="net.sf.jasperreports.export.csv.exclude.origin.band.2" value="pageFooter" />
+	<property name="net.sf.jasperreports.export.xls.exclude.origin.keep.first.band.1" value="pageHeader" />
+	<property name="net.sf.jasperreports.export.xls.exclude.origin.band.2" value="pageFooter" />
+	<property name="ireport.scriptlethandling" value="0" />
+	<property name="ireport.encoding" value="UTF-8" />
+	<import value="java.util.*" />
+	<import value="net.sf.jasperreports.engine.*" />
+	<import value="net.sf.jasperreports.engine.data.*" />
+
+	<parameter name="FECHA_CONSULTA" isForPrompting="true" class="java.lang.String"/>
+	<parameter name="HORA_CONSULTA" isForPrompting="true" class="java.lang.String"/>
+	<parameter name="PACIENTE" isForPrompting="true" class="java.lang.String"/>
+	<parameter name="OBRA_SOCIAL" isForPrompting="true" class="java.lang.String"/>
+	<parameter name="NRO_AFILIADO" isForPrompting="true" class="java.lang.String"/>
+	<parameter name="TOTAL" isForPrompting="true" class="java.lang.String"/>
+	<parameter name="FECHA" isForPrompting="true" class="java.lang.String"/>
+
+	<field name="periodoDesde" class="java.lang.String"/>
+	<field name="periodoHasta" class="java.lang.String"/>
+
+	<variable name="SUM_1" class="java.lang.Integer" resetType="Page" calculation="Sum">
+		<variableExpression><![CDATA[Custom Expression]]></variableExpression>
+	</variable>
+		<background>
+			<band height="800"  isSplitAllowed="true" >
+				<printWhenExpression><![CDATA[new Boolean($V{PAGE_NUMBER}.intValue()==1)]]></printWhenExpression>
+				<staticText>
+					<reportElement
+						x="11"
+						y="7"
+						width="214"
+						height="23"
+						key="staticText"/>
+					<box topBorder="None" topBorderColor="#000000" leftBorder="None" leftBorderColor="#000000" rightBorder="None" rightBorderColor="#000000" bottomBorder="None" bottomBorderColor="#000000"/>
+					<textElement>
+						<font/>
+					</textElement>
+				<text><![CDATA[Soler 3485 C1425BWE - CAPITAL FEDERAL
+]]></text>
+				</staticText>
+				<line direction="TopDown">
+					<reportElement
+						x="1"
+						y="0"
+						width="565"
+						height="1"
+						key="line"/>
+					<graphicElement stretchType="NoStretch"/>
+				</line>
+				<staticText>
+					<reportElement
+						x="11"
+						y="87"
+						width="538"
+						height="20"
+						key="staticText"/>
+					<box topBorder="None" topBorderColor="#000000" leftBorder="None" leftBorderColor="#000000" rightBorder="None" rightBorderColor="#000000" bottomBorder="None" bottomBorderColor="#000000"/>
+					<textElement textAlignment="Center" verticalAlignment="Middle">
+						<font/>
+					</textElement>
+				<text><![CDATA[Personería Jurídica Nro.: 15257 - Inscripción Ministerio de Bienestar Social Nro.: 5049]]></text>
+				</staticText>
+				<staticText>
+					<reportElement
+						x="11"
+						y="141"
+						width="63"
+						height="20"
+						key="staticText"/>
+					<box topBorder="None" topBorderColor="#000000" leftBorder="None" leftBorderColor="#000000" rightBorder="None" rightBorderColor="#000000" bottomBorder="None" bottomBorderColor="#000000"/>
+					<textElement>
+						<font/>
+					</textElement>
+				<text><![CDATA[Obra Social:]]></text>
+				</staticText>
+				<textField isStretchWithOverflow="true" isBlankWhenNull="true" evaluationTime="Now" hyperlinkType="None"  hyperlinkTarget="Self" >
+					<reportElement
+						x="74"
+						y="141"
+						width="475"
+						height="34"
+						key="textField"/>
+					<box topBorder="None" topBorderColor="#000000" leftBorder="None" leftBorderColor="#000000" rightBorder="None" rightBorderColor="#000000" bottomBorder="None" bottomBorderColor="#000000"/>
+					<textElement>
+						<font/>
+					</textElement>
+				<textFieldExpression   class="java.lang.String"><![CDATA[$P{OBRA_SOCIAL}]]></textFieldExpression>
+				</textField>
+				<image  evaluationTime="Now" hyperlinkType="None"  hyperlinkTarget="Self" >
+					<reportElement
+						x="225"
+						y="30"
+						width="125"
+						height="48"
+						key="image"/>
+					<box topBorder="None" topBorderColor="#000000" leftBorder="None" leftBorderColor="#000000" rightBorder="None" rightBorderColor="#000000" bottomBorder="None" bottomBorderColor="#000000"/>
+					<graphicElement stretchType="NoStretch"/>
+					<imageExpression class="java.lang.String"><![CDATA["reportes/logo_fundacion.gif"]]></imageExpression>
+				</image>
+				<staticText>
+					<reportElement
+						x="396"
+						y="1"
+						width="169"
+						height="20"
+						key="staticText"/>
+					<box topBorder="None" topBorderColor="#000000" leftBorder="None" leftBorderColor="#000000" rightBorder="None" rightBorderColor="#000000" bottomBorder="None" bottomBorderColor="#000000"/>
+					<textElement>
+						<font/>
+					</textElement>
+				<text><![CDATA[E-mail: info@hemofilia.org.ar]]></text>
+				</staticText>
+				<textField isStretchWithOverflow="false" isBlankWhenNull="false" evaluationTime="Now" hyperlinkType="None"  hyperlinkTarget="Self" >
+					<reportElement
+						x="350"
+						y="121"
+						width="199"
+						height="20"
+						key="textField"/>
+					<box topBorder="None" topBorderColor="#000000" leftBorder="None" leftBorderColor="#000000" rightBorder="None" rightBorderColor="#000000" bottomBorder="None" bottomBorderColor="#000000"/>
+					<textElement>
+						<font/>
+					</textElement>
+				<textFieldExpression   class="java.lang.String"><![CDATA[$P{FECHA}]]></textFieldExpression>
+				</textField>
+				<staticText>
+					<reportElement
+						x="29"
+						y="185"
+						width="164"
+						height="20"
+						key="staticText"/>
+					<box topBorder="None" topBorderColor="#000000" leftBorder="None" leftBorderColor="#000000" rightBorder="None" rightBorderColor="#000000" bottomBorder="None" bottomBorderColor="#000000"/>
+					<textElement>
+						<font/>
+					</textElement>
+				<text><![CDATA[De nuestra mayor consideración:]]></text>
+				</staticText>
+				<staticText>
+					<reportElement
+						x="168"
+						y="205"
+						width="381"
+						height="22"
+						key="staticText"/>
+					<box topBorder="None" topBorderColor="#000000" leftBorder="None" leftBorderColor="#000000" rightBorder="None" rightBorderColor="#000000" bottomBorder="None" bottomBorderColor="#000000"/>
+					<textElement>
+						<font/>
+					</textElement>
+				<text><![CDATA[Adjuntas, nos es grato enviarles las facturas que se detallan a continuación,]]></text>
+				</staticText>
+				<staticText>
+					<reportElement
+						x="29"
+						y="227"
+						width="520"
+						height="20"
+						key="staticText"/>
+					<box topBorder="None" topBorderColor="#000000" leftBorder="None" leftBorderColor="#000000" rightBorder="None" rightBorderColor="#000000" bottomBorder="None" bottomBorderColor="#000000"/>
+					<textElement>
+						<font/>
+					</textElement>
+				<text><![CDATA[ a los efectos de que sirvan disponer de la tramitación que corresponda a las mismas.]]></text>
+				</staticText>
+				<staticText>
+					<reportElement
+						x="29"
+						y="272"
+						width="510"
+						height="20"
+						key="staticText"/>
+					<box topBorder="None" topBorderColor="#000000" leftBorder="None" leftBorderColor="#000000" rightBorder="None" rightBorderColor="#000000" bottomBorder="None" bottomBorderColor="#000000"/>
+					<textElement>
+						<font/>
+					</textElement>
+				<text><![CDATA[Factura Nro.                      Fecha                    Destinatario                            Cod             Monto ]]></text>
+				</staticText>
+			</band>
+		</background>
+		<title>
+			<band height="30"  isSplitAllowed="true" >
+			</band>
+		</title>
+		<pageHeader>
+			<band height="40"  isSplitAllowed="true" >
+			</band>
+		</pageHeader>
+		<columnHeader>
+			<band height="23"  isSplitAllowed="true" >
+			</band>
+		</columnHeader>
+		<detail>
+			<band height="20"  isSplitAllowed="true" >
+			</band>
+		</detail>
+		<columnFooter>
+			<band height="0"  isSplitAllowed="true" >
+			</band>
+		</columnFooter>
+		<pageFooter>
+			<band height="70"  isSplitAllowed="true" >
+				<staticText>
+					<reportElement
+						x="25"
+						y="2"
+						width="500"
+						height="60"
+						key="staticText"/>
+					<box topBorder="None" topBorderColor="#000000" leftBorder="None" leftBorderColor="#000000" rightBorder="None" rightBorderColor="#000000" bottomBorder="None" bottomBorderColor="#000000"/>
+					<textElement>
+						<font/>
+					</textElement>
+				<text><![CDATA[Sin otro particular, aprovechamos la oportunidad para saludarles con nuestra mayor consideración:
+
+
+
+
+
+
+
+
+
+
+]]></text>
+				</staticText>
+			</band>
+		</pageFooter>
+		<summary>
+			<band height="0"  isSplitAllowed="true" >
+			</band>
+		</summary>
+</jasperReport>

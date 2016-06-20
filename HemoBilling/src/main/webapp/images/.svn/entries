@@ -1,0 +1,545 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   name=""
+   repos="https://tp-fundacion-hemofilia.googlecode.com/svn"
+   revision="321"
+   last-author="alejandroarielp@gmail.com"
+   uuid="4b37757a-23b0-7fe8-faf4-639ec12c5352"
+   url="https://tp-fundacion-hemofilia.googlecode.com/svn/trunk/HemoBilling/src/main/webapp/images"
+   committed-rev="282"
+   kind="dir"
+   committed-date="2012-12-09T19:01:01.748311Z"/>
+<entry
+   name="arrow.gif"
+   checksum="ef3717e0ad966d8c87cdee05bd04b99b"
+   last-author="alejandroarielp@gmail.com"
+   text-time="2012-07-06T19:08:00.337000Z"
+   committed-rev="29"
+   kind="file"
+   committed-date="2012-07-06T19:08:00.337425Z"
+   prop-time="2012-10-07T00:34:46.241000Z"/>
+<entry
+   name="bg.jpg"
+   checksum="dc3707aded445e24a8d2e644e8d18d9b"
+   last-author="alejandroarielp@gmail.com"
+   text-time="2012-07-06T19:08:00.337000Z"
+   committed-rev="29"
+   kind="file"
+   committed-date="2012-07-06T19:08:00.337425Z"
+   prop-time="2012-10-07T00:34:47.510000Z"/>
+<entry
+   name="botleft.jpg"
+   checksum="c5206bf3d6fadc5e5266cf4af1989ce2"
+   last-author="alejandroarielp@gmail.com"
+   text-time="2012-07-06T19:08:00.337000Z"
+   committed-rev="29"
+   kind="file"
+   committed-date="2012-07-06T19:08:00.337425Z"
+   prop-time="2012-10-07T00:34:47.738000Z"/>
+<entry
+   name="botright.jpg"
+   checksum="3a4ab39349344fed6eacc975400d7b4e"
+   last-author="alejandroarielp@gmail.com"
+   text-time="2012-07-06T19:08:00.337000Z"
+   committed-rev="29"
+   kind="file"
+   committed-date="2012-07-06T19:08:00.337425Z"
+   prop-time="2012-10-07T00:34:47.475000Z"/>
+<entry
+   name="bt_blue_center.gif"
+   checksum="043b7cc29f4904ab4a8c55f6e5f56d9e"
+   last-author="alejandroarielp@gmail.com"
+   text-time="2012-07-06T19:08:00.337000Z"
+   committed-rev="29"
+   kind="file"
+   committed-date="2012-07-06T19:08:00.337425Z"
+   prop-time="2012-10-07T00:34:45.808000Z"/>
+<entry
+   name="bt_blue_left.gif"
+   checksum="57d337299f7afa071a803fa33ff5d2f8"
+   last-author="alejandroarielp@gmail.com"
+   text-time="2012-07-06T19:08:00.337000Z"
+   committed-rev="29"
+   kind="file"
+   committed-date="2012-07-06T19:08:00.337425Z"
+   prop-time="2012-10-07T00:34:46.830000Z"/>
+<entry
+   name="bt_blue_r.gif"
+   checksum="cf6d81063404d28dcb97d50906698da0"
+   last-author="alejandroarielp@gmail.com"
+   text-time="2012-07-06T19:08:00.337000Z"
+   committed-rev="29"
+   kind="file"
+   committed-date="2012-07-06T19:08:00.337425Z"
+   prop-time="2012-10-07T00:34:47.484000Z"/>
+<entry
+   name="bt_green_center.gif"
+   checksum="4201913a9beb90a8f381aec628e13fe2"
+   last-author="alejandroarielp@gmail.com"
+   text-time="2012-07-06T19:08:00.337000Z"
+   committed-rev="29"
+   kind="file"
+   committed-date="2012-07-06T19:08:00.337425Z"
+   prop-time="2012-10-07T00:34:46.824000Z"/>
+<entry
+   name="bt_green_left.gif"
+   checksum="dbabb09bc1a69af648b433492a529abd"
+   last-author="alejandroarielp@gmail.com"
+   text-time="2012-07-06T19:08:00.337000Z"
+   committed-rev="29"
+   kind="file"
+   committed-date="2012-07-06T19:08:00.337425Z"
+   prop-time="2012-10-07T00:34:46.423000Z"/>
+<entry
+   name="bt_green_r.gif"
+   checksum="baed9169d29b75c7f366e4b86c1dc65f"
+   last-author="alejandroarielp@gmail.com"
+   text-time="2012-07-06T19:08:00.337000Z"
+   committed-rev="29"
+   kind="file"
+   committed-date="2012-07-06T19:08:00.337425Z"
+   prop-time="2012-10-07T00:34:47.523000Z"/>
+<entry
+   name="bt_red_center.gif"
+   checksum="315ba6ec40f9181c0f01b968d1c45703"
+   last-author="alejandroarielp@gmail.com"
+   text-time="2012-07-06T19:08:00.337000Z"
+   committed-rev="29"
+   kind="file"
+   committed-date="2012-07-06T19:08:00.337425Z"
+   prop-time="2012-10-07T00:34:46.436000Z"/>
+<entry
+   name="bt_red_left.gif"
+   checksum="1a8aaff4525a6e7bfed721c2b76ba42a"
+   last-author="alejandroarielp@gmail.com"
+   text-time="2012-07-06T19:08:00.337000Z"
+   committed-rev="29"
+   kind="file"
+   committed-date="2012-07-06T19:08:00.337425Z"
+   prop-time="2012-10-07T00:34:47.723000Z"/>
+<entry
+   name="bt_red_r.gif"
+   checksum="8da4baed14ea0f712ce7db73284a1358"
+   last-author="alejandroarielp@gmail.com"
+   text-time="2012-07-06T19:08:00.337000Z"
+   committed-rev="29"
+   kind="file"
+   committed-date="2012-07-06T19:08:00.337425Z"
+   prop-time="2012-10-07T00:34:46.718000Z"/>
+<entry
+   name="bubble.png"
+   checksum="7b6aa744befb1aea8db3ff1d38f4ec22"
+   last-author="alejandroarielp@gmail.com"
+   text-time="2012-07-06T19:08:00.337000Z"
+   committed-rev="29"
+   kind="file"
+   committed-date="2012-07-06T19:08:00.337425Z"
+   prop-time="2012-10-07T00:34:46.702000Z"/>
+<entry
+   name="button.png"
+   checksum="82a6d05374e5324090cb60f4cc0bb6fc"
+   last-author="alejandroarielp@gmail.com"
+   text-time="2012-07-06T19:08:00.337000Z"
+   committed-rev="29"
+   kind="file"
+   committed-date="2012-07-06T19:08:00.337425Z"
+   prop-time="2012-10-07T00:34:47.446000Z"/>
+<entry
+   name="buttonn.png"
+   checksum="52c65e3cb6dd343070a184ba91c3e5e3"
+   last-author="alejandroarielp@gmail.com"
+   text-time="2012-07-06T19:08:00.337000Z"
+   committed-rev="29"
+   kind="file"
+   committed-date="2012-07-06T19:08:00.337425Z"
+   prop-time="2012-10-07T00:34:46.673000Z"/>
+<entry
+   name="buttony.png"
+   checksum="a4376906f7e133c29d76463a0328fda3"
+   last-author="alejandroarielp@gmail.com"
+   text-time="2012-07-06T19:08:00.337000Z"
+   committed-rev="29"
+   kind="file"
+   committed-date="2012-07-06T19:08:00.337425Z"
+   prop-time="2012-10-07T00:34:46.777000Z"/>
+<entry
+   name="comment.png"
+   checksum="955b51964ec90b3f1794b2b5e4c4cf25"
+   last-author="alejandroarielp@gmail.com"
+   text-time="2012-07-06T19:08:00.337000Z"
+   committed-rev="29"
+   kind="file"
+   committed-date="2012-07-06T19:08:00.337425Z"
+   prop-time="2012-10-07T00:34:46.723000Z"/>
+<entry
+   name="error.png"
+   checksum="5c566db7d928e295e5161f75af6eece3"
+   last-author="alejandroarielp@gmail.com"
+   text-time="2012-07-06T19:08:00.337000Z"
+   committed-rev="29"
+   kind="file"
+   committed-date="2012-07-06T19:08:00.337425Z"
+   prop-time="2012-10-07T00:34:47.713000Z"/>
+<entry
+   name="footer_bg.jpg"
+   checksum="0afbe7036786cd7d6509391c7f99246d"
+   last-author="alejandroarielp@gmail.com"
+   text-time="2012-07-06T19:08:00.337000Z"
+   committed-rev="29"
+   kind="file"
+   committed-date="2012-07-06T19:08:00.337425Z"
+   prop-time="2012-10-07T00:34:46.036000Z"/>
+<entry
+   name="green_bt.gif"
+   checksum="49b6233f753796748c02ca66e8645492"
+   last-author="alejandroarielp@gmail.com"
+   text-time="2012-07-06T19:08:00.337000Z"
+   committed-rev="29"
+   kind="file"
+   committed-date="2012-07-06T19:08:00.337425Z"
+   prop-time="2012-10-07T00:34:46.139000Z"/>
+<entry
+   name="green_bt_a.gif"
+   checksum="5b18f2cd5241c6be0a91844741a0ec22"
+   last-author="alejandroarielp@gmail.com"
+   text-time="2012-07-06T19:08:00.337000Z"
+   committed-rev="29"
+   kind="file"
+   committed-date="2012-07-06T19:08:00.337425Z"
+   prop-time="2012-10-07T00:34:46.782000Z"/>
+<entry
+   name="help.png"
+   checksum="c3812c74bc524179f4ccf5d2db7b3cbf"
+   last-author="alejandroarielp@gmail.com"
+   text-time="2012-07-06T19:08:00.337000Z"
+   committed-rev="29"
+   kind="file"
+   committed-date="2012-07-06T19:08:00.337425Z"
+   prop-time="2012-10-07T00:34:46.664000Z"/>
+<entry
+   name="indeziner_logo.gif"
+   checksum="897c2727b5b2a5031021ca4579533127"
+   last-author="alejandroarielp@gmail.com"
+   text-time="2012-07-06T19:08:00.337000Z"
+   committed-rev="29"
+   kind="file"
+   committed-date="2012-07-06T19:08:00.337425Z"
+   prop-time="2012-10-07T00:34:46.669000Z"/>
+<entry
+   name="info.png"
+   checksum="08ec5db58cd4290466ea0d8b5de09fcb"
+   last-author="alejandroarielp@gmail.com"
+   text-time="2012-07-06T19:08:00.337000Z"
+   committed-rev="29"
+   kind="file"
+   committed-date="2012-07-06T19:08:00.337425Z"
+   prop-time="2012-10-07T00:34:47.730000Z"/>
+<entry
+   name="left.jpg"
+   checksum="3b72e89401bc63c7787dbf1ef4dce3c3"
+   last-author="alejandroarielp@gmail.com"
+   text-time="2012-07-06T19:08:00.337000Z"
+   committed-rev="29"
+   kind="file"
+   committed-date="2012-07-06T19:08:00.337425Z"
+   prop-time="2012-10-07T00:34:46.658000Z"/>
+<entry
+   name="list_bullet.gif"
+   checksum="c94a4a97888ae64f2f2f5bc06a6d318f"
+   last-author="alejandroarielp@gmail.com"
+   text-time="2012-07-06T19:08:00.337000Z"
+   committed-rev="29"
+   kind="file"
+   committed-date="2012-07-06T19:08:00.337425Z"
+   prop-time="2012-10-07T00:34:46.730000Z"/>
+<entry
+   name="loader.gif"
+   checksum="7e99e1159a3686f6aa4f90043c554483"
+   last-author="alejandroarielp@gmail.com"
+   committed-rev="201"
+   text-time="2012-10-16T02:12:04.618000Z"
+   kind="file"
+   committed-date="2012-10-16T02:12:04.618983Z"
+   prop-time="2012-10-07T00:34:47.585000Z"/>
+<entry
+   name="login_bg.png"
+   checksum="163c8e36c038a68a66fc2094ee949afb"
+   last-author="alejandroarielp@gmail.com"
+   text-time="2012-07-06T19:08:00.337000Z"
+   committed-rev="29"
+   kind="file"
+   committed-date="2012-07-06T19:08:00.337425Z"
+   prop-time="2012-10-07T00:34:46.280000Z"/>
+<entry
+   name="logo copia.gif"
+   checksum="fc3bc959778a1dcce2d4da283581e361"
+   last-author="mflorenciapereira"
+   text-time="2012-07-07T17:43:48.162000Z"
+   committed-rev="30"
+   kind="file"
+   committed-date="2012-07-07T17:43:48.162398Z"
+   prop-time="2012-10-07T00:34:45.796000Z"/>
+<entry
+   name="logo.gif"
+   checksum="f031b81592a0289074576e83000e5fcc"
+   last-author="mflorenciapereira"
+   text-time="2012-07-07T17:43:48.162000Z"
+   committed-rev="30"
+   kind="file"
+   committed-date="2012-07-07T17:43:48.162398Z"
+   prop-time="2012-10-07T00:34:46.452000Z"/>
+<entry
+   name="logo.png"
+   checksum="3127b2262f30e6251ccee6d596b1aedd"
+   last-author="alejandroarielp@gmail.com"
+   text-time="2012-07-06T19:08:00.337000Z"
+   committed-rev="29"
+   kind="file"
+   committed-date="2012-07-06T19:08:00.337425Z"
+   prop-time="2012-10-07T00:34:45.970000Z"/>
+<entry
+   name="logo_fundacion.gif"
+   checksum="6e68c7ad38e8af46a510b9bd9c821316"
+   last-author="mflorenciapereira"
+   text-time="2012-07-07T17:43:48.162000Z"
+   committed-rev="30"
+   kind="file"
+   committed-date="2012-07-07T17:43:48.162398Z"
+   prop-time="2012-10-07T00:34:46.837000Z"/>
+<entry
+   name="logo_fundacion.jpg"
+   checksum="9a6135d9e7f121c818351c7ba3d1ddc6"
+   last-author="mflorenciapereira"
+   text-time="2012-07-07T17:43:48.162000Z"
+   committed-rev="30"
+   kind="file"
+   committed-date="2012-07-07T17:43:48.162398Z"
+   prop-time="2012-10-07T00:34:46.467000Z"/>
+<entry
+   name="mas.png"
+   checksum="9d75eadaea2633fadae7010768a5583f"
+   last-author="alejandroarielp@gmail.com"
+   committed-rev="240"
+   text-time="2012-11-12T02:27:57.429000Z"
+   kind="file"
+   committed-date="2012-11-12T02:27:57.429464Z"
+   prop-time="2012-11-12T02:56:37.644000Z"/>
+<entry
+   name="menos.png"
+   checksum="eb23252917ca7480880554705303c582"
+   last-author="alejandroarielp@gmail.com"
+   committed-rev="240"
+   text-time="2012-11-12T02:27:57.429000Z"
+   kind="file"
+   committed-date="2012-11-12T02:27:57.429464Z"
+   prop-time="2012-11-12T02:56:37.644000Z"/>
+<entry
+   name="menu_bg.gif"
+   checksum="7619d69b5bd033e8bb546679e472445c"
+   last-author="alejandroarielp@gmail.com"
+   text-time="2012-07-06T19:08:00.337000Z"
+   committed-rev="29"
+   kind="file"
+   committed-date="2012-07-06T19:08:00.337425Z"
+   prop-time="2012-10-07T00:34:46.707000Z"/>
+<entry
+   name="menu_bg.jpg"
+   checksum="806ba071aaac84caa3227a17d10b4734"
+   last-author="alejandroarielp@gmail.com"
+   text-time="2012-07-06T19:08:00.337000Z"
+   committed-rev="29"
+   kind="file"
+   committed-date="2012-07-06T19:08:00.337425Z"
+   prop-time="2012-10-07T00:34:46.226000Z"/>
+<entry
+   name="menu_bg_a.gif"
+   checksum="c2d2fcfc5d388106dad2c176cdf2b496"
+   last-author="alejandroarielp@gmail.com"
+   text-time="2012-07-06T19:08:00.337000Z"
+   committed-rev="29"
+   kind="file"
+   committed-date="2012-07-06T19:08:00.337425Z"
+   prop-time="2012-10-07T00:34:45.802000Z"/>
+<entry
+   name="minus.gif"
+   checksum="72110610e7905171a3d2d87df57e0ab0"
+   last-author="alejandroarielp@gmail.com"
+   text-time="2012-07-06T19:08:00.337000Z"
+   committed-rev="29"
+   kind="file"
+   committed-date="2012-07-06T19:08:00.337425Z"
+   prop-time="2012-10-07T00:34:47.464000Z"/>
+<entry
+   name="notice.png"
+   checksum="2663adc2d7f47792b5439963ee47666e"
+   last-author="alejandroarielp@gmail.com"
+   text-time="2012-07-06T19:08:00.337000Z"
+   committed-rev="29"
+   kind="file"
+   committed-date="2012-07-06T19:08:00.337425Z"
+   prop-time="2012-10-07T00:34:46.446000Z"/>
+<entry
+   name="pdf.gif"
+   checksum="3f980b2c52832ea96a98480824afc5f1"
+   last-author="mflorenciapereira"
+   committed-rev="242"
+   text-time="2012-11-13T05:17:38.840000Z"
+   kind="file"
+   committed-date="2012-11-13T16:18:13.747000Z"
+   prop-time="2012-11-13T16:18:04.460000Z"/>
+<entry
+   name="pdf.jpg"
+   checksum="785909f4c539a2032b0b4d1c9e256e57"
+   last-author="mflorenciapereira"
+   committed-rev="242"
+   text-time="2012-11-13T05:06:35.415000Z"
+   kind="file"
+   committed-date="2012-11-13T16:18:13.747000Z"
+   prop-time="2012-11-13T16:18:04.491000Z"/>
+<entry
+   name="photo.png"
+   checksum="1971a647f985acd056cb64f2cf20dc38"
+   last-author="alejandroarielp@gmail.com"
+   text-time="2012-07-06T19:08:00.337000Z"
+   committed-rev="29"
+   kind="file"
+   committed-date="2012-07-06T19:08:00.337425Z"
+   prop-time="2012-10-07T00:34:46.679000Z"/>
+<entry
+   name="printer.gif"
+   checksum="d1028b8ed80a7a8b3e1f390ad676ed3a"
+   last-author="mflorenciapereira"
+   committed-rev="242"
+   text-time="2012-11-13T06:16:27.042000Z"
+   kind="file"
+   committed-date="2012-11-13T16:18:13.747000Z"
+   prop-time="2012-11-13T16:18:04.429000Z"/>
+<entry
+   name="red_bt.gif"
+   checksum="5e3d03923de4e309d3e7fe0ee8174e46"
+   last-author="alejandroarielp@gmail.com"
+   text-time="2012-07-06T19:08:00.337000Z"
+   committed-rev="29"
+   kind="file"
+   committed-date="2012-07-06T19:08:00.337425Z"
+   prop-time="2012-10-07T00:34:47.493000Z"/>
+<entry
+   name="red_bt_a.gif"
+   checksum="0fde9b34762026deb887abbc7a623cf2"
+   last-author="alejandroarielp@gmail.com"
+   text-time="2012-07-06T19:08:00.337000Z"
+   committed-rev="29"
+   kind="file"
+   committed-date="2012-07-06T19:08:00.337425Z"
+   prop-time="2012-10-07T00:34:46.408000Z"/>
+<entry
+   name="right.jpg"
+   checksum="ab5b6e6578077050b4dab06cc1aee9e2"
+   last-author="alejandroarielp@gmail.com"
+   text-time="2012-07-06T19:08:00.337000Z"
+   committed-rev="29"
+   kind="file"
+   committed-date="2012-07-06T19:08:00.337425Z"
+   prop-time="2012-10-07T00:34:46.842000Z"/>
+<entry
+   name="search.png"
+   checksum="11b7f7bc700292ca1e8daf09cececf9e"
+   last-author="alejandroarielp@gmail.com"
+   text-time="2012-07-06T19:08:00.337000Z"
+   committed-rev="29"
+   kind="file"
+   committed-date="2012-07-06T19:08:00.337425Z"
+   prop-time="2012-10-07T00:34:46.053000Z"/>
+<entry
+   name="sidebar_box_bottom.gif"
+   checksum="54c3dae073b59205e48e042c111bee7d"
+   last-author="alejandroarielp@gmail.com"
+   text-time="2012-07-06T19:08:00.337000Z"
+   committed-rev="29"
+   kind="file"
+   committed-date="2012-07-06T19:08:00.337425Z"
+   prop-time="2012-10-07T00:34:47.516000Z"/>
+<entry
+   name="sidebar_box_top.gif"
+   checksum="2fc333333e8c61041c73fb7e4497f5b8"
+   last-author="alejandroarielp@gmail.com"
+   text-time="2012-07-06T19:08:00.337000Z"
+   committed-rev="29"
+   kind="file"
+   committed-date="2012-07-06T19:08:00.337425Z"
+   prop-time="2012-10-07T00:34:46.648000Z"/>
+<entry
+   name="sidebar_menu_top.gif"
+   checksum="8d514492646716625f76edf5844ce9c4"
+   last-author="alejandroarielp@gmail.com"
+   text-time="2012-07-06T19:08:00.337000Z"
+   committed-rev="29"
+   kind="file"
+   committed-date="2012-07-06T19:08:00.337425Z"
+   prop-time="2012-10-07T00:34:46.713000Z"/>
+<entry
+   name="sidebar_menu_top_a.gif"
+   checksum="a95b5ea0bed416a0c252bd075204167a"
+   last-author="alejandroarielp@gmail.com"
+   text-time="2012-07-06T19:08:00.337000Z"
+   committed-rev="29"
+   kind="file"
+   committed-date="2012-07-06T19:08:00.337425Z"
+   prop-time="2012-10-07T00:34:45.883000Z"/>
+<entry
+   name="top_menu_home.png"
+   checksum="a97674537a3b40156cba86b779d53c3c"
+   last-author="alejandroarielp@gmail.com"
+   text-time="2012-12-09T19:01:01.748000Z"
+   committed-rev="282"
+   kind="file"
+   committed-date="2012-12-09T19:01:01.748311Z"
+   prop-time="2012-12-11T20:45:45.749000Z"/>
+<entry
+   name="trash.png"
+   checksum="b80407e20efad5488b9136c7d55d5352"
+   last-author="alejandroarielp@gmail.com"
+   text-time="2012-07-06T19:08:00.337000Z"
+   committed-rev="29"
+   kind="file"
+   committed-date="2012-07-06T19:08:00.337425Z"
+   prop-time="2012-10-07T00:34:47.500000Z"/>
+<entry
+   name="user_edit.png"
+   checksum="3a2ea2f6d160a19c16c2b62639f38011"
+   last-author="alejandroarielp@gmail.com"
+   text-time="2012-07-06T19:08:00.337000Z"
+   committed-rev="29"
+   kind="file"
+   committed-date="2012-07-06T19:08:00.337425Z"
+   prop-time="2012-10-07T00:34:46.638000Z"/>
+<entry
+   name="user_logout.png"
+   checksum="42492684e24356a4081134894eabeb9e"
+   last-author="alejandroarielp@gmail.com"
+   text-time="2012-07-06T19:08:00.337000Z"
+   committed-rev="29"
+   kind="file"
+   committed-date="2012-07-06T19:08:00.337425Z"
+   prop-time="2012-10-07T00:34:46.152000Z"/>
+<entry
+   name="valid.png"
+   checksum="fa69969d83e846039734f6fac7163a0d"
+   last-author="alejandroarielp@gmail.com"
+   text-time="2012-07-06T19:08:00.337000Z"
+   committed-rev="29"
+   kind="file"
+   committed-date="2012-07-06T19:08:00.337425Z"
+   prop-time="2012-10-07T00:34:45.813000Z"/>
+<entry
+   name="warning.png"
+   checksum="64679d2d9914962de2d986070c2899f6"
+   last-author="alejandroarielp@gmail.com"
+   text-time="2012-07-06T19:08:00.337000Z"
+   committed-rev="29"
+   kind="file"
+   committed-date="2012-07-06T19:08:00.337425Z"
+   prop-time="2012-10-07T00:34:46.063000Z"/>
+</wc-entries>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   repos="https://tp-fundacion-hemofilia.googlecode.com/svn"
+   name=""
+   revision="321"
+   last-author="alejandroarielp@gmail.com"
+   url="https://tp-fundacion-hemofilia.googlecode.com/svn/trunk/HemoBilling/src/main/java/ar/uba/fi/hemobilling/dozer/converter"
+   uuid="4b37757a-23b0-7fe8-faf4-639ec12c5352"
+   committed-rev="264"
+   kind="dir"
+   committed-date="2012-12-01T17:56:01.330663Z"/>
+<entry
+   name="CustomBigDecimalConverter.java"
+   checksum="c4170f54dc6dddd87d46a51d0d0cab5b"
+   last-author="alejandroarielp@gmail.com"
+   committed-rev="264"
+   text-time="2012-12-01T17:56:01.330000Z"
+   kind="file"
+   committed-date="2012-12-01T17:56:01.330663Z"/>
+<entry
+   name="CustomBigIntegerConverter.java"
+   checksum="1ad27399793a0275ff42c378330d0204"
+   last-author="alejandroarielp@gmail.com"
+   committed-rev="237"
+   text-time="2012-11-11T03:15:24.028000Z"
+   kind="file"
+   committed-date="2012-11-11T03:15:24.028120Z"/>
+<entry
+   name="CustomBooleanConverter.java"
+   checksum="b3061854582b5a00bc0623af465fe011"
+   last-author="alejandroarielp@gmail.com"
+   committed-rev="159"
+   text-time="2012-09-30T02:05:03.253000Z"
+   kind="file"
+   committed-date="2012-09-30T02:05:03.253731Z"/>
+<entry
+   name="CustomDateToStringConverter.java"
+   checksum="d6fd6321504290a01695b6112aad3bf8"
+   last-author="alejandroarielp@gmail.com"
+   committed-rev="131"
+   text-time="2012-09-06T01:18:03.667000Z"
+   kind="file"
+   committed-date="2012-09-06T01:18:03.667838Z"/>
+<entry
+   name="CustomDireccionConverter.java"
+   checksum="95ebd273270f68f9e1be482816adcbf4"
+   last-author="alejandroarielp@gmail.com"
+   committed-rev="159"
+   text-time="2012-09-30T02:05:03.253000Z"
+   kind="file"
+   committed-date="2012-09-30T02:05:03.253731Z"/>
+<entry
+   name="CustomLongConverter.java"
+   checksum="0842f02162a5d11f9796dbe5c9c8b627"
+   last-author="alejandroarielp@gmail.com"
+   committed-rev="139"
+   text-time="2012-09-16T23:57:39.323000Z"
+   kind="file"
+   committed-date="2012-09-16T23:57:39.323021Z"/>
+</wc-entries>

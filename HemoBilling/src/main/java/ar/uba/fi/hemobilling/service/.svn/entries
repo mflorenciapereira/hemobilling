@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   repos="https://tp-fundacion-hemofilia.googlecode.com/svn"
+   name=""
+   revision="321"
+   last-author="mflorenciapereira"
+   url="https://tp-fundacion-hemofilia.googlecode.com/svn/trunk/HemoBilling/src/main/java/ar/uba/fi/hemobilling/service"
+   uuid="4b37757a-23b0-7fe8-faf4-639ec12c5352"
+   committed-rev="320"
+   kind="dir"
+   committed-date="2013-03-10T00:09:29.360286Z"/>
+<entry
+   name="BackupService.java"
+   checksum="d647e2b3bd2c6dce371936e1a44c0bd0"
+   last-author="alejandroarielp@gmail.com"
+   committed-rev="222"
+   text-time="2012-11-02T02:48:03.921000Z"
+   kind="file"
+   committed-date="2012-11-02T02:48:03.921746Z"/>
+<entry
+   name="ClienteService.java"
+   checksum="4507417fe571b933e2f5f1b84972e81f"
+   last-author="alejandroarielp@gmail.com"
+   committed-rev="253"
+   text-time="2012-11-25T02:59:53.732000Z"
+   kind="file"
+   committed-date="2012-11-25T02:59:53.732459Z"/>
+<entry
+   name="FacturacionService.java"
+   revision="322"
+   checksum="af69a5f6450eb0f3e3b6acbdf0aaf0b4"
+   last-author="mflorenciapereira"
+   committed-rev="322"
+   text-time="2013-05-13T02:43:27.238000Z"
+   kind="file"
+   committed-date="2014-02-02T18:57:48.365000Z"/>
+<entry
+   name="InformesService.java"
+   checksum="0d095ca4c9cc78e653129c2d5b0f3230"
+   last-author="mflorenciapereira"
+   text-time="2012-12-07T09:45:47.144000Z"
+   committed-rev="276"
+   kind="file"
+   committed-date="2012-12-07T10:58:55.839000Z"/>
+<entry
+   name="ListaPrecioService.java"
+   revision="322"
+   checksum="a5a1a9e9daf4e86fef3bdaf5ac53de6c"
+   last-author="mflorenciapereira"
+   committed-rev="322"
+   text-time="2013-05-12T23:32:09.351000Z"
+   kind="file"
+   committed-date="2014-02-02T18:57:48.365000Z"/>
+<entry
+   name="ObraSocialService.java"
+   checksum="808ba657ecd6a4a29367de6a7a48d28e"
+   last-author="mflorenciapereira"
+   committed-rev="281"
+   text-time="2012-12-08T22:27:01.806000Z"
+   kind="file"
+   committed-date="2012-12-08T22:38:58.028000Z"/>
+<entry
+   name="PacienteService.java"
+   checksum="0737dc3d815ad206f2e501c76886dce9"
+   last-author="alejandroarielp@gmail.com"
+   text-time="2012-11-29T02:21:50.101000Z"
+   committed-rev="260"
+   kind="file"
+   committed-date="2012-11-29T02:21:50.101907Z"/>
+<entry
+   name="PrestacionBrindadaService.java"
+   revision="322"
+   checksum="07702d9a97e3dac16dffa1642985e63e"
+   last-author="mflorenciapereira"
+   text-time="2013-06-09T18:03:59.300000Z"
+   committed-rev="322"
+   kind="file"
+   committed-date="2014-02-02T18:57:48.365000Z"/>
+<entry
+   name="PrestacionService.java"
+   checksum="b5493fb82e2fc931896f4b0853979972"
+   last-author="alejandroarielp@gmail.com"
+   text-time="2012-11-25T02:59:53.732000Z"
+   committed-rev="253"
+   kind="file"
+   committed-date="2012-11-25T02:59:53.732459Z"/>
+<entry
+   name="RemoteDataService.java"
+   checksum="ba3491ab4bc92750299e1e8fb39cc79f"
+   last-author="alejandroarielp@gmail.com"
+   committed-rev="159"
+   text-time="2012-09-30T02:05:03.253000Z"
+   kind="file"
+   committed-date="2012-09-30T02:05:03.253731Z"/>
+<entry
+   name="TipoIVAService.java"
+   checksum="e10bbce2546ccd44dcafbeb57d659690"
+   last-author="mflorenciapereira"
+   committed-rev="110"
+   text-time="2012-08-16T20:11:11.760000Z"
+   kind="file"
+   committed-date="2012-08-16T20:11:11.760373Z"/>
+<entry
+   name="UsuarioService.java"
+   checksum="1c1d789d5cd3686077463996ff9022d4"
+   last-author="alejandroarielp@gmail.com"
+   committed-rev="69"
+   text-time="2012-07-29T17:31:35.723000Z"
+   kind="file"
+   committed-date="2012-07-29T17:31:35.723603Z"/>
+<entry
+   name="impl"
+   kind="dir"/>
+</wc-entries>

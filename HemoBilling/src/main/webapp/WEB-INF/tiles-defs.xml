@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tiles-definitions PUBLIC 
+    "-//Apache Software Foundation//DTD Tiles Configuration 2.0//EN"
+    "http://tiles.apache.org/dtds/tiles-config_2_0.dtd">
+
+<tiles-definitions>
+	<definition name="hemobillingBase" template="/tiles/basicLayout.jsp">
+		<put-attribute name="title" value="" />
+		<put-attribute name="header" value="/base/header.jsp" />
+		<put-attribute name="menu" value="/base/menu.html" />
+		<put-attribute name="contenido" value="" />
+		<put-attribute name="footer" value="/base/footer.html" />
+	</definition>
+
+
+	<definition name="main" extends="hemobillingBase">
+		<put-attribute name="title" value="Hemobilling" />
+		<put-attribute name="contenido" value="/main.jsp" />
+	</definition>
+
+	<!-- USUARIOS -->
+
+	<definition name="usuarios" extends="hemobillingBase">
+		<put-attribute name="title" value="Hemobilling - Usuarios" />
+		<put-attribute name="contenido" value="/usuarios/consulta.jsp" />
+	</definition>
+
+	<definition name="nuevoUsuario" extends="hemobillingBase">
+		<put-attribute name="title" value="Hemobilling - Usuarios" />
+		<put-attribute name="contenido" value="/usuarios/nuevo.jsp" />
+	</definition>
+
+	<definition name="editarUsuario" extends="hemobillingBase">
+		<put-attribute name="title" value="Hemobilling - Usuarios" />
+		<put-attribute name="contenido" value="/usuarios/editar.jsp" />
+	</definition>
+
+
+
+
+
+	<!-- PACIENTES -->
+
+	<definition name="pacientes" extends="hemobillingBase">
+		<put-attribute name="title" value="Hemobilling - Pacientes" />
+		<put-attribute name="contenido" value="/pacientes/consulta.jsp" />
+	</definition>
+
+	<definition name="nuevoPaciente" extends="hemobillingBase">
+		<put-attribute name="title" value="Hemobilling - Pacientes" />
+		<put-attribute name="contenido" value="/pacientes/nuevo.jsp" />
+	</definition>
+	
+	<definition name="editarPaciente" extends="hemobillingBase">
+		<put-attribute name="title" value="Hemobilling - Pacientes" />
+		<put-attribute name="contenido" value="/pacientes/editar.jsp" />
+	</definition>
+
+
+	<!-- LISTAS DE PRECIO -->
+	<definition name="listasPrecio" extends="hemobillingBase">
+		<put-attribute name="title" value="Hemobilling - Listas de Precio" />
+		<put-attribute name="contenido" value="/listasPrecio/consulta.jsp" />
+	</definition>
+	
+	<definition name="nuevaListaPrecio" extends="hemobillingBase">
+		<put-attribute name="title" value="Hemobilling - Listas de Precio" />
+		<put-attribute name="contenido" value="/listasPrecio/nuevo.jsp" />
+	</definition>
+	
+	<definition name="editarListaPrecio" extends="hemobillingBase">
+		<put-attribute name="title" value="Hemobilling - Listas de Precio" />
+		<put-attribute name="contenido" value="/listasPrecio/editar.jsp" />
+	</definition>
+
+
+	<definition name="verPrecios" extends="hemobillingBase">
+		<put-attribute name="title" value="Hemobilling - Precios" />
+		<put-attribute name="contenido" value="/listasPrecio/precios.jsp" />
+	</definition>
+	
+	
+	<definition name="actualizacionMasivaListaPrecio" extends="hemobillingBase">
+		<put-attribute name="title" value="Hemobilling - Actualización masiva de listas de precio" />
+		<put-attribute name="contenido" value="/listasPrecio/actualizacionMasiva.jsp" />
+	</definition>
+
+	<!-- PRESTACIONES BRINDADAS -->
+
+	<definition name="prestacionesBrindadas" extends="hemobillingBase">
+		<put-attribute name="title"
+			value="Hemobilling - Prestaciones Brindadas" />
+		<put-attribute name="contenido"
+			value="/prestacionesBrindadas/consulta.jsp" />
+	</definition>
+
+	<definition name="nuevaPrestacionBrindada" extends="hemobillingBase">
+		<put-attribute name="title"
+			value="Hemobilling - Prestaciones Brindadas" />
+		<put-attribute name="contenido" value="/prestacionesBrindadas/nuevo.jsp" />
+	</definition>
+	
+	<definition name="editarPrestacionBrindada" extends="hemobillingBase">
+		<put-attribute name="title"
+			value="Hemobilling - Prestaciones Brindadas" />
+		<put-attribute name="contenido" value="/prestacionesBrindadas/editar.jsp" />
+	</definition>
+	
+	<definition name="importarLaboratorio" extends="hemobillingBase">
+		<put-attribute name="title"
+			value="Hemobilling - Importar desde laboratorio" />
+		<put-attribute name="contenido"
+			value="/prestacionesBrindadas/importarLaboratorio.jsp" />
+	</definition>
+
+
+	<!-- FACTURACIÓN -->
+
+	<definition name="facturasPrestaciones" extends="hemobillingBase">
+		<put-attribute name="title" value="Hemobilling - Facturas de Prestaciones" />
+		<put-attribute name="contenido" value="/facturacionPrestaciones/consultar.jsp" />
+	</definition>
+
+	<definition name="facturarPrestaciones" extends="hemobillingBase">
+		<put-attribute name="title" value="Hemobilling - Facturar Prestaciones" />
+		<put-attribute name="contenido" value="/facturacionPrestaciones/facturar.jsp" />
+	</definition>
+	
+	<definition name="facturasServicios" extends="hemobillingBase">
+		<put-attribute name="title" value="Hemobilling - Facturas de Servicios" />
+		<put-attribute name="contenido" value="/facturacionServicios/consultar.jsp" />
+	</definition>
+
+	<definition name="facturarServicios" extends="hemobillingBase">
+		<put-attribute name="title" value="Hemobilling - Facturar Servicios" />
+		<put-attribute name="contenido" value="/facturacionServicios/facturar.jsp" />
+	</definition>
+	
+	
+
+	<!-- INFORMES -->
+	
+	
+
+	<definition name="generarInformeFacturasEmitidas" extends="hemobillingBase">
+		<put-attribute name="title" value="Hemobilling - Informe de Facturas Emitidas" />
+		<put-attribute name="contenido" value="/informes/facturasEmitidas.jsp" />
+	</definition>
+	
+	<definition name="generarInformeCartaFacturas" extends="hemobillingBase">
+		<put-attribute name="title" value="Hemobilling - Carta de facturas" />
+		<put-attribute name="contenido" value="/informes/cartaFacturas.jsp" />
+	</definition>
+
+	<!-- CONTABILIDAD -->
+
+	<definition name="exportarArchivo" extends="hemobillingBase">
+		<put-attribute name="title" value="Hemobilling - Contabilidad" />
+		<put-attribute name="contenido" value="/contabilidad/exportarArchivo.jsp" />
+	</definition>
+	
+		<!-- PRESTACIONES -->
+
+	<definition name="prestaciones" extends="hemobillingBase">
+		<put-attribute name="title"
+			value="Hemobilling - Prestaciones" />
+		<put-attribute name="contenido"
+			value="/prestaciones/consulta.jsp" />
+	</definition>
+	
+	<definition name="nuevaPrestacion" extends="hemobillingBase">
+		<put-attribute name="title" value="Hemobilling - Prestaciones" />
+		<put-attribute name="contenido" value="/prestaciones/nuevo.jsp" />
+	</definition>
+
+	<definition name="editarPrestacion" extends="hemobillingBase">
+		<put-attribute name="title" value="Hemobilling - Prestaciones" />
+		<put-attribute name="contenido" value="/prestaciones/editar.jsp" />
+	</definition>
+	
+	<!-- OBRAS SOCIALES -->
+
+	<definition name="obrassociales" extends="hemobillingBase">
+		<put-attribute name="title"
+			value="Hemobilling - Obras Sociales" />
+		<put-attribute name="contenido"
+			value="/obrassociales/consulta.jsp" />
+	</definition>
+	
+	<definition name="nuevaObraSocial" extends="hemobillingBase">
+		<put-attribute name="title" value="Hemobilling - Obras Sociales" />
+		<put-attribute name="contenido" value="/obrassociales/nuevo.jsp" />
+	</definition>
+
+	<definition name="editarObraSocial" extends="hemobillingBase">
+		<put-attribute name="title" value="Hemobilling - Obras Sociales" />
+		<put-attribute name="contenido" value="/obrassociales/editar.jsp" />
+	</definition>
+	
+	<definition name="verHistoriaListaPrecio" extends="hemobillingBase">
+		<put-attribute name="title" value="Hemobilling - Historial de asociaciones a listas de precios" />
+		<put-attribute name="contenido" value="/obrassociales/historiaListaPrecio.jsp" />
+	</definition>
+	
+	
+	<!-- CLIENTES -->
+
+	<definition name="clientes" extends="hemobillingBase">
+		<put-attribute name="title"
+			value="Hemobilling - Clientes" />
+		<put-attribute name="contenido"
+			value="/clientes/consulta.jsp" />
+	</definition>
+	
+	<definition name="nuevoCliente" extends="hemobillingBase">
+		<put-attribute name="title" value="Hemobilling - Clientes" />
+		<put-attribute name="contenido" value="/clientes/nuevo.jsp" />
+	</definition>
+
+	<definition name="editarCliente" extends="hemobillingBase">
+		<put-attribute name="title" value="Hemobilling - Cliente" />
+		<put-attribute name="contenido" value="/clientes/editar.jsp" />
+	</definition>
+	
+	
+	<definition name="paginaBackups" extends="hemobillingBase">
+		<put-attribute name="title" value="Hemobilling - Backups" />
+		<put-attribute name="contenido" value="/backup/consulta.jsp" />
+	</definition>
+
+
+
+
+
+
+</tiles-definitions>
+

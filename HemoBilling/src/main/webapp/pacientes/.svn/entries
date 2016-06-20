@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   name=""
+   repos="https://tp-fundacion-hemofilia.googlecode.com/svn"
+   revision="321"
+   last-author="alejandroarielp@gmail.com"
+   uuid="4b37757a-23b0-7fe8-faf4-639ec12c5352"
+   url="https://tp-fundacion-hemofilia.googlecode.com/svn/trunk/HemoBilling/src/main/webapp/pacientes"
+   committed-rev="314"
+   kind="dir"
+   committed-date="2013-02-20T02:07:30.685406Z"/>
+<entry
+   name="consulta.jsp"
+   checksum="1e638fe115244656092d618d8fd21569"
+   last-author="alejandroarielp@gmail.com"
+   text-time="2013-02-06T02:33:03.302000Z"
+   committed-rev="311"
+   kind="file"
+   committed-date="2013-02-06T02:33:03.302527Z"/>
+<entry
+   name="editar.jsp"
+   checksum="a3a90304fdbf81b7b7f815fc980a03b4"
+   last-author="alejandroarielp@gmail.com"
+   text-time="2013-02-20T02:07:30.685000Z"
+   committed-rev="314"
+   kind="file"
+   committed-date="2013-02-20T02:07:30.685406Z"/>
+<entry
+   name="nuevo.jsp"
+   checksum="af931136809c7254e51fdaca676b795b"
+   last-author="alejandroarielp@gmail.com"
+   text-time="2013-02-20T02:07:30.685000Z"
+   committed-rev="314"
+   kind="file"
+   committed-date="2013-02-20T02:07:30.685406Z"/>
+</wc-entries>

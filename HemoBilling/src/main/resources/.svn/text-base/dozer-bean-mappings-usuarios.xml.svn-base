@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mappings xmlns="http://dozer.sourceforge.net" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://dozer.sourceforge.net
+          http://dozer.sourceforge.net/schema/beanmapping.xsd">
+
+	<mapping>
+        <class-a>ar.uba.fi.hemobilling.domain.usuarios.RolUsuario</class-a>
+        <class-b>ar.uba.fi.hemobilling.dto.usuarios.RolUsuarioDTO</class-b>
+        <field>
+            <a>codigo</a>
+            <b>codigo</b>
+        </field>
+        <field>
+            <a>descripcion</a>
+            <b>descripcion</b>
+        </field>  
+    </mapping>
+    
+    
+    
+	<mapping>
+        <class-a>ar.uba.fi.hemobilling.domain.usuarios.Usuario</class-a>
+        <class-b>ar.uba.fi.hemobilling.dto.usuarios.UsuarioDTO</class-b>
+        <field>
+            <a>nombreUsuario</a>
+            <b>nombreUsuario</b>
+        </field>
+        <field>
+            <a>password</a>
+            <b>password</b>
+        </field> 
+        <field>
+            <a>nombreCompleto</a>
+            <b>nombreCompleto</b>
+        </field>   
+        <field>
+            <a>habilitado</a>
+            <b>habilitado</b>
+        </field>
+    </mapping>
+    
+    <mapping>
+        <class-a>ar.uba.fi.hemobilling.domain.usuarios.FiltroConsultaUsuarios</class-a>
+        <class-b>ar.uba.fi.hemobilling.dto.usuarios.FiltroConsultaUsuariosDTO</class-b>
+        <field>
+            <a>nombreUsuario</a>
+            <b>nombreUsuario</b>
+        </field>
+        <field>
+            <a>habilitado</a>
+            <b>habilitado</b>
+        </field> 
+        <field>
+            <a>nombreCompleto</a>
+            <b>nombreCompleto</b>
+        </field>   
+        <field>
+            <a>codRol</a>
+            <b>codRol</b>
+        </field>
+    </mapping>
+    
+        <mapping type="bi-directional">
+        <class-a>ar.uba.fi.hemobilling.domain.FiltroPaginado</class-a>
+        <class-b>ar.uba.fi.hemobilling.dto.FiltroPaginadoDTO</class-b>
+        <field>
+            <a>cantTotalRegs</a>
+            <b>cantTotalRegs</b>
+        </field>
+        <field>
+            <a>regPorPagina</a>
+            <b>regPorPagina</b>
+        </field> 
+        <field>
+            <a>numeroPaginaActual</a>
+            <b>numeroPaginaActual</b>
+        </field>   
+        <field>
+            <a>cantMaxPaginas</a>
+            <b>cantMaxPaginas</b>
+        </field>
+    </mapping>
+ 
+    
+    
+</mappings> 

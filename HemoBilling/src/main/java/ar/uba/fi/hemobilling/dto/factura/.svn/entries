@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   name=""
+   repos="https://tp-fundacion-hemofilia.googlecode.com/svn"
+   revision="321"
+   last-author="alejandroarielp@gmail.com"
+   uuid="4b37757a-23b0-7fe8-faf4-639ec12c5352"
+   url="https://tp-fundacion-hemofilia.googlecode.com/svn/trunk/HemoBilling/src/main/java/ar/uba/fi/hemobilling/dto/factura"
+   committed-rev="318"
+   kind="dir"
+   committed-date="2013-03-05T01:46:54.357191Z"/>
+<entry
+   name="FacturaPrestacionDTO.java"
+   revision="322"
+   checksum="cde5679445391094b22fa749f011bc66"
+   last-author="mflorenciapereira"
+   text-time="2013-05-14T00:36:39.051000Z"
+   committed-rev="322"
+   kind="file"
+   committed-date="2014-02-02T18:57:48.365000Z"/>
+<entry
+   name="FacturaServicioDTO.java"
+   checksum="b7111a604c074668ec036f05dd24456b"
+   last-author="alejandroarielp@gmail.com"
+   committed-rev="270"
+   text-time="2012-12-03T02:00:42.919000Z"
+   kind="file"
+   committed-date="2012-12-03T02:00:42.919807Z"/>
+<entry
+   name="FiltroConsultaFacturasPrestacionDTO.java"
+   checksum="8ef53ced88c91b9a0c8e718e4bbf5e46"
+   last-author="alejandroarielp@gmail.com"
+   committed-rev="212"
+   text-time="2012-10-28T15:49:49.140000Z"
+   kind="file"
+   committed-date="2012-10-28T15:49:49.140727Z"/>
+<entry
+   name="FiltroConsultaFacturasServicioDTO.java"
+   checksum="f1db9fdce3270c168cab3de1cf30ec94"
+   last-author="alejandroarielp@gmail.com"
+   committed-rev="241"
+   text-time="2012-11-12T14:40:08.173000Z"
+   kind="file"
+   committed-date="2012-11-12T14:40:08.173343Z"/>
+<entry
+   name="ItemFacturaPrestacionDTO.java"
+   checksum="16f4733359afe7b174b4d329760f0062"
+   last-author="alejandroarielp@gmail.com"
+   text-time="2013-03-05T01:46:54.357000Z"
+   committed-rev="318"
+   kind="file"
+   committed-date="2013-03-05T01:46:54.357191Z"/>
+<entry
+   name="ResultConsultaFacturacionMasivaPrestacionesDTO.java"
+   checksum="0ff12e35458def370c67644c415088ca"
+   last-author="alejandroarielp@gmail.com"
+   text-time="2012-10-31T04:06:45.413000Z"
+   committed-rev="217"
+   kind="file"
+   committed-date="2012-10-31T04:06:45.413050Z"/>
+<entry
+   name="ServicioFacturadoDTO.java"
+   checksum="319c29ddc72f261473a213d4897a731f"
+   last-author="alejandroarielp@gmail.com"
+   committed-rev="230"
+   text-time="2012-11-09T01:57:14.292000Z"
+   kind="file"
+   committed-date="2012-11-09T01:57:14.292840Z"/>
+</wc-entries>

@@ -1,0 +1,207 @@
+package ar.uba.fi.hemobilling.dao.impl;
+
+import java.util.Collection;
+import java.util.List;
+
+import javax.annotation.Resource;
+
+import org.hibernate.Criteria;
+import org.hibernate.SessionFactory;
+import org.hibernate.criterion.DetachedCriteria;
+import org.hibernate.criterion.MatchMode;
+import org.hibernate.criterion.Order;
+import org.hibernate.criterion.ProjectionList;
+import org.hibernate.criterion.Projections;
+import org.hibernate.criterion.Restrictions;
+import org.hibernate.transform.Transformers;
+import org.springframework.dao.DataAccessException;
+import org.springframework.stereotype.Repository;
+
+import ar.uba.fi.hemobilling.commons.dao.exceptions.ObjectFoundException;
+import ar.uba.fi.hemobilling.commons.dao.exceptions.ObjectNotFoundException;
+import ar.uba.fi.hemobilling.commons.dao.impl.GenericHibernateDAO;
+import ar.uba.fi.hemobilling.dao.PrestacionDAO;
+import ar.uba.fi.hemobilling.domain.FiltroConsulta;
+import ar.uba.fi.hemobilling.domain.FiltroPaginado;
+import ar.uba.fi.hemobilling.domain.prestaciones.FiltroConsultaPrestaciones;
+import ar.uba.fi.hemobilling.domain.prestaciones.Prestacion;
+
+@Repository("prestacionDAO")
+public class PrestacionDAOImpl extends GenericHibernateDAO <Prestacion, String> implements PrestacionDAO 
+{
+	@Resource(name = "sessionFactory")
+	public void setAnnotationSessionFactory(SessionFactory sessionFactory) {
+		super.setSessionFactory(sessionFactory);
+	}
+
+	private DetachedCriteria getCriteriosBusqueda( FiltroConsultaPrestaciones filtro )
+	{
+		DetachedCriteria criteria = DetachedCriteria.forClass( Prestacion.class );
+		
+		if( !filtro.getCodigo().equals( FiltroConsulta.TODOS_DESC))
+		{
+			criteria.add( Restrictions.eq("codigo", Long.parseLong(filtro.getCodigo())) );
+		}
+		
+		if( !filtro.getDescripcion().equals( FiltroConsulta.TODOS_DESC))
+		{
+			criteria.add( Restrictions.ilike("descripcion", filtro.getDescripcion(), MatchMode.ANYWHERE) );
+		}
+		
+		
+		
+		return criteria;
+	}
+	
+	@Override
+	public Prestacion getPrestacion(long codigo) throws ObjectNotFoundException, DataAccessException{
+		Prestacion prestacion = this.findById(codigo);
+		return prestacion;
+	}
+	
+	@Override
+	public Prestacion getPrestacionParaListar(long codigo) throws ObjectNotFoundException, DataAccessException
+	{
+		DetachedCriteria criteria = DetachedCriteria.forClass( Prestacion.class );
+		
+		criteria.add( Restrictions.eq("codigo", codigo ) );
+		
+		ProjectionList projList = Projections.projectionList();
+		projList.add( Projections.property("codigo") );
+		projList.add( Projections.property("descripcion") );
+
+		criteria.setProjection( projList );
+		
+		@SuppressWarnings("unchecked")
+		Collection<Object[]> result = (Collection<Object[]>)getHibernateTemplate().findByCriteria(criteria);
+		
+		if( !result.isEmpty() )
+		{
+			Object[] dato = result.iterator().next();
+			
+			Prestacion prestacion = new Prestacion();
+			prestacion.setCodigo( (Long)dato[0] );
+			prestacion.setDescripcion( (String)dato[1] );
+			
+			return prestacion;			
+		}
+		else
+			throw new ObjectNotFoundException();
+	}
+
+	@Override
+	public void agregar(Prestacion prestacion) throws ObjectFoundException, DataAccessException {
+		if( exists(prestacion.getCodigo())) throw new ObjectFoundException();
+		super.save(prestacion);
+	}
+
+	@Override
+	public void actualizar(Prestacion prestacion) throws ObjectNotFoundException, DataAccessException {
+		if( !exists(prestacion.getCodigo())) throw new ObjectNotFoundException();
+		super.update(prestacion);		
+	}
+
+	@Override
+	public Collection<Prestacion> getPrestaciones( FiltroConsultaPrestaciones filtro , FiltroPaginado filtroPaginado ) throws DataAccessException 
+	{
+		if( filtro!=null )
+		{
+			DetachedCriteria criteria = getCriteriosBusqueda(filtro);			
+			return findByCriteria(criteria , filtroPaginado.getNumeroPaginaActual() , filtroPaginado.getRegPorPagina() );
+		}
+		else
+		{
+			return getAll();
+		}
+	}
+	
+	
+	@SuppressWarnings("unchecked")
+	@Override
+	public Collection<Prestacion> getPrestaciones() throws DataAccessException 
+	{
+		Criteria criteria=this.getSession().createCriteria(Prestacion.class);
+		criteria.addOrder(Order.asc("codigo"));
+		return criteria.list();
+	}
+
+	@Override
+	public void eliminar(Prestacion prestacion) throws ObjectNotFoundException, DataAccessException {
+		if( !exists(prestacion.getCodigo())) throw new ObjectNotFoundException();
+		super.delete(prestacion);
+		
+	}
+
+	@Override
+	public Integer getCantPrestaciones(FiltroConsultaPrestaciones filtro) throws DataAccessException 
+	{
+		DetachedCriteria criteria = getCriteriosBusqueda(filtro);
+		criteria.setProjection( Projections.rowCount() );
+		
+		Integer count = (Integer)getHibernateTemplate().findByCriteria(criteria).get(0);
+		return count;
+	}
+
+	@SuppressWarnings("unchecked")
+	@Override
+	public Collection<Prestacion> getPrestacionesById() 
+	{
+		DetachedCriteria criteria = DetachedCriteria.forClass( Prestacion.class );
+		ProjectionList proList = Projections.projectionList();
+		proList.add(Projections.property("codigo") , "codigo" );
+		proList.add(Projections.property("descripcion") , "descripcion" );
+		criteria.setProjection(proList);
+		
+		criteria.addOrder(Order.asc("id"));
+		
+		criteria.setResultTransformer( Transformers.aliasToBean(Prestacion.class) );
+
+		Collection<Prestacion> lista = (Collection<Prestacion>)getHibernateTemplate().findByCriteria(criteria);
+		return lista;
+	}
+
+	@Override
+	public boolean estaAsociadaAPrestacion(Prestacion prestacionEliminar) {
+		return !this.getSession().createQuery("from Prestacion modulo join modulo.prestacionesAsociadas asociadas where asociadas.codigo = :cod").setParameter("cod", prestacionEliminar.getCodigo()).list().isEmpty();
+	}
+
+	@Override
+	public Boolean existePrestacion(long codigo) throws DataAccessException 
+	{
+		DetachedCriteria criteria = DetachedCriteria.forClass( Prestacion.class );
+		criteria.setProjection( Projections.rowCount() );
+		criteria.add( Restrictions.eq("codigo", codigo ) );
+		
+		Integer count = (Integer)getHibernateTemplate().findByCriteria(criteria).get(0);
+		return (count!=0);
+	}
+
+	@Override
+	public Collection<Prestacion> getPrestacionesParaListar() throws DataAccessException 
+	{
+		DetachedCriteria criteria = DetachedCriteria.forClass( Prestacion.class );
+		ProjectionList proList = Projections.projectionList();
+		proList.add(Projections.property("codigo") , "codigo" );
+		proList.add(Projections.property("descripcion") , "descripcion" );
+		criteria.setProjection(proList);
+		
+		criteria.addOrder(Order.asc("codigo"));
+		
+		criteria.setResultTransformer( Transformers.aliasToBean(Prestacion.class) );
+		
+		
+		@SuppressWarnings("unchecked")
+		Collection<Prestacion> lista = (Collection<Prestacion>)getHibernateTemplate().findByCriteria(criteria);
+		return lista;
+	}
+
+	@Override
+	public List<Prestacion> obtenerModulosAsociados(Long coddeterminacion) {
+		return 	getSession().createCriteria(Prestacion.class)
+				.createAlias("prestacionesAsociadas", "pa")
+				.add(Restrictions.eq("pa.codigo",coddeterminacion)).list();
+	}
+
+
+
+}

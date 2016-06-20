@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   repos="https://tp-fundacion-hemofilia.googlecode.com/svn"
+   name=""
+   revision="321"
+   last-author="alejandroarielp@gmail.com"
+   url="https://tp-fundacion-hemofilia.googlecode.com/svn/trunk/HemoBilling/src/main/java/ar/uba/fi/hemobilling/exception/domain"
+   uuid="4b37757a-23b0-7fe8-faf4-639ec12c5352"
+   committed-rev="274"
+   kind="dir"
+   committed-date="2012-12-07T01:18:32.289892Z"/>
+<entry
+   name="AsociacionPrestacionDuplicadaException.java"
+   checksum="11731c73f33d11708ea7aa982fabc871"
+   last-author="mflorenciapereira"
+   text-time="2012-11-23T04:05:26.494000Z"
+   committed-rev="251"
+   kind="file"
+   committed-date="2012-11-23T16:04:22.949000Z"/>
+<entry
+   name="HBDataAccessException.java"
+   checksum="34d39c8dcd2ce426990028d8e4c606a9"
+   last-author="alejandroarielp@gmail.com"
+   committed-rev="44"
+   text-time="2012-07-10T01:33:07.408000Z"
+   kind="file"
+   committed-date="2012-07-10T01:33:07.408243Z"/>
+<entry
+   name="HBEntityRelationViolation.java"
+   checksum="87970960bdb41b9f9ee484cb5ae82ad0"
+   last-author="alejandroarielp@gmail.com"
+   text-time="2012-11-25T02:59:53.732000Z"
+   committed-rev="253"
+   kind="file"
+   committed-date="2012-11-25T02:59:53.732459Z"/>
+<entry
+   name="HBErrorCreandoReporte.java"
+   checksum="69a65e22ba3c4695b8b732cca6723921"
+   last-author="alejandroarielp@gmail.com"
+   committed-rev="180"
+   text-time="2012-10-13T02:50:13.606000Z"
+   kind="file"
+   committed-date="2012-10-13T02:50:13.606977Z"/>
+<entry
+   name="HBObjectExistsException.java"
+   checksum="454ffbe425ceacf130f4e12f34d34d37"
+   last-author="alejandroarielp@gmail.com"
+   committed-rev="44"
+   text-time="2012-07-10T01:33:07.408000Z"
+   kind="file"
+   committed-date="2012-07-10T01:33:07.408243Z"/>
+<entry
+   name="HBObjectNotExistsException.java"
+   checksum="fc34eb301dc8a72e9eb260286dfa8e1c"
+   last-author="alejandroarielp@gmail.com"
+   committed-rev="44"
+   text-time="2012-07-10T01:33:07.408000Z"
+   kind="file"
+   committed-date="2012-07-10T01:33:07.408243Z"/>
+<entry
+   name="HBPrestacionSinPrecioException.java"
+   checksum="6e9d9c0a577202ccc0ece8f4360aee0f"
+   last-author="alejandroarielp@gmail.com"
+   committed-rev="274"
+   text-time="2012-12-07T01:18:32.289000Z"
+   kind="file"
+   committed-date="2012-12-07T01:18:32.289892Z"/>
+<entry
+   name="HBPrestacionesFacturaException.java"
+   checksum="bf0f0594c0ea40534fb39720da1022b1"
+   last-author="alejandroarielp@gmail.com"
+   text-time="2012-10-19T01:37:59.361000Z"
+   committed-rev="202"
+   kind="file"
+   committed-date="2012-10-19T01:37:59.361974Z"/>
+<entry
+   name="HBRemoteException.java"
+   checksum="09dd7990f66cbfdf7d4c39af6986c6b6"
+   last-author="alejandroarielp@gmail.com"
+   committed-rev="135"
+   text-time="2012-09-08T02:50:26.095000Z"
+   kind="file"
+   committed-date="2012-09-08T02:50:26.095077Z"/>
+<entry
+   name="HBReporteNoDefinido.java"
+   checksum="cbb5c48b205763e1145910d572c0a515"
+   last-author="alejandroarielp@gmail.com"
+   committed-rev="180"
+   text-time="2012-10-13T02:50:13.606000Z"
+   kind="file"
+   committed-date="2012-10-13T02:50:13.606977Z"/>
+<entry
+   name="HBServiceException.java"
+   checksum="0d72ec182a333772e14a7be40328789d"
+   last-author="alejandroarielp@gmail.com"
+   committed-rev="67"
+   text-time="2012-07-27T19:10:06.418000Z"
+   kind="file"
+   committed-date="2012-07-27T19:10:06.418951Z"/>
+<entry
+   name="HemoBillingDomainException.java"
+   checksum="b975c3ec2e3c75e42d76d85b4025ba3c"
+   last-author="alejandroarielp@gmail.com"
+   committed-rev="44"
+   text-time="2012-07-10T01:33:07.408000Z"
+   kind="file"
+   committed-date="2012-07-10T01:33:07.408243Z"/>
+<entry
+   name="PrestacionAsociadaPrestacionException.java"
+   checksum="6be48aab0be14a08eb21317d1fc0aa82"
+   last-author="mflorenciapereira"
+   committed-rev="142"
+   text-time="2012-09-18T20:13:21.636000Z"
+   kind="file"
+   committed-date="2012-09-18T20:13:21.636729Z"/>
+</wc-entries>

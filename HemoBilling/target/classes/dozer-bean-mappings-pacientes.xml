@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mappings xmlns="http://dozer.sourceforge.net" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://dozer.sourceforge.net
+          http://dozer.sourceforge.net/schema/beanmapping.xsd">
+    
+    
+    <mapping>
+        <class-a>ar.uba.fi.hemobilling.domain.paciente.Paciente</class-a>
+        <class-b>ar.uba.fi.hemobilling.dto.paciente.PacienteDTO</class-b>
+        <field custom-converter="ar.uba.fi.hemobilling.dozer.converter.CustomLongConverter">
+            <a>id</a>
+            <b>id</b>
+        </field>
+        <field>
+            <a>nroDNI</a>
+            <b>nroDNI</b>
+        </field>
+        <field custom-converter="ar.uba.fi.hemobilling.dozer.converter.CustomLongConverter">
+            <a>numHistoriaClinica</a>
+            <b>numHistoriaClinica</b>
+        </field>
+        <field custom-converter="ar.uba.fi.hemobilling.dozer.converter.CustomDateToStringConverter">
+            <a>fechaNacimiento</a>
+            <b>fechaNacimiento</b>
+        </field>
+        <field>
+            <a>ubicacion.direccion</a>
+            <b>direccion</b>
+        </field>
+        <field>
+            <a>ubicacion.localidad</a>
+            <b>localidad</b>
+        </field>
+        <field>
+            <a>ubicacion.provincia</a>
+            <b>provincia</b>
+        </field>
+        <field>
+            <a>ubicacion.pais</a>
+            <b>pais</b>
+        </field>
+        <field>
+            <a>ubicacion.codigoPostal</a>
+            <b>codigoPostal</b>
+        </field>
+		<field custom-converter="ar.uba.fi.hemobilling.dozer.converter.CustomBooleanConverter">
+            <a>usaInibidor</a>
+            <b>usaInibidor</b>
+        </field>
+      
+	</mapping>
+	
+	
+	<mapping>
+        <class-a>ar.uba.fi.hemobilling.domain.paciente.FiltroConsultaPacientes</class-a>
+        <class-b>ar.uba.fi.hemobilling.dto.paciente.FiltroConsultaPacienteDTO</class-b>
+        <field>
+            <a>nombreyApellido</a>
+            <b>nombreyApellido</b>
+        </field>
+        <field>
+            <a>nroDNI</a>
+            <b>nroDNI</b>
+        </field>
+        <field>
+            <a>numHistoriaClinica</a>
+            <b>numHistoriaClinica</b>
+        </field>
+	</mapping>
+    
+    
+</mappings> 

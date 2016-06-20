@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mappings xmlns="http://dozer.sourceforge.net" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://dozer.sourceforge.net
+          http://dozer.sourceforge.net/schema/beanmapping.xsd">
+
+    <mapping>
+        <class-a>ar.uba.fi.hemobilling.domain.informes.FiltroFacturasEmitidas</class-a>
+        <class-b>ar.uba.fi.hemobilling.dto.informes.FiltroFacturasEmitidasDTO</class-b>
+     	<field custom-converter="ar.uba.fi.hemobilling.dozer.converter.CustomDateToStringConverter">
+            <a>fechaDesde</a>
+            <b>fechaDesde</b>
+        </field>
+        <field custom-converter="ar.uba.fi.hemobilling.dozer.converter.CustomDateToStringConverter">
+            <a>fechaHasta</a>
+            <b>fechaHasta</b>
+        </field>         
+    </mapping>
+    
+    
+    <mapping>
+        <class-a>ar.uba.fi.hemobilling.domain.informes.FiltroCartaFacturas</class-a>
+        <class-b>ar.uba.fi.hemobilling.dto.informes.FiltroCartaFacturasDTO</class-b>
+     	<field custom-converter="ar.uba.fi.hemobilling.dozer.converter.CustomDateToStringConverter">
+            <a>fechaDesde</a>
+            <b>fechaDesde</b>
+        </field>
+        <field custom-converter="ar.uba.fi.hemobilling.dozer.converter.CustomDateToStringConverter">
+            <a>fechaHasta</a>
+            <b>fechaHasta</b>
+        </field>
+      
+        
+    </mapping>
+    
+    
+    
+</mappings> 

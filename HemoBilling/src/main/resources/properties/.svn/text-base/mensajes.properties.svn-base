@@ -1,0 +1,88 @@
+clientes.gui.tituloNuevosClientes=Agregar nuevo Cliente
+clientes.gui.tituloListaClientes=Lista de Clientes
+
+login.accesoDenegado.mensaje="Acceso denegado"
+login.datosIncorrectos.mensaje="Usuario y/o contrase&ntilde;a inv&aacute;lidos"
+login.errorGenerico.mensaje="Error de acceso"
+logout.exitoso.mensaje="Ud ha salido del sistema exitosamente"
+logout.mensajeGenerico.mensaje="Error al salir del sistema"
+
+
+general.errorConexionBD=Se produjo un error al momento de acceder a la base de datos. Int&eacute;ntelo nuevamente m&aacute;s tarde por favor.
+general.errorContactoController=Se produjo un error al momento de intentar acceder al sistema. Int&eacute;ntelo nuevamente m&aacute;s tarde por favor.
+general.errorServicio=Se produjo un error interno en el sistema. Int&eacute;ntelo nuevamente m&aacute;s tarde por favor.
+general.errorConexionSistemasRemotos=Se produjo un error al momento de acceder al sistema remoto. Int&eacute;ntelo nuevamente m&aacute;s tarde por favor.
+
+usuarios.usuarioYaExisteEnBD=Ya existe un usuario con ese nombre.
+usuarios.usuarioNoExisteEnBD=No existe un usuario con ese nombre.
+usuario.usuarioAgregadoExitosamente=El usuario fue agregado correctamente.
+usuario.usuarioEditadoExitosamente=El usuario fue modificado correctamente.
+usuario.usuarioEliminadoExitosamente=El usuario fue eliminado correctamente.
+
+prestacion.prestacionYaExisteEnBD=Ya existe una prestaci&oacute;n con ese c&oacute;digo.
+prestacion.prestacionNoExisteEnBD=No existe una prestaci&oacute;n con ese c&oacute;digo.
+prestacion.prestacionAgregadaExitosamente=La prestaci&oacute;n fue agregada correctamente.
+prestacion.prestacionEditadaExitosamente=La prestaci&oacute;n fue modificada correctamente.
+prestacion.prestacionEliminadaExitosamente=La prestaci&oacute;n fue eliminada correctamente.
+prestacion.prestacionNoEncontrada=No se encontr&oacute; la prestaci&oacute;n.
+prestacion.prestacionesAsociadasIncompletas=Falta completar el c&oacute;digo o la descripci&oacute;n de al menos una prestaci&oacute;n asociada.
+prestacion.prestacionAsociadaPrestacion=No es posible eliminar la prestacion, porque la misma es parte de un modulo.
+prestacion.prestacionAsociadaDuplicada=Existe duplicados en la lista de prestaciones asociadas.
+prestacion.prestacionAunUtilizada=No se puede eliminar la prestacion porque actualmente esta siendo utilizada.
+
+obrasocial.obrasocialYaExisteEnBD=Ya existe una obrasocial con ese c&oacute;digo.
+obrasocial.obrasocialNoExisteEnBD=No existe una obrasocial con ese c&oacute;digo.
+obrasocial.obrasocialAgregadaExitosamente=La obrasocial fue agregada correctamente.
+obrasocial.obrasocialEditadaExitosamente=La obrasocial fue modificada correctamente.
+obrasocial.obrasocialEliminadaExitosamente=La obrasocial fue eliminada correctamente.
+obrasocial.obrasocialAunUtilizada=No se puede eliminar la obra social porque actualmente esta siendo utilizada.
+
+paciente.pacienteYaExisteEnBD=Ya existe un paciente con ese DNI.
+paciente.pacienteNoExisteEnBD=No existe un paciente con ese DNI.
+paciente.pacienteAgregadoExitosamente=El paciente fue agregado correctamente.
+paciente.pacienteEditadoExitosamente=El paciente fue modificado correctamente.
+paciente.pacienteEliminadoExitosamente=El paciente fue eliminado correctamente.
+paciente.errorConexionSistemasRemotos=Error de conexion con los sistemas de Laboratorio o HC
+paciente.IDsNoCambiados=Los IDs no pudieron ser cambiados, Int&eacute;ntelo nuevamente m&aacute;s tarde.
+paciente.IDsCambiadosOK=Los IDs fueron cambiados exitosamente.
+paciente.pacienteAunUtilizado=No se puede eliminar el paciente porque actualmente esta siendo utilizado.
+
+listaPrecio.listaPrecioYaExisteEnBD=Ya existe una lista de precio con ese c&oacute;digo.
+listaPrecio.listaPrecioNoExisteEnBD=No existe una lista de precio con ese c&oacute;digo.
+listaPrecio.listaPrecioAgregadaExitosamente=La lista de precio fue agregada correctamente.
+listaPrecio.listaPrecioEditadaExitosamente=La lista de precio fue modificada correctamente.
+listaPrecio.listaPrecioEliminadaExitosamente=La lista de precio fue eliminada correctamente.
+listaPrecio.listaPrecioDuplicadaExitosamente=La lista de precio fue duplicada correctamente.
+listaPrecio.listaPrecioNoEncontrada=No se encontr&oacute; la lista de precio.
+listaPrecio.listaPrecioAunUtilizada=No se puede eliminar la lista de precios porque actualmente esta siendo utilizada.
+listaPrecio.actualizacionMasivaOK=Actualizaci&oacute;n masiva exitosa.
+
+cliente.clienteYaExisteEnBD=Ya existe un cliente con ese c&oacute;digo.
+cliente.clienteNoExisteEnBD=No existe un cliente con ese c&oacute;digo.
+cliente.clienteAgregadoExitosamente=El cliente fue agregado correctamente.
+cliente.clienteEditadoExitosamente=El cliente fue modificado correctamente.
+cliente.clienteEliminadoExitosamente=El cliente fue eliminado correctamente.
+cliente.clienteAunUtilizado=No se puede eliminar el cliente porque actualmente esta siendo utilizado.
+
+prestacionBrindada.prestacionesImportadasLaboExito=Los estudios de laboratorio fueron importados satisfactoriamente.
+prestacionBrindada.prestacionBrindadaAunUtilizada=No se puede eliminar la prestacion brindada porque actualmente esta siendo utilizada.
+prestacionBrindada.prestacionSinPrecio=La prestacion no dispone de un precio asignado en la fecha en que fue realizada.
+
+facturacion.prestacionesFacturadasExito=Las prestaciones seleccionadas fueron facturadas satisfactoriamente.
+facturacion.serviciosFacturadosExito=Los servicios fueron facturados satisfactoriamente.
+facturacion.eliminacionExito=La factura fue eliminada satisfactoriamente.
+facturacion.anulacionExito=La factura fue anulada satisfactoriamente.
+facturacion.noAnulacionExito=La factura fue Desanulada satisfactoriamente.
+
+backuper.backupExitoso=El backup se realiz&oacute; exitosamente.
+backuper.backupFallido=El backup no se realizar. Int&eacute;ntelo m&aacute;s tarde.
+
+reportes.reporteIndefinido=El reporte pedido no est&aacute especificado.
+reportes.errorCreacion=Error al crear el reporte.
+reportes.reporteCreadoExitosamente=El reporte se ha creado exitosamente.
+
+remote.HCService.pacienteNoExiste=No existe un paciente con el n&uacute;mero de HC suministrado en el sistema de HC.
+remote.HCService.excepcion=El sistema de HC respondi&oacute; con un error. Int&eacute;ntelo nuevamente m&aacute;s tarde por favor.
+
+remote.LaboService.pacienteNoExiste=No existe un paciente con el n&uacute;mero de HC suministrado en el sistema de Laboratorio.
+remote.LaboService.excepcion=El sistema de Laboratorio respondi&oacute; con un error. Int&eacute;ntelo nuevamente m&aacute;s tarde por favor.

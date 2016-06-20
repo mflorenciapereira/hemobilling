@@ -1,0 +1,11 @@
+HBDataAccessException.code = Se ha producido un error al momento de acceder a la base de datos. Por favor, intentelo nuevamente mas tarde
+HBObjectExistsException.code = El objecto sobre el cual desea realizar la accion existe actualmente en la base de datos.
+HBObjectNotExistsException.code = El objecto sobre el cual desea realizar la accion no existe actualmente en la base de datos.
+HBRemoteException.code = Se produjo un problema de comunicacion con el servicio externo al que desea contactar. Por favor, intentelo nuevamente mas tarde.
+HBServiceException.code = Se produjo un error interno en el servicio. Por favor, intentelo nuevamente mas tarde.
+HBErrorCreandoReporte.code = Se produjo un error al crear el reporte.
+HBReporteNoDefinido.code = El reporte que quiere exportar no esta definido en la lista de reportes a crear.
+HBPrestacionesFacturaException.code = Las prestaciones que esta agregando a la factura no cumple con las reglas de la misma.
+PrestacionAsociadaPrestacion.code = No existe la prestacion asociada.
+HBEntityRelationViolation.code = Se produjo un error de FK en una entidad. Probablemente esta queriendo eliminar un objeto que todavia esta siendo referenciado en el dominio.
+HBPrestacionSinPrecioException.code = La prestacion no dispone de un precio para la fecha en la que se realizo.

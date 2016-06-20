@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   name=""
+   repos="https://tp-fundacion-hemofilia.googlecode.com/svn"
+   revision="321"
+   last-author="mflorenciapereira"
+   uuid="4b37757a-23b0-7fe8-faf4-639ec12c5352"
+   url="https://tp-fundacion-hemofilia.googlecode.com/svn/trunk/HemoBilling/src/main/java/ar/uba/fi/hemobilling/dao"
+   committed-rev="320"
+   kind="dir"
+   committed-date="2013-03-10T00:09:29.360286Z"/>
+<entry
+   name="AsociacionListaPrecioObraSocialDAO.java"
+   checksum="ab93db71a9bd96b2dd01079fd7ccfea4"
+   last-author="mflorenciapereira"
+   text-time="2012-11-19T02:39:54.933000Z"
+   committed-rev="272"
+   kind="file"
+   committed-date="2012-12-06T20:07:56.552233Z"/>
+<entry
+   name="BackupDAO.java"
+   checksum="778b169e6bb1692b8c1454030468f2fd"
+   last-author="alejandroarielp@gmail.com"
+   committed-rev="222"
+   text-time="2012-11-02T02:48:03.921000Z"
+   kind="file"
+   committed-date="2012-11-02T02:48:03.921746Z"/>
+<entry
+   name="ClienteDAO.java"
+   checksum="f92cfba049df90d98bbfaa2fb4354dec"
+   last-author="alejandroarielp@gmail.com"
+   text-time="2012-11-20T02:10:57.721000Z"
+   committed-rev="249"
+   kind="file"
+   committed-date="2012-11-20T02:10:57.721209Z"/>
+<entry
+   name="FacturaPrestacionDAO.java"
+   revision="322"
+   checksum="c6722c98a9f938d043d4647392ff1aa8"
+   last-author="mflorenciapereira"
+   text-time="2013-05-13T02:38:32.280000Z"
+   committed-rev="322"
+   kind="file"
+   committed-date="2014-02-02T18:57:48.365000Z"/>
+<entry
+   name="FacturaServicioDAO.java"
+   checksum="224fc312cc410971aca3d88b8bbd0647"
+   last-author="mflorenciapereira"
+   committed-rev="245"
+   text-time="2012-11-18T03:52:05.299000Z"
+   kind="file"
+   committed-date="2012-11-18T10:48:20.147000Z"/>
+<entry
+   name="InformesDAO.java"
+   checksum="80bd3f777c6bdf3bb8fc966ad330cfa1"
+   last-author="mflorenciapereira"
+   committed-rev="276"
+   text-time="2012-12-07T09:42:54.436000Z"
+   kind="file"
+   committed-date="2012-12-07T10:58:55.839000Z"/>
+<entry
+   name="ListaPrecioDAO.java"
+   revision="322"
+   checksum="8642e5f3276796705b78d5a36a39a876"
+   last-author="mflorenciapereira"
+   text-time="2013-05-12T23:32:43.807000Z"
+   committed-rev="322"
+   kind="file"
+   committed-date="2014-02-02T18:57:48.365000Z"/>
+<entry
+   name="ObraSocialDAO.java"
+   checksum="e5203d67cb4e41035cf0d43de0497b5d"
+   last-author="mflorenciapereira"
+   text-time="2013-03-08T01:31:19.518000Z"
+   committed-rev="320"
+   kind="file"
+   committed-date="2013-03-10T00:09:29.360000Z"/>
+<entry
+   name="PacienteDAO.java"
+   checksum="eecb04d3e1e5bd655eb92c4400831f10"
+   last-author="alejandroarielp@gmail.com"
+   text-time="2012-11-29T02:21:50.101000Z"
+   committed-rev="260"
+   kind="file"
+   committed-date="2012-11-29T02:21:50.101907Z"/>
+<entry
+   name="PrestacionBrindadaDAO.java"
+   revision="322"
+   checksum="6c5cbbb1869447bcae6ce3572beede44"
+   last-author="mflorenciapereira"
+   committed-rev="322"
+   text-time="2013-06-09T05:11:13.970000Z"
+   kind="file"
+   committed-date="2014-02-02T18:57:48.365000Z"/>
+<entry
+   name="PrestacionDAO.java"
+   checksum="6edb41e83deec545511e467f14f2a7a3"
+   last-author="mflorenciapereira"
+   text-time="2012-11-23T04:16:55.434000Z"
+   committed-rev="251"
+   kind="file"
+   committed-date="2012-11-23T16:04:22.949000Z"/>
+<entry
+   name="RolUsuarioDAO.java"
+   checksum="4617118ebeeffa9a72725e32943e9954"
+   last-author="alejandroarielp@gmail.com"
+   text-time="2012-07-26T04:21:06.905000Z"
+   committed-rev="66"
+   kind="file"
+   committed-date="2012-07-26T04:21:06.905013Z"/>
+<entry
+   name="TipoIVADAO.java"
+   checksum="9472eaf0c88883a141e7e2f97d86eb10"
+   last-author="mflorenciapereira"
+   text-time="2012-08-16T20:11:11.760000Z"
+   committed-rev="110"
+   kind="file"
+   committed-date="2012-08-16T20:11:11.760373Z"/>
+<entry
+   name="UsuarioDAO.java"
+   checksum="a34685e60a236aa4b02b0659b75ee72f"
+   last-author="alejandroarielp@gmail.com"
+   text-time="2012-08-07T14:24:47.547000Z"
+   committed-rev="96"
+   kind="file"
+   committed-date="2012-08-07T14:24:47.547512Z"/>
+<entry
+   name="impl"
+   kind="dir"/>
+</wc-entries>

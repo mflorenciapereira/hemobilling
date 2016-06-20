@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   repos="https://tp-fundacion-hemofilia.googlecode.com/svn"
+   name=""
+   revision="321"
+   last-author="alejandroarielp@gmail.com"
+   url="https://tp-fundacion-hemofilia.googlecode.com/svn/trunk/HemoBilling/src/main/webapp/facturacionServicios"
+   uuid="4b37757a-23b0-7fe8-faf4-639ec12c5352"
+   committed-rev="270"
+   kind="dir"
+   committed-date="2012-12-03T02:00:42.919807Z"/>
+<entry
+   name="consultar.jsp"
+   checksum="3e42be23762ff4c11fee0ff6d07d5a03"
+   last-author="alejandroarielp@gmail.com"
+   committed-rev="270"
+   text-time="2012-12-03T02:00:42.919000Z"
+   kind="file"
+   committed-date="2012-12-03T02:00:42.919807Z"/>
+<entry
+   name="facturar.jsp"
+   checksum="367984785eaede34fb0de3ce7d9c3d60"
+   last-author="alejandroarielp@gmail.com"
+   text-time="2012-12-02T17:24:36.987000Z"
+   committed-rev="267"
+   kind="file"
+   committed-date="2012-12-02T17:24:36.987488Z"/>
+</wc-entries>

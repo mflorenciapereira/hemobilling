@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   repos="https://tp-fundacion-hemofilia.googlecode.com/svn"
+   name=""
+   revision="321"
+   last-author="alejandroarielp@gmail.com"
+   url="https://tp-fundacion-hemofilia.googlecode.com/svn/trunk/HemoBilling/src/main/webapp/js"
+   uuid="4b37757a-23b0-7fe8-faf4-639ec12c5352"
+   committed-rev="313"
+   kind="dir"
+   committed-date="2013-02-10T21:07:29.604294Z"/>
+<entry
+   name="ajaxForm.js"
+   checksum="0d8a58dfb1f1f9acadb9d143c1e0be09"
+   last-author="alejandroarielp"
+   committed-rev="15"
+   text-time="2012-06-20T19:22:11.025000Z"
+   kind="file"
+   committed-date="2012-06-20T19:22:11.025952Z"/>
+<entry
+   name="clockh.js"
+   checksum="70265f07d94827ea718a6c33556f0d6b"
+   last-author="alejandroarielp@gmail.com"
+   committed-rev="29"
+   text-time="2012-07-06T19:08:00.337000Z"
+   kind="file"
+   committed-date="2012-07-06T19:08:00.337425Z"/>
+<entry
+   name="clockp.js"
+   checksum="524cd8a4308f2233200af42f046d17ff"
+   last-author="alejandroarielp@gmail.com"
+   committed-rev="29"
+   text-time="2012-07-06T19:08:00.337000Z"
+   kind="file"
+   committed-date="2012-07-06T19:08:00.337425Z"/>
+<entry
+   name="ddaccordion.js"
+   checksum="fe1960d4745edbfd97ebb6de7fef4e37"
+   last-author="alejandroarielp@gmail.com"
+   committed-rev="29"
+   text-time="2012-07-06T19:08:00.337000Z"
+   kind="file"
+   committed-date="2012-07-06T19:08:00.337425Z"/>
+<entry
+   name="hemoUtils.js"
+   checksum="d8610eb7fa5997a9ab83aa658dd6840d"
+   last-author="alejandroarielp@gmail.com"
+   committed-rev="250"
+   text-time="2012-11-22T03:48:53.751000Z"
+   kind="file"
+   committed-date="2012-11-22T03:48:53.751035Z"/>
+<entry
+   name="inputValidators.js"
+   checksum="22ec234297ff5b90508e1d6ee6f7d6de"
+   last-author="alejandroarielp@gmail.com"
+   text-time="2012-11-22T03:48:53.751000Z"
+   committed-rev="250"
+   kind="file"
+   committed-date="2012-11-22T03:48:53.751035Z"/>
+<entry
+   name="jconfirmaction.hemobilling.js"
+   checksum="042d8c8fbf359af8e5e32ae4c4a05a1d"
+   last-author="alejandroarielp@gmail.com"
+   committed-rev="53"
+   text-time="2012-07-17T15:25:57.493000Z"
+   kind="file"
+   committed-date="2012-07-17T15:25:57.493297Z"/>
+<entry
+   name="jconfirmaction.jquery.js"
+   checksum="74d421f49c77abb74ac7ae5e82b78af0"
+   last-author="mflorenciapereira"
+   committed-rev="32"
+   text-time="2012-07-08T22:06:51.488000Z"
+   kind="file"
+   committed-date="2012-07-08T22:06:51.488677Z"/>
+<entry
+   name="jquery"
+   kind="dir"/>
+<entry
+   name="jquery-1.8.2.min.js"
+   checksum="cfa9051cc0b05eb519f1e16b2a6645d7"
+   last-author="mflorenciapereira"
+   committed-rev="173"
+   text-time="2012-09-28T22:55:50.000000Z"
+   kind="file"
+   committed-date="2012-10-07T19:34:48.787000Z"/>
+<entry
+   name="jquery-ui-1.8.24.custom.min.js"
+   checksum="f6148fb67d773df6d2584d2903f50b37"
+   last-author="mflorenciapereira"
+   committed-rev="173"
+   text-time="2012-10-07T19:28:10.993000Z"
+   kind="file"
+   committed-date="2012-10-07T19:34:48.787000Z"/>
+<entry
+   name="niceforms.js"
+   checksum="5fcfb8deabe6ab9951442e6092a5a8a8"
+   last-author="mflorenciapereira"
+   committed-rev="178"
+   text-time="2012-10-10T16:39:18.772000Z"
+   kind="file"
+   committed-date="2012-10-10T19:04:47.601000Z"/>
+</wc-entries>

@@ -1,0 +1,168 @@
+package ar.uba.fi.hemobilling.dto.prestacionesBrindadas;
+
+import ar.uba.fi.hemobilling.dto.BasicDTO;
+
+
+public class PrestacionBrindadaDTO extends BasicDTO
+{
+	private String codigo;
+	
+	private String fecha;
+	private String fechaEgreso;
+	private String fechaImportacion;
+	
+	private String idPaciente;
+	private String nroHCPaciente;
+	private String nombrePaciente;	
+	
+	private String cantidadDePrestaciones="1";
+	
+	private String codPrestacion;
+	private String nombrePrestacion;
+	
+	private String autorizacion;
+	private String profesional;
+	
+	private String observaciones;
+	
+	private String precioManual;
+	
+	private boolean repetida;
+	
+	private Long codigoEnLaboratorio;
+	
+	/**
+	 * @return the codigoEnLaboratorio
+	 */
+	public Long getCodigoEnLaboratorio() {
+		return codigoEnLaboratorio;
+	}
+
+	/**
+	 * @param codigoEnLaboratorio the codigoEnLaboratorio to set
+	 */
+	public void setCodigoEnLaboratorio(Long codigoEnLaboratorio) {
+		this.codigoEnLaboratorio = codigoEnLaboratorio;
+	}
+
+	public String getCodigo() {
+		return codigo;
+	}
+
+	public void setCodigo(String codigo) {
+		this.codigo = codigo;
+	}
+
+	public String getFecha() {
+		return fecha;
+	}
+
+	public void setFecha(String fecha) {
+		this.fecha = fecha;
+	}
+
+	public String getCantidadDePrestaciones() {
+		return cantidadDePrestaciones;
+	}
+
+	public void setCantidadDePrestaciones(String cantidadDePrestaciones) {
+		this.cantidadDePrestaciones = cantidadDePrestaciones;
+	}
+
+	public String getAutorizacion() {
+		return autorizacion;
+	}
+
+	public void setAutorizacion(String autorizacion) {
+		this.autorizacion = autorizacion;
+	}
+
+	public String getObservaciones() {
+		return observaciones;
+	}
+
+	public void setObservaciones(String observaciones) {
+		this.observaciones = observaciones;
+	}
+
+	public String getNombrePaciente() {
+		return nombrePaciente;
+	}
+
+	public void setNombrePaciente(String nombrePaciente) {
+		this.nombrePaciente = nombrePaciente;
+	}
+
+	public String getCodPrestacion() {
+		return codPrestacion;
+	}
+
+	public void setCodPrestacion(String codPrestacion) {
+		this.codPrestacion = codPrestacion;
+	}
+
+	public String getNombrePrestacion() {
+		return nombrePrestacion;
+	}
+
+	public void setNombrePrestacion(String nombrePrestacion) {
+		this.nombrePrestacion = nombrePrestacion;
+	}
+
+	public String getNroHCPaciente() {
+		return nroHCPaciente;
+	}
+
+	public void setNroHCPaciente(String nroHCPaciente) {
+		this.nroHCPaciente = nroHCPaciente;
+	}
+
+	public String getIdPaciente() {
+		return idPaciente;
+	}
+
+	public void setIdPaciente(String idPaciente) {
+		this.idPaciente = idPaciente;
+	}
+
+	public String getProfesional() {
+		return profesional;
+	}
+
+	public void setProfesional(String profesional) {
+		this.profesional = profesional;
+	}
+
+	public String getFechaEgreso() {
+		return fechaEgreso;
+	}
+
+	public void setFechaEgreso(String fechaEgreso) {
+		this.fechaEgreso = fechaEgreso;
+	}
+
+	public String getFechaImportacion() {
+		return fechaImportacion;
+	}
+
+	public void setFechaImportacion(String fechaImportacion) {
+		this.fechaImportacion = fechaImportacion;
+	}
+
+	public String getPrecioManual() {
+		return precioManual;
+	}
+
+	public void setPrecioManual(String precioManual) {
+		this.precioManual = precioManual;
+	}
+
+	public boolean isRepetida() {
+		return repetida;
+	}
+
+	public void setRepetida(boolean repetida) {
+		this.repetida = repetida;
+	}
+
+}

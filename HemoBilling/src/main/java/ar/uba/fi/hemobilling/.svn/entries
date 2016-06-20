@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   name=""
+   repos="https://tp-fundacion-hemofilia.googlecode.com/svn"
+   revision="321"
+   last-author="alejandroarielp"
+   uuid="4b37757a-23b0-7fe8-faf4-639ec12c5352"
+   url="https://tp-fundacion-hemofilia.googlecode.com/svn/trunk/HemoBilling/src/main/java/ar/uba/fi/hemobilling"
+   committed-rev="321"
+   kind="dir"
+   committed-date="2013-03-11T20:19:59.126185Z"/>
+<entry
+   name="archivosCSV"
+   kind="dir"/>
+<entry
+   name="backup"
+   kind="dir"/>
+<entry
+   name="controller"
+   kind="dir"/>
+<entry
+   name="dao"
+   kind="dir"/>
+<entry
+   name="domain"
+   kind="dir"/>
+<entry
+   name="dozer"
+   kind="dir"/>
+<entry
+   name="dto"
+   kind="dir"/>
+<entry
+   name="exception"
+   kind="dir"/>
+<entry
+   name="log4j"
+   kind="dir"/>
+<entry
+   name="mvc"
+   kind="dir"/>
+<entry
+   name="reportes"
+   kind="dir"/>
+<entry
+   name="service"
+   kind="dir"/>
+<entry
+   name="util"
+   kind="dir"/>
+</wc-entries>

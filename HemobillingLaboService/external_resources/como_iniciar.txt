@@ -1,0 +1,4 @@
+Se debe iniciar el JAR estableciendo el parametro
+
+-DpropertyPath=[Path completo del archivo de configuracion]
+

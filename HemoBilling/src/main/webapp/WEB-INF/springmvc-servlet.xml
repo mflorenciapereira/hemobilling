@@ -1,0 +1,118 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:security="http://www.springframework.org/schema/security"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xmlns:p="http://www.springframework.org/schema/p"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans 
+	http://www.springframework.org/schema/beans/spring-beans-2.5.xsd
+	http://www.springframework.org/schema/context
+	http://www.springframework.org/schema/context/spring-context-2.5.xsd
+	http://www.springframework.org/schema/security
+	http://www.springframework.org/schema/security/spring-security-2.0.1.xsd">
+
+ 	<context:annotation-config/>
+ 
+ 	<bean class="org.springframework.web.servlet.mvc.annotation.AnnotationMethodHandlerAdapter">
+        <property name="cacheSeconds" value="0"/>
+        <property name="useCacheControlHeader" value="true"/>
+        <property name="useCacheControlNoStore" value="true"/>
+    </bean>
+    <bean class="org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping">
+        <property name="order" value="1"/>
+        <property name="alwaysUseFullPath" value="true" />
+    </bean>
+    
+	<context:component-scan  base-package="ar.uba.fi.hemobilling"/>
+
+<!-- 	<bean id="viewResolver" class="org.springframework.web.servlet.view.UrlBasedViewResolver"> -->
+<!-- 	    <property name="viewClass" value="org.springframework.web.servlet.view.JstlView"/> -->
+<!-- 	    <property name="prefix" value="/"/> -->
+<!-- 	    <property name="suffix" value=".jsp"/> -->
+<!-- 	</bean> -->
+
+<bean id="viewResolver" class="org.springframework.web.servlet.view.ResourceBundleViewResolver">
+  <property name="basename" value="views"/>
+</bean>
+	
+	<bean id="org.dozer.Mapper" class="org.dozer.DozerBeanMapper">
+        <property name="mappingFiles">
+            <list>
+                <value>dozer-bean-mappings-clientes.xml</value>
+                <value>dozer-bean-mappings-usuarios.xml</value>
+                <value>dozer-bean-mappings-prestaciones.xml</value>
+                <value>dozer-bean-mappings-tiposIVA.xml</value>
+                <value>dozer-bean-mappings-obrassociales.xml</value>
+                <value>dozer-bean-mappings-pacientes.xml</value>
+                <value>dozer-bean-mappings-listasprecio.xml</value>
+                <value>dozer-bean-mappings-prestaciones-bindadas.xml</value>
+                <value>dozer-bean-mappings-facturas.xml</value>
+                <value>dozer-bean-mappings-informes.xml</value>
+            </list>
+        </property>
+    </bean> 
+    
+    
+	<bean id="hemoDataSource" class="org.springframework.jndi.JndiObjectFactoryBean" 
+		abstract="false" lazy-init="default" autowire="default" dependency-check="default">
+		<property name="jndiName" value="java:comp/env/jdbc/hemobilling"/>
+		<property name="resourceRef" value="true" />
+	</bean>
+	
+	<bean id="sessionFactory" class="org.springframework.orm.hibernate3.annotation.AnnotationSessionFactoryBean">
+		
+		<property name="dataSource" ref="hemoDataSource"/>
+		
+		<property name="packagesToScan">
+			<list>
+				<value>ar.uba.fi.hemobilling.domain.*</value>
+			</list>
+		</property>
+				
+		<property name="hibernateProperties">
+			<props>	    	
+				<prop key="hibernate.dialect">org.hibernate.dialect.MySQLDialect</prop>				
+			    <prop key="hibernate.show_sql">true</prop>                
+		    </props>
+		</property>		
+	</bean>
+	
+	
+	<bean id="messageSupport" class="ar.uba.fi.hemobilling.util.PropertiesReader">
+		<property name="propertySource" ref="messageSource"></property>
+	</bean>
+	
+	<bean id="messageSource" class="org.springframework.context.support.ResourceBundleMessageSource">  
+		<property name="basenames">
+			<list>
+				<value>properties.excepciones</value>
+				<value>properties.mensajes</value>
+				<value>properties.reportes</value>
+				<value>properties.config</value>
+			</list>
+   		</property>
+   	</bean>
+   	
+
+ 
+ <bean id="tilesConfigurer" class="org.springframework.web.servlet.view.tiles2.TilesConfigurer">
+   <property name="definitions">
+     <list>
+       <value>/WEB-INF/tiles-defs.xml</value>
+     </list>
+   </property>
+ </bean>
+ 
+ <bean id="openSessionInViewInterceptor"
+    class="org.springframework.orm.hibernate3.support.OpenSessionInViewInterceptor">
+    <property name="sessionFactory">
+        <ref local="sessionFactory"/>
+    </property>
+    <property name="flushModeName">
+        <value>FLUSH_AUTO</value>
+    </property>
+</bean>
+
+   	<import resource="spring-security.xml"/>
+
+
+</beans>

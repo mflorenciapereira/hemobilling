@@ -1,0 +1,83 @@
+
+    
+                    <div class="menu">
+                    <ul>
+                    <li><a href="main.htm">Inicio</a></li>
+                    <li><a href="main.htm">Administrar<!--[if IE 7]><!--></a><!--<![endif]-->
+                    <!--[if lte IE 6]><table><tr><td><![endif]-->
+                        <ul>
+                        <li><a href="pacientes.htm" title="">Pacientes</a></li>
+                        <li><a href="clientes.htm" title="">Clientes</a></li>
+                        <li><a href="obrasSociales.htm" title="">Obras sociales</a></li>
+                        <li><a href="listasPrecio.htm" title="">Listas de precio</a></li>
+                        <li><a href="prestaciones.htm" title="">Prestaciones</a></li>
+                        <li><a href="usuarios.htm" title="">Usuarios</a></li>
+                        </ul>
+                    <!--[if lte IE 6]></td></tr></table></a><![endif]-->
+                    </li>
+                    <li><a href="main.htm">Facturación<!--[if IE 7]><!--></a><!--<![endif]-->
+                    <!--[if lte IE 6]><table><tr><td><![endif]-->
+                        <ul>
+                        <li><a class="sub1" href="" title="">Prestaciones brindadas<!--[if IE 7]><!--></a><!--<![endif]-->
+                        <!--[if lte IE 6]><table><tr><td><![endif]-->
+                            <ul>
+                                <li><a href="prestacionesBrindadas.htm" title="">Administrar</a></li>
+                                <li><a href="importarLaboratorio.htm" title="">Importar de laboratorio</a></li>
+                                
+                            </ul>
+                        <!--[if lte IE 6]></td></tr></table></a><![endif]-->
+                        </li>
+                        
+						<li><a class="sub1" href="" title="">Facturas Prestaciones<!--[if IE 7]><!--></a><!--<![endif]-->
+                        <!--[if lte IE 6]><table><tr><td><![endif]-->
+                            <ul>
+		                        <li><a href="consultarFacturasPrestaciones.htm" title="">Consultar</a></li>
+		                        <li><a href="facturarPrestaciones.htm" title="">Facturar</a></li>
+                            </ul>
+                        <!--[if lte IE 6]></td></tr></table></a><![endif]-->
+                        </li>
+                        
+						<li><a class="sub1" href="" title="">Facturas Servicios<!--[if IE 7]><!--></a><!--<![endif]-->
+                        <!--[if lte IE 6]><table><tr><td><![endif]-->
+                            <ul>
+		                        <li><a href="consultarFacturasServicios.htm" title="">Consultar</a></li>
+		                        <li><a href="facturarServicios.htm" title="">Facturar</a></li>
+                            </ul>
+                        <!--[if lte IE 6]></td></tr></table></a><![endif]-->
+                        </li>
+                        
+                        </ul>
+                    <!--[if lte IE 6]></td></tr></table></a><![endif]-->
+                    </li>
+                    
+                    <li><a href="main.htm">Resultados<!--[if IE 7]><!--></a><!--<![endif]-->
+                    <!--[if lte IE 6]><table><tr><td><![endif]-->
+                        <ul>
+                        
+						<li><a href="generarInformeFacturasEmitidas.htm" title="">Facturas Emitidas</a> </li>
+						<li><a href="generarInformeCartaFacturas.htm" title="">Carta de facturas</a> </li>
+<!--                         <li><a href="exportarArchivo.htm" title="">Generar archivo contable</a></li> -->
+						
+                        
+                        </ul>
+                    <!--[if lte IE 6]></td></tr></table></a><![endif]-->
+                    </li>
+                    
+
+                    <li><a href="main.htm">Mantenimiento<!--[if IE 7]><!--></a><!--<![endif]-->
+                    <!--[if lte IE 6]><table><tr><td><![endif]-->
+                        <ul>
+                        <li><a href="backup.htm" title="">Copia de seguridad</a></li>
+                        </ul>
+                    <!--[if lte IE 6]></td></tr></table></a><![endif]-->
+                    </li>
+                    
+<!--                     <li><a href="main.htm">Ayuda[if IE 7]><!</a><![endif] -->
+<!--                     [if lte IE 6]><table><tr><td><![endif] -->
+<!--                         <ul> -->
+                        
+<!--                         </ul> -->
+<!--                     [if lte IE 6]></td></tr></table></a><![endif] -->
+<!--                     </li> -->
+                    </ul>
+                    </div> 

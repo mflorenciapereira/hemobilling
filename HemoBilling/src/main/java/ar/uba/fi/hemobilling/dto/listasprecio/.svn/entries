@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   name=""
+   repos="https://tp-fundacion-hemofilia.googlecode.com/svn"
+   revision="321"
+   last-author="mflorenciapereira"
+   uuid="4b37757a-23b0-7fe8-faf4-639ec12c5352"
+   url="https://tp-fundacion-hemofilia.googlecode.com/svn/trunk/HemoBilling/src/main/java/ar/uba/fi/hemobilling/dto/listasprecio"
+   committed-rev="320"
+   kind="dir"
+   committed-date="2013-03-10T00:09:29.360286Z"/>
+<entry
+   name="ActualizacionMasivaDTO.java"
+   revision="322"
+   checksum="099d41fd20e1588f60054918bdde6e7b"
+   last-author="mflorenciapereira"
+   text-time="2013-05-12T23:19:33.664000Z"
+   committed-rev="322"
+   kind="file"
+   committed-date="2014-02-02T18:57:48.365000Z"/>
+<entry
+   name="FiltroConsultaListasPrecioDTO.java"
+   checksum="88bb9f20ee65ba98afc752deeeb1abf4"
+   last-author="mflorenciapereira"
+   text-time="2012-09-07T19:57:30.839000Z"
+   committed-rev="133"
+   kind="file"
+   committed-date="2012-09-07T19:57:30.839294Z"/>
+<entry
+   name="ItemListaPrecioDTO.java"
+   checksum="ac64ef5e7f725df08b187f0cafc2c273"
+   last-author="alejandroarielp@gmail.com"
+   committed-rev="250"
+   text-time="2012-11-22T03:48:53.751000Z"
+   kind="file"
+   committed-date="2012-11-22T03:48:53.751035Z"/>
+<entry
+   name="ListaPrecioDTO.java"
+   checksum="cabf11c84e9e04a7aaef7422a550d0a5"
+   last-author="mflorenciapereira"
+   committed-rev="320"
+   text-time="2013-03-08T01:46:56.098000Z"
+   kind="file"
+   committed-date="2013-03-10T00:09:29.360000Z"/>
+<entry
+   name="ResultVerObrasSocialesListaActualDTO.java"
+   revision="322"
+   checksum="652e2bf8d4bd260cc4c8371e53612065"
+   last-author="mflorenciapereira"
+   text-time="2013-05-12T07:14:32.878000Z"
+   committed-rev="322"
+   kind="file"
+   committed-date="2014-02-02T18:57:48.365000Z"/>
+</wc-entries>

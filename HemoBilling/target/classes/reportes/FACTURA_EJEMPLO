@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="Factura" pageWidth="595" pageHeight="842" columnWidth="595" leftMargin="0" rightMargin="0" topMargin="0" bottomMargin="0" isIgnorePagination="true">
+	<property name="net.sf.jasperreports.export.csv.exclude.origin.keep.first.band.1" value="pageHeader"/>
+	<property name="net.sf.jasperreports.export.csv.exclude.origin.band.2" value="pageFooter"/>
+	<property name="net.sf.jasperreports.export.xls.exclude.origin.keep.first.band.1" value="pageHeader"/>
+	<property name="net.sf.jasperreports.export.xls.exclude.origin.band.2" value="pageFooter"/>
+	<parameter name="FECHA_CONSULTA" class="java.lang.String"/>
+	<parameter name="HORA_CONSULTA" class="java.lang.String"/>
+	<parameter name="NRO_FACTURA" class="java.lang.String"/>
+	<parameter name="NOMBRE_CLIENTE" class="java.lang.String"/>
+	<parameter name="NRO_AFILIADO" class="java.lang.String"/>
+	<parameter name="OBRA_SOCIAL" class="java.lang.String"/>
+	<parameter name="DIRECCION" class="java.lang.String"/>
+	<parameter name="CUIT" class="java.lang.String"/>
+	<parameter name="TOTAL" class="java.lang.String"/>
+	<parameter name="DESCRIP_MONTO" class="java.lang.String"/>
+	<pageHeader>
+		<band height="308">
+			<textField>
+				<reportElement x="426" y="56" width="100" height="20"/>
+				<textElement/>
+				<textFieldExpression class="java.lang.String"><![CDATA[$P{NRO_FACTURA}]]></textFieldExpression>
+			</textField>
+			<textField pattern="dd/MM/yyyy">
+				<reportElement x="426" y="76" width="100" height="20"/>
+				<textElement/>
+				<textFieldExpression class="java.util.Date"><![CDATA[new java.util.Date()]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="43" y="155" width="330" height="20"/>
+				<textElement/>
+				<textFieldExpression class="java.lang.String"><![CDATA[$P{NOMBRE_CLIENTE}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="441" y="155" width="110" height="20"/>
+				<textElement/>
+				<textFieldExpression class="java.lang.String"><![CDATA[$P{NRO_AFILIADO}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="373" y="155" width="68" height="20"/>
+				<textElement/>
+				<text><![CDATA[Afiliado Nro.:]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="43" y="182" width="508" height="19"/>
+				<textElement>
+					<font size="8"/>
+				</textElement>
+				<textFieldExpression class="java.lang.String"><![CDATA[$P{OBRA_SOCIAL}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="43" y="201" width="508" height="18"/>
+				<textElement>
+					<font size="8"/>
+				</textElement>
+				<textFieldExpression class="java.lang.String"><![CDATA[$P{DIRECCION}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="453" y="221" width="100" height="20"/>
+				<textElement/>
+				<textFieldExpression class="java.lang.String"><![CDATA[$P{CUIT}]]></textFieldExpression>
+			</textField>
+		</band>
+	</pageHeader>
+	<columnHeader>
+		<band height="57">
+			<printWhenExpression><![CDATA[new Boolean(($V{PAGE_NUMBER}.intValue() == 1))]]></printWhenExpression>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="275"/>
+	</detail>
+	<pageFooter>
+		<band height="202">
+			<textField>
+				<reportElement x="426" y="18" width="100" height="20"/>
+				<textElement/>
+				<textFieldExpression class="java.lang.String"><![CDATA[$P{TOTAL}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="19" y="38" width="270" height="20"/>
+				<textElement/>
+				<textFieldExpression class="java.lang.String"><![CDATA[$P{DESCRIP_MONTO}]]></textFieldExpression>
+			</textField>
+		</band>
+	</pageFooter>
+</jasperReport>

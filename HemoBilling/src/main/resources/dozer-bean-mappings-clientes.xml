@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mappings xmlns="http://dozer.sourceforge.net" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://dozer.sourceforge.net
+          http://dozer.sourceforge.net/schema/beanmapping.xsd">
+
+    <mapping>
+        <class-a>ar.uba.fi.hemobilling.domain.clientes.Cliente</class-a>
+        <class-b>ar.uba.fi.hemobilling.dto.clientes.ClienteDTO</class-b>
+     <field>
+            <a>codigo</a>
+            <b>codigo</b>
+        </field>
+        <field>
+            <a>nombre</a>
+            <b>nombre</b>
+        </field>
+        
+        <field custom-converter="ar.uba.fi.hemobilling.dozer.converter.CustomDireccionConverter">
+            <a>direccion</a>
+            <b>direccionCompleta</b>
+        </field>
+		
+
+
+        <field>
+            <a>direccion.direccion</a>
+            <b>direccion</b>
+        </field>
+       
+        
+         
+		<field>
+            <a>direccion.localidad</a>
+            <b>localidad</b>
+        </field>
+   
+		<field>
+            <a>direccion.provincia</a>
+            <b>provincia</b>
+        </field>
+        <field>
+            <a>direccion.pais</a>
+            <b>pais</b>
+        </field>
+        <field>
+            <a>direccion.codigoPostal</a>
+            <b>codigoPostal</b>
+        </field>
+        <field>
+            <a>telefono</a>
+            <b>telefono</b>
+        </field>
+        <field>
+            <a>telefonoGratuito</a>
+            <b>telefonoGratuito</b>
+        </field>
+        <field>
+            <a>email</a>
+            <b>email</b>
+        </field>     
+        <field>
+            <a>website</a>
+            <b>website</b>
+        </field>
+        <field>
+            <a>tipoIVA</a>
+            <b>tipoIVA</b>
+        </field>     
+        <field>
+            <a>cuit</a>
+            <b>cuit</b>
+        </field>   
+        <field>
+            <a>codigoContable</a>
+            <b>codigoContable</b>
+        </field>
+        
+    </mapping>
+    
+    
+        <mapping>
+        <class-a>ar.uba.fi.hemobilling.domain.clientes.FiltroConsultaClientes</class-a>
+        <class-b>ar.uba.fi.hemobilling.dto.clientes.FiltroConsultaClientesDTO</class-b>
+        <field>
+            <a>codigo</a>
+            <b>codigo</b>
+        </field>
+        <field>
+            <a>nombre</a>
+            <b>nombre</b>
+        </field> 
+        
+         <field>
+            <a>codigoContable</a>
+            <b>codigoContable</b>
+        </field>
+                  
+        <field>
+            <a>cuit</a>
+            <b>cuit</b>
+        </field>         
+        <field>
+            <a>localidad</a>
+            <b>localidad</b>
+        </field>         
+        <field>
+            <a>provincia</a>
+            <b>provincia</b>
+        </field>         
+        <field>
+            <a>tipoIVA</a>
+            <b>tipoIVA</b>
+		</field>
+
+    </mapping>
+    
+<mapping type="bi-directional">
+        <class-a>ar.uba.fi.hemobilling.domain.FiltroPaginado</class-a>
+        <class-b>ar.uba.fi.hemobilling.dto.FiltroPaginadoDTO</class-b>
+        <field>
+            <a>cantTotalRegs</a>
+            <b>cantTotalRegs</b>
+        </field>
+        <field>
+            <a>regPorPagina</a>
+            <b>regPorPagina</b>
+        </field> 
+        <field>
+            <a>numeroPaginaActual</a>
+            <b>numeroPaginaActual</b>
+        </field>   
+        <field>
+            <a>cantMaxPaginas</a>
+            <b>cantMaxPaginas</b>
+        </field>
+    </mapping>
+    
+    	
+</mappings> 

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   repos="https://tp-fundacion-hemofilia.googlecode.com/svn"
+   name=""
+   revision="321"
+   last-author="alejandroarielp"
+   url="https://tp-fundacion-hemofilia.googlecode.com/svn/trunk/HemoBilling/src/main/webapp/js/jquery/qtip2"
+   uuid="4b37757a-23b0-7fe8-faf4-639ec12c5352"
+   committed-rev="15"
+   kind="dir"
+   committed-date="2012-06-20T19:22:11.025952Z"/>
+<entry
+   name="jquery.qtip.css"
+   checksum="32406449ea53321ecedb58622840f051"
+   last-author="alejandroarielp"
+   committed-rev="15"
+   text-time="2012-06-20T19:22:11.025000Z"
+   kind="file"
+   committed-date="2012-06-20T19:22:11.025952Z"/>
+<entry
+   name="jquery.qtip.js"
+   checksum="578d799171494defaeacf9732869827a"
+   last-author="alejandroarielp"
+   committed-rev="15"
+   text-time="2012-06-20T19:22:11.025000Z"
+   kind="file"
+   committed-date="2012-06-20T19:22:11.025952Z"/>
+<entry
+   name="jquery.qtip.min.css"
+   checksum="59cfdc952dff1b45168cf85479d66c3a"
+   last-author="alejandroarielp"
+   committed-rev="15"
+   text-time="2012-06-20T19:22:11.025000Z"
+   kind="file"
+   committed-date="2012-06-20T19:22:11.025952Z"/>
+<entry
+   name="jquery.qtip.min.js"
+   checksum="171570dc605b52575cffc76cb0efdb3d"
+   last-author="alejandroarielp"
+   committed-rev="15"
+   text-time="2012-06-20T19:22:11.025000Z"
+   kind="file"
+   committed-date="2012-06-20T19:22:11.025952Z"/>
+</wc-entries>

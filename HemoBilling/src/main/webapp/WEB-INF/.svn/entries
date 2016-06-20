@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   repos="https://tp-fundacion-hemofilia.googlecode.com/svn"
+   name=""
+   revision="321"
+   last-author="mflorenciapereira"
+   url="https://tp-fundacion-hemofilia.googlecode.com/svn/trunk/HemoBilling/src/main/webapp/WEB-INF"
+   uuid="4b37757a-23b0-7fe8-faf4-639ec12c5352"
+   committed-rev="320"
+   kind="dir"
+   committed-date="2013-03-10T00:09:29.360286Z"/>
+<entry
+   name="classes"
+   kind="dir"/>
+<entry
+   name="log4j.properties"
+   checksum="708c8625431e028158b7ceb5bfb7240e"
+   last-author="alejandroarielp@gmail.com"
+   committed-rev="298"
+   text-time="2012-12-15T19:48:25.101000Z"
+   kind="file"
+   committed-date="2012-12-15T19:48:25.101172Z"/>
+<entry
+   name="spring-security.xml"
+   checksum="ecd645e3b56140f63ae291a3e804ef9f"
+   last-author="alejandroarielp@gmail.com"
+   committed-rev="139"
+   text-time="2012-09-16T23:57:39.323000Z"
+   kind="file"
+   committed-date="2012-09-16T23:57:39.323021Z"/>
+<entry
+   name="springmvc-servlet.xml"
+   checksum="e077e4e1d64c44abdbf5f84550354c4b"
+   last-author="mflorenciapereira"
+   text-time="2012-11-09T07:05:07.698000Z"
+   committed-rev="231"
+   kind="file"
+   committed-date="2012-11-09T20:38:19.012000Z"/>
+<entry
+   name="tiles-defs.xml"
+   checksum="c02628f80877705a028f1a29a0125af2"
+   last-author="mflorenciapereira"
+   text-time="2013-03-06T02:51:25.798000Z"
+   committed-rev="320"
+   kind="file"
+   committed-date="2013-03-10T00:09:29.360000Z"/>
+<entry
+   name="web.xml"
+   checksum="b25115f6814e813523ac1f1d65d46548"
+   last-author="mflorenciapereira"
+   committed-rev="140"
+   text-time="2012-09-17T17:51:11.589000Z"
+   kind="file"
+   committed-date="2012-09-17T17:51:11.589402Z"/>
+</wc-entries>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   repos="https://tp-fundacion-hemofilia.googlecode.com/svn"
+   name=""
+   revision="321"
+   last-author="alejandroarielp"
+   url="https://tp-fundacion-hemofilia.googlecode.com/svn/trunk/HemoBilling/src/main/webapp/js/jquery/contextmenu/images"
+   uuid="4b37757a-23b0-7fe8-faf4-639ec12c5352"
+   committed-rev="15"
+   kind="dir"
+   committed-date="2012-06-20T19:22:11.025952Z"/>
+<entry
+   name="cut.png"
+   checksum="63f7279113cee951e06603433cb9f3ad"
+   last-author="alejandroarielp"
+   committed-rev="15"
+   text-time="2012-06-20T19:22:11.025000Z"
+   kind="file"
+   committed-date="2012-06-20T19:22:11.025952Z"
+   prop-time="2012-10-07T00:34:53.491000Z"/>
+<entry
+   name="door.png"
+   checksum="632e5492ec3dfa720804f01ae0bd4d71"
+   last-author="alejandroarielp"
+   committed-rev="15"
+   text-time="2012-06-20T19:22:11.025000Z"
+   kind="file"
+   committed-date="2012-06-20T19:22:11.025952Z"
+   prop-time="2012-10-07T00:34:53.476000Z"/>
+<entry
+   name="page_white_copy.png"
+   checksum="38de59d96ecaa147d8b5f440b4c4b0e6"
+   last-author="alejandroarielp"
+   committed-rev="15"
+   text-time="2012-06-20T19:22:11.025000Z"
+   kind="file"
+   committed-date="2012-06-20T19:22:11.025952Z"
+   prop-time="2012-10-07T00:34:53.481000Z"/>
+<entry
+   name="page_white_delete.png"
+   checksum="baab23c41cdc34dcd6b068b23f963762"
+   last-author="alejandroarielp"
+   committed-rev="15"
+   text-time="2012-06-20T19:22:11.025000Z"
+   kind="file"
+   committed-date="2012-06-20T19:22:11.025952Z"
+   prop-time="2012-10-07T00:34:53.437000Z"/>
+<entry
+   name="page_white_edit.png"
+   checksum="97176626eef35c7beb4f05a850325042"
+   last-author="alejandroarielp"
+   committed-rev="15"
+   text-time="2012-06-20T19:22:11.025000Z"
+   kind="file"
+   committed-date="2012-06-20T19:22:11.025952Z"
+   prop-time="2012-10-07T00:34:53.443000Z"/>
+<entry
+   name="page_white_paste.png"
+   checksum="37f35a84b3c1e324341715a9cabfb8c8"
+   last-author="alejandroarielp"
+   committed-rev="15"
+   text-time="2012-06-20T19:22:11.025000Z"
+   kind="file"
+   committed-date="2012-06-20T19:22:11.025952Z"
+   prop-time="2012-10-07T00:34:53.486000Z"/>
+</wc-entries>
